@@ -119,6 +119,64 @@ For production deployment, you can use the provided Docker configuration with an
 - **Docker Swarm**: Use the docker-compose.yml as a stack file
 - **Cloud Services**: Deploy to AWS ECS, Google Cloud Run, or Azure Container Instances
 
+## 🌐 GitHub Pages Deployment
+
+The easiest way to deploy your Māori Language Player is using GitHub Pages with automatic deployment.
+
+### Setup Instructions
+
+1. **Fork or create a repository**
+
+   - Fork this repository or create a new one on GitHub
+   - Make sure your repository is public (required for free GitHub Pages)
+
+2. **Enable GitHub Pages**
+
+   - Go to your repository Settings
+   - Navigate to "Pages" in the left sidebar
+   - Under "Source", select "GitHub Actions"
+
+3. **Update the base path**
+
+   - In `vite.config.ts`, change `/maori-player/` to match your repository name:
+
+   ```typescript
+   base: process.env.NODE_ENV === 'production' ? '/your-repo-name/' : '/',
+   ```
+
+4. **Push your code**
+
+   ```bash
+   git add .
+   git commit -m "Setup GitHub Pages deployment"
+   git push origin main
+   ```
+
+5. **Automatic deployment**
+   - The GitHub Action will automatically build and deploy your app
+   - Your site will be available at: `https://yourusername.github.io/your-repo-name/`
+
+### Manual Deployment (Alternative)
+
+If you prefer manual deployment:
+
+```bash
+# Build the project
+npm run build
+
+# Deploy to gh-pages branch (requires gh-pages package)
+npm install --save-dev gh-pages
+npx gh-pages -d dist
+```
+
+### Custom Domain (Optional)
+
+To use a custom domain:
+
+1. Add a `CNAME` file in the `public/` directory with your domain name
+2. Configure your domain's DNS to point to GitHub Pages
+3. Update the base path in `vite.config.ts` to `/`
+
 ## 📁 Project Structure
 
 ```
