@@ -79,6 +79,46 @@ npm run build
 
 The built files will be in the `dist/` directory, ready for deployment.
 
+## 🐳 Docker Deployment
+
+### Using Docker
+
+1. **Build the Docker image**
+
+   ```bash
+   docker build -t maori-player .
+   ```
+
+2. **Run the container**
+
+   ```bash
+   docker run -p 3000:80 maori-player
+   ```
+
+3. **Access the application**
+   Navigate to `http://localhost:3000`
+
+### Using Docker Compose
+
+1. **Start the application**
+
+   ```bash
+   docker-compose up -d
+   ```
+
+2. **Stop the application**
+   ```bash
+   docker-compose down
+   ```
+
+### Production Deployment
+
+For production deployment, you can use the provided Docker configuration with any container orchestration platform:
+
+- **Kubernetes**: Create deployment and service manifests
+- **Docker Swarm**: Use the docker-compose.yml as a stack file
+- **Cloud Services**: Deploy to AWS ECS, Google Cloud Run, or Azure Container Instances
+
 ## 📁 Project Structure
 
 ```
