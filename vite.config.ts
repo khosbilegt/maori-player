@@ -2,18 +2,10 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 
 // https://vite.dev/config/
-export default defineConfig(({ mode }) => {
-  const isProduction = mode === "production";
-  const isGitHubPages =
-    process.env.GITHUB_REPOSITORY || process.env.GITHUB_ACTIONS;
-
-  // Extract repository name from GITHUB_REPOSITORY or use default
-  const repoName =
-    process.env.GITHUB_REPOSITORY?.split("/")[1] || "maori-player";
-
+export default defineConfig(({}) => {
   return {
     plugins: [react()],
-    base: isProduction && isGitHubPages ? `/${repoName}/` : "/",
+    base: "/maori-player/",
     build: {
       outDir: "dist",
       assetsDir: "assets",
