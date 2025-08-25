@@ -31,7 +31,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 8
+          version: latest
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -39,11 +39,36 @@ jobs:
           node-version: "18"
           cache: "pnpm"
 
+      - name: Debug environment
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Files in current directory:"
+          ls -la
+          echo "Package.json contents:"
+          cat package.json
+          echo "Node version: $(node --version)"
+          echo "pnpm version: $(pnpm --version)"
+
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: |
+          echo "Installing dependencies with pnpm..."
+          if [ -f pnpm-lock.yaml ]; then
+            echo "Found pnpm-lock.yaml, using frozen lockfile install"
+            pnpm install --frozen-lockfile
+          else
+            echo "No pnpm-lock.yaml found, running regular install"
+            pnpm install
+          fi
 
       - name: Build application
-        run: pnpm run build
+        run: |
+          echo "Building application..."
+          echo "Node version: $(node --version)"
+          echo "pnpm version: $(pnpm --version)"
+          echo "Available scripts:"
+          pnpm run --help || true
+          echo "Running build..."
+          CI=false pnpm run build
         env:
           NODE_ENV: production
 

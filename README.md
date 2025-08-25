@@ -197,8 +197,8 @@ If you're getting 404 errors on GitHub Pages:
 
 ```bash
 # Test locally with production build
-npm run build
-npm run preview
+pnpm run build
+pnpm run preview
 
 # Check if files are generated correctly
 ls -la dist/
