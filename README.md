@@ -45,7 +45,7 @@ A modern, interactive video player designed for language learning with synchroni
 ### Prerequisites
 
 - Node.js 18+
-- npm or yarn package manager
+- pnpm package manager (recommended) or npm/yarn
 
 ### Installation
 
@@ -59,13 +59,13 @@ A modern, interactive video player designed for language learning with synchroni
 2. **Install dependencies**
 
    ```bash
-   npm install
+   pnpm install
    ```
 
 3. **Start the development server**
 
    ```bash
-   npm run dev
+   pnpm run dev
    ```
 
 4. **Open your browser**
@@ -74,7 +74,7 @@ A modern, interactive video player designed for language learning with synchroni
 ### Building for Production
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 The built files will be in the `dist/` directory, ready for deployment.
