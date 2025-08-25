@@ -177,6 +177,33 @@ To use a custom domain:
 2. Configure your domain's DNS to point to GitHub Pages
 3. Update the base path in `vite.config.ts` to `/`
 
+### Troubleshooting 404 Errors
+
+If you're getting 404 errors on GitHub Pages:
+
+1. **Check the repository name** - Ensure your repository name matches the base path
+2. **Verify GitHub Pages settings** - Make sure "Source" is set to "GitHub Actions"
+3. **Check the Actions tab** - Look for any build failures in the workflow
+4. **Wait a few minutes** - GitHub Pages can take 5-10 minutes to update
+5. **Clear browser cache** - Try hard refresh (Ctrl+F5) or incognito mode
+
+**Common Issues:**
+
+- **Wrong base path**: The config now auto-detects your repo name
+- **Jekyll interference**: The `.nojekyll` file prevents this
+- **SPA routing**: The 404.html file handles client-side routing
+
+**Debug Steps:**
+
+```bash
+# Test locally with production build
+npm run build
+npm run preview
+
+# Check if files are generated correctly
+ls -la dist/
+```
+
 ## 📁 Project Structure
 
 ```
