@@ -1,69 +1,265 @@
-# React + TypeScript + Vite
+# Māori Language Player
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive video player designed for language learning with synchronized transcripts, word-level tooltips, and subtitle overlays. Built with React, TypeScript, and Vite.
 
-Currently, two official plugins are available:
+![Māori Language Player Screenshot](https://via.placeholder.com/800x400/1e1e2e/ffffff?text=Māori+Language+Player)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+### 🎥 **Video Player**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Full-featured HTML5 video player with standard controls
+- Responsive design that adapts to different screen sizes
+- Support for common video formats
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 📝 **Interactive Transcript**
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- **Real-time synchronization** with video playback
+- **Clickable navigation** - click any transcript line to jump to that moment
+- **Auto-scrolling** - transcript automatically follows video progress
+- **Word-level tooltips** - hover over any word to see descriptions and translations
+- **Visual highlighting** - current transcript section is highlighted during playback
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 🔤 **Subtitle Overlay**
+
+- **Professional subtitles** overlaid directly on the video
+- **Perfect synchronization** with transcript timing
+- **Responsive positioning** - adapts to different screen sizes
+- **High contrast styling** for optimal readability
+
+### 🎯 **Smart Tooltips**
+
+- **CSS-only implementation** for optimal performance
+- **Intelligent positioning** - automatically adjusts to prevent overflow
+- **Smooth animations** with fade-in/fade-out effects
+- **Responsive design** for mobile and desktop
+
+### 🌐 **Responsive Layout**
+
+- **Desktop**: Side-by-side video and transcript layout
+- **Mobile**: Stacked layout with optimized spacing
+- **Tablet**: Adaptive layout that adjusts to screen orientation
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn package manager
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/yourusername/maori-player.git
+   cd maori-player
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:5173` to see the application
+
+### Building for Production
+
+```bash
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The built files will be in the `dist/` directory, ready for deployment.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📁 Project Structure
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+maori-player/
+├── src/
+│   ├── components/
+│   │   ├── VideoPlayer.tsx      # Main video player component
+│   │   ├── TranscriptViewer.tsx # Interactive transcript panel
+│   │   ├── SubtitleOverlay.tsx  # Video subtitle overlay
+│   │   └── WordTooltip.tsx      # Word hover tooltips
+│   ├── data/
+│   │   └── sampleTranscript.ts  # Sample transcript data
+│   ├── App.tsx                  # Main application component
+│   ├── App.css                  # Application styles
+│   └── main.tsx                 # Application entry point
+├── public/
+├── package.json
+└── README.md
+```
+
+## 🔧 Configuration
+
+### Adding Your Own Content
+
+#### 1. **Replace the Video Source**
+
+In `src/App.tsx`, update the video `src` prop:
+
+```tsx
+<VideoPlayer
+  src="path/to/your/video.mp4"
+  // ... other props
+/>
+```
+
+#### 2. **Update Transcript Data**
+
+Edit `src/data/sampleTranscript.ts` or create a new transcript file:
+
+```typescript
+export const yourTranscript: TranscriptItem[] = [
+  {
+    id: "1",
+    startTime: 0,
+    endTime: 4.5,
+    text: "Your transcript text here",
+  },
+  // ... more transcript items
+];
+```
+
+#### 3. **Customize Word Descriptions**
+
+In `src/components/TranscriptViewer.tsx`, update the tooltip description:
+
+```tsx
+<WordTooltip
+  word={word}
+  description="Your custom description here"
+>
+```
+
+### Styling Customization
+
+The application uses CSS custom properties for easy theming. Key style files:
+
+- `src/App.css` - Main application styles
+- `src/index.css` - Global styles and CSS reset
+
+## 🎨 Customization
+
+### Changing the Color Scheme
+
+Update the gradient and color variables in `src/App.css`:
+
+```css
+.app {
+  background: linear-gradient(135deg, #your-color-1 0%, #your-color-2 100%);
+}
+
+.transcript-item.active {
+  background: linear-gradient(135deg, #your-accent-1, #your-accent-2);
+}
+```
+
+### Adjusting Subtitle Positioning
+
+Modify subtitle position in `src/App.css`:
+
+```css
+.subtitle-overlay {
+  bottom: 60px; /* Distance from bottom */
+  /* Adjust as needed */
+}
+```
+
+## 🛠️ Technical Details
+
+### Built With
+
+- **React 19** - UI framework
+- **TypeScript** - Type safety and better developer experience
+- **Vite** - Fast build tool and development server
+- **CSS3** - Modern styling with Grid, Flexbox, and CSS logical properties
+
+### Key Technical Features
+
+- **Performance optimized** - CSS-only tooltips, efficient re-renders
+- **Type-safe** - Full TypeScript implementation
+- **Responsive** - Mobile-first design principles
+- **Accessible** - Semantic HTML and keyboard navigation support
+- **Modern CSS** - Uses latest CSS features with graceful fallbacks
+
+### Browser Support
+
+- Chrome 90+
+- Firefox 88+
+- Safari 14+
+- Edge 90+
+
+## 📝 API Reference
+
+### TranscriptItem Interface
+
+```typescript
+interface TranscriptItem {
+  id: string; // Unique identifier
+  startTime: number; // Start time in seconds
+  endTime: number; // End time in seconds
+  text: string; // Transcript text content
+}
+```
+
+### VideoPlayerRef Methods
+
+```typescript
+interface VideoPlayerRef {
+  getCurrentTime: () => number;
+  seekTo: (time: number) => void;
+  play: () => void;
+  pause: () => void;
+}
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Sample video from [Google's sample videos](https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/)
+- Inspired by modern language learning platforms
+- Built with accessibility and user experience in mind
+
+## 🐛 Issues and Support
+
+If you encounter any issues or have questions:
+
+1. Check the [Issues](https://github.com/yourusername/maori-player/issues) page
+2. Create a new issue with a detailed description
+3. Include browser version and steps to reproduce
+
+## 🔮 Future Enhancements
+
+- [ ] Multiple language support
+- [ ] Audio-only mode
+- [ ] Playback speed controls
+- [ ] Keyboard shortcuts
+- [ ] Export transcript functionality
+- [ ] Integration with external subtitle formats (SRT, VTT)
+- [ ] User preference persistence
+- [ ] Advanced word dictionary integration
+
+---
+
+**Made with ❤️ for language learners**

@@ -30,6 +30,8 @@ function App() {
             src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
             onTimeUpdate={handleTimeUpdate}
             className="main-video-player"
+            transcript={sampleTranscript}
+            currentTime={currentTime}
           />
         </div>
         <div className="transcript-section">

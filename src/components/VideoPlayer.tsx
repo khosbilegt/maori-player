@@ -1,9 +1,6 @@
-import React, {
-  useRef,
-  useEffect,
-  forwardRef,
-  useImperativeHandle,
-} from "react";
+import { useRef, useEffect, forwardRef, useImperativeHandle } from "react";
+import SubtitleOverlay from "./SubtitleOverlay";
+import type { TranscriptItem } from "./TranscriptViewer";
 
 export interface VideoPlayerRef {
   getCurrentTime: () => number;
@@ -16,10 +13,12 @@ interface VideoPlayerProps {
   src?: string;
   onTimeUpdate?: (currentTime: number) => void;
   className?: string;
+  transcript?: TranscriptItem[];
+  currentTime?: number;
 }
 
 const VideoPlayer = forwardRef<VideoPlayerRef, VideoPlayerProps>(
-  ({ src, onTimeUpdate, className = "" }, ref) => {
+  ({ src, onTimeUpdate, className = "", transcript, currentTime = 0 }, ref) => {
     const videoRef = useRef<HTMLVideoElement>(null);
 
     useImperativeHandle(ref, () => ({
@@ -47,15 +46,24 @@ const VideoPlayer = forwardRef<VideoPlayerRef, VideoPlayerProps>(
 
     return (
       <div className={`video-player ${className}`}>
-        <video
-          ref={videoRef}
-          src={src}
-          controls
-          className="video-element"
-          preload="metadata"
-        >
-          Your browser does not support the video tag.
-        </video>
+        <div className="video-container">
+          <video
+            ref={videoRef}
+            src={src}
+            controls
+            className="video-element"
+            preload="metadata"
+          >
+            Your browser does not support the video tag.
+          </video>
+          {transcript && (
+            <SubtitleOverlay
+              transcript={transcript}
+              currentTime={currentTime}
+              className="video-subtitles"
+            />
+          )}
+        </div>
       </div>
     );
   }

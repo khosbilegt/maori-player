@@ -50,11 +50,68 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 .video-element {
   width: 100%;
   height: 100%;
   object-fit: contain;
   background: #000;
+}
+
+/* Subtitle Overlay */
+.subtitle-overlay {
+  position: absolute;
+  bottom: 60px; /* Above video controls */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  pointer-events: none;
+  max-width: 90%;
+}
+
+.subtitle-text {
+  background: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  text-align: center;
+  font-weight: 500;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Responsive subtitle sizing */
+@media (max-width: 768px) {
+  .subtitle-overlay {
+    bottom: 50px;
+    max-width: 95%;
+  }
+
+  .subtitle-text {
+    font-size: 1rem;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .subtitle-overlay {
+    bottom: 40px;
+  }
+
+  .subtitle-text {
+    font-size: 0.9rem;
+    padding: 4px 8px;
+  }
 }
 
 /* Transcript Section */
@@ -132,6 +189,19 @@
   transform: translateY(-1px);
 }
 
+/* Ensure transcript item hover works even when hovering over child elements */
+.transcript-item:hover .transcript-text,
+.transcript-item:hover .transcript-time {
+  /* Inherit the hover state from parent */
+}
+
+/* Stronger specificity for transcript item hover */
+.transcript-content .transcript-item:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+  transform: translateY(-1px) !important;
+}
+
 .transcript-item.active {
   background: linear-gradient(135deg, #4f46e5, #7c3aed);
   border-color: rgba(255, 255, 255, 0.3);
@@ -201,7 +271,7 @@
   }
 }
 
-/* Word Tooltips */
+/* Word Tooltips - Simple CSS-only approach */
 .hoverable-word {
   cursor: pointer;
   padding: 1px 2px;
@@ -211,27 +281,54 @@
 }
 
 .hoverable-word:hover {
-  background: rgba(79, 70, 229, 0.2);
+  background: rgba(79, 70, 229, 0.3);
   color: #ffffff;
 }
 
-.word-tooltip-trigger {
+/* Make word hover less prominent when parent transcript item is also being hovered */
+.transcript-item:hover .hoverable-word:not(:hover) {
+  opacity: 0.9;
+}
+
+/* CSS-only tooltip container */
+.word-tooltip-container {
+  position: relative;
   display: inline;
 }
 
-.word-tooltip {
+/* Tooltip popup - hidden by default */
+.word-tooltip-popup {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease;
+  z-index: 1000;
   pointer-events: none;
-  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4));
+  white-space: nowrap;
 }
 
+/* Show tooltip on hover */
+.word-tooltip-container:hover .word-tooltip-popup {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(-5px);
+}
+
+/* Tooltip content */
 .word-tooltip-content {
   background: linear-gradient(135deg, #2d2d3f, #1e1e2e);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 8px;
   padding: 0.75rem;
   max-width: 250px;
+  min-width: 200px;
   backdrop-filter: blur(10px);
-  animation: tooltipFadeIn 0.2s ease-out;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  white-space: normal;
 }
 
 .word-tooltip-word {
@@ -247,9 +344,10 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
+/* Tooltip arrow */
 .word-tooltip-arrow {
   position: absolute;
-  bottom: -6px;
+  top: 100%;
   left: 50%;
   transform: translateX(-50%);
   width: 0;
@@ -259,14 +357,69 @@
   border-top: 6px solid #2d2d3f;
 }
 
-@keyframes tooltipFadeIn {
-  from {
-    opacity: 0;
-    transform: translateX(-50%) translateY(-100%) scale(0.95);
+/* Handle edge cases - better positioning */
+/* For words at the beginning of lines - align tooltip to the left */
+.word-tooltip-popup {
+  /* Add fallback positioning */
+  max-width: min(250px, 80vw);
+}
+
+/* Tooltip positioning for edge cases */
+@media (max-width: 768px) {
+  .word-tooltip-popup {
+    left: 0;
+    right: auto;
+    transform: none;
+    max-width: 90vw;
   }
-  to {
-    opacity: 1;
-    transform: translateX(-50%) translateY(-100%) scale(1);
+
+  .word-tooltip-container:hover .word-tooltip-popup {
+    transform: translateY(-5px);
+  }
+}
+
+/* Use CSS containment to prevent overflow */
+.transcript-content {
+  contain: layout;
+  overflow: visible;
+}
+
+/* Smart positioning: if tooltip would overflow, align to edges */
+.word-tooltip-popup {
+  /* Use modern CSS to handle positioning */
+  position-try-options: flip-block, flip-inline;
+  position-anchor: --word-anchor;
+}
+
+/* Fallback for browsers without position-try */
+@supports not (position-try-options: flip-block) {
+  /* Left-align tooltips for words near the start of transcript items */
+  .transcript-text
+    .word-tooltip-container:nth-child(-n + 3)
+    .word-tooltip-popup {
+    left: 0;
+    transform: none;
+  }
+
+  .transcript-text
+    .word-tooltip-container:nth-child(-n + 3):hover
+    .word-tooltip-popup {
+    transform: translateY(-5px);
+  }
+
+  /* Right-align tooltips for words near the end */
+  .transcript-text
+    .word-tooltip-container:nth-last-child(-n + 3)
+    .word-tooltip-popup {
+    left: auto;
+    right: 0;
+    transform: none;
+  }
+
+  .transcript-text
+    .word-tooltip-container:nth-last-child(-n + 3):hover
+    .word-tooltip-popup {
+    transform: translateY(-5px);
   }
 }
 
