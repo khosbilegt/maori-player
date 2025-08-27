@@ -213,6 +213,34 @@ When creating the `LIBRARY` variable, paste your entire `library.json` content. 
 2. Copy the entire file content (Ctrl+A, Ctrl+C)
 3. Paste directly into the GitHub variable field
 
+### Updating Your Video Library
+
+Want to add new videos or change existing ones? It's super easy:
+
+#### Method 1: Update via GitHub UI (No Code Required!)
+
+1. **Go to your repository on GitHub**
+2. **Click Settings → Secrets and variables → Actions → Variables**
+3. **Find your `LIBRARY` variable and click the pencil icon to edit**
+4. **Update the JSON content** (add new videos, change descriptions, etc.)
+5. **Click "Update variable"**
+6. **Trigger a new deployment:**
+   - Go to the "Actions" tab in your repository
+   - Click on "Deploy to GitHub Pages" workflow
+   - Click "Run workflow" button
+   - Select your branch (usually `main` or `master`)
+   - Click "Run workflow"
+7. **Wait 2-3 minutes** for the deployment to complete
+8. **Your changes are live!** Visit your site to see the updates
+
+#### Method 2: Update via Code (Traditional Way)
+
+1. **Edit `src/assets/contents/library.json`** in your repository
+2. **Commit and push the changes**
+3. **GitHub Pages deploys automatically**
+
+**💡 Pro Tip:** Method 1 is perfect for content creators who don't want to touch code files!
+
 ## ❓ Need Help?
 
 **Common Issues:**
