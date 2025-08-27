@@ -26,17 +26,7 @@ interface VideoPlayerProps {
 }
 
 const VideoPlayer = forwardRef<VideoPlayerRef, VideoPlayerProps>(
-  (
-    {
-      src,
-      subtitleSrc,
-      onTimeUpdate,
-      className = "",
-      transcript,
-      currentTime = 0,
-    },
-    ref
-  ) => {
+  ({ src, onTimeUpdate, className = "", transcript, currentTime = 0 }, ref) => {
     const videoRef = useRef<HTMLVideoElement>(null);
     const [subtitleFontSize, setSubtitleFontSize] = useState(1.1);
 
