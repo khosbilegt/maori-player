@@ -172,7 +172,7 @@ Once you've added your videos, you can share your player online:
 
 ### Setting Up the LIBRARY Variable
 
-When creating the `LIBRARY` variable, paste your entire `library.json` content. For example:
+When creating the `LIBRARY` variable, paste your entire `library.json` content. The variable supports **multi-line JSON**, so you can format it nicely:
 
 ```json
 {
@@ -199,7 +199,19 @@ When creating the `LIBRARY` variable, paste your entire `library.json` content. 
 }
 ```
 
-**Important:** Make sure to copy the entire content, including the outer `{}` brackets!
+**Tips for the LIBRARY Variable:**
+
+- ✅ **Multi-line is fine** - Format your JSON with proper indentation
+- ✅ **Copy entire content** - Include the outer `{}` brackets
+- ✅ **Validate JSON** - Use a JSON validator to check syntax before pasting
+- ✅ **Pretty formatting** - Readable formatting makes it easier to manage
+- ❌ **Don't escape quotes** - GitHub handles multi-line content automatically
+
+**Easy way to get valid JSON:**
+
+1. Edit your `library.json` file locally
+2. Copy the entire file content (Ctrl+A, Ctrl+C)
+3. Paste directly into the GitHub variable field
 
 ## ❓ Need Help?
 
