@@ -63,9 +63,9 @@ jobs:
       - name: Inject library data
         run: |
           echo "Injecting library data from repository variable..."
-          if [ -n "${{ vars.LIBRARY-github-pages }}" ]; then
+          if [ -n "${{ vars.LIBRARY }}" ]; then
             echo "Found LIBRARY variable, creating library.json..."
-            echo '${{ vars.LIBRARY-github-pages }}' > src/assets/contents/library.json
+            echo '${{ vars.LIBRARY }}' > src/assets/contents/library.json
             echo "Library data injected successfully"
             cat src/assets/contents/library.json
           else
