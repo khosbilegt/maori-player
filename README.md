@@ -1,390 +1,209 @@
 # Māori Language Player
 
-A modern, interactive video player designed for language learning with synchronized transcripts, word-level tooltips, and subtitle overlays. Built with React, TypeScript, and Vite.
+An interactive video player for learning Te Reo Māori. Watch videos with clickable transcripts and hover over words to see their meanings. Perfect for language learners who want to understand every word!
 
-![Māori Language Player Screenshot](https://via.placeholder.com/800x400/1e1e2e/ffffff?text=Māori+Language+Player)
+## 🎥 What You Can Do
 
-## ✨ Features
+- **Watch videos** with synchronized subtitles
+- **Click on transcript lines** to jump to that part of the video
+- **Hover over words** to see translations and explanations
+- **Adjust subtitle size** with the + and - buttons
+- **Use keyboard shortcuts** (+ and - keys) to change subtitle size
 
-### 🎥 **Video Player**
+## 📚 Adding New Videos to Your Library
 
-- Full-featured HTML5 video player with standard controls
-- Responsive design that adapts to different screen sizes
-- Support for common video formats
+Want to add your own Māori videos? Here's how:
 
-### 📝 **Interactive Transcript**
+### Step 1: Prepare Your Files
 
-- **Real-time synchronization** with video playback
-- **Clickable navigation** - click any transcript line to jump to that moment
-- **Auto-scrolling** - transcript automatically follows video progress
-- **Word-level tooltips** - hover over any word to see descriptions and translations
-- **Visual highlighting** - current transcript section is highlighted during playback
+You'll need 3 files for each video:
 
-### 🔤 **Subtitle Overlay**
+1. **Video file** (`.mp4` format works best)
+2. **Subtitle file** (`.vtt` format - see instructions below)
+3. **Thumbnail image** (optional, or use a YouTube thumbnail)
 
-- **Professional subtitles** overlaid directly on the video
-- **Perfect synchronization** with transcript timing
-- **Responsive positioning** - adapts to different screen sizes
-- **High contrast styling** for optimal readability
+### Step 2: Add Your Video File
 
-### 🎯 **Smart Tooltips**
+1. Put your video file in the `public` folder
+2. Name it something simple like `my-video.mp4`
 
-- **CSS-only implementation** for optimal performance
-- **Intelligent positioning** - automatically adjusts to prevent overflow
-- **Smooth animations** with fade-in/fade-out effects
-- **Responsive design** for mobile and desktop
+### Step 3: Add Your Subtitle File
 
-### 🌐 **Responsive Layout**
+1. Put your subtitle file in the `public` folder
+2. Name it the same as your video but with `.vtt` extension: `my-video.vtt`
 
-- **Desktop**: Side-by-side video and transcript layout
-- **Mobile**: Stacked layout with optimized spacing
-- **Tablet**: Adaptive layout that adjusts to screen orientation
+### Step 4: Update the Video Library
 
-## 🚀 Getting Started
+1. Open the file `src/assets/contents/library.json`
+2. Add your video information like this:
 
-### Prerequisites
-
-- Node.js 18+
-- pnpm package manager (recommended) or npm/yarn
-
-### Installation
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/yourusername/maori-player.git
-   cd maori-player
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   pnpm install
-   ```
-
-3. **Start the development server**
-
-   ```bash
-   pnpm run dev
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:5173` to see the application
-
-### Building for Production
-
-```bash
-pnpm run build
+```json
+{
+  "id": "my-video",
+  "title": "My Māori Video",
+  "description": "A great video for learning Māori",
+  "thumbnail": "https://example.com/my-thumbnail.jpg",
+  "video": "my-video.mp4",
+  "subtitle": "my-video.vtt",
+  "duration": "3:45"
+}
 ```
 
-The built files will be in the `dist/` directory, ready for deployment.
+**What each field means:**
 
-## 🐳 Docker Deployment
+- `id`: A unique name (no spaces, use dashes)
+- `title`: The name that shows in your library
+- `description`: What the video is about
+- `thumbnail`: A picture for the video preview
+- `video`: Your video filename
+- `subtitle`: Your subtitle filename
+- `duration`: How long the video is (like "3:45")
 
-### Using Docker
+### Step 5: Your Video is Ready!
 
-1. **Build the Docker image**
+That's it! Your new video will appear in the library and work just like the example video.
 
-   ```bash
-   docker build -t maori-player .
-   ```
+## 📝 Creating Subtitle Files
 
-2. **Run the container**
+Subtitle files use a simple format called VTT. Here's how to make one:
 
-   ```bash
-   docker run -p 3000:80 maori-player
-   ```
+### Basic VTT File Structure
 
-3. **Access the application**
-   Navigate to `http://localhost:3000`
+Create a text file ending in `.vtt` that looks like this:
 
-### Using Docker Compose
+```
+WEBVTT
 
-1. **Start the application**
+1
+00:00:00.000 --> 00:00:04.500
+Kia ora! Welcome to this Māori lesson.
 
-   ```bash
-   docker-compose up -d
-   ```
+2
+00:00:04.500 --> 00:00:08.000
+Today we'll learn about colors.
 
-2. **Stop the application**
-   ```bash
-   docker-compose down
-   ```
-
-### Production Deployment
-
-For production deployment, you can use the provided Docker configuration with any container orchestration platform:
-
-- **Kubernetes**: Create deployment and service manifests
-- **Docker Swarm**: Use the docker-compose.yml as a stack file
-- **Cloud Services**: Deploy to AWS ECS, Google Cloud Run, or Azure Container Instances
-
-## 🌐 GitHub Pages Deployment
-
-The easiest way to deploy your Māori Language Player is using GitHub Pages with automatic deployment.
-
-### Setup Instructions
-
-1. **Fork or create a repository**
-
-   - Fork this repository or create a new one on GitHub
-   - Make sure your repository is public (required for free GitHub Pages)
-
-2. **Enable GitHub Pages**
-
-   - Go to your repository Settings
-   - Navigate to "Pages" in the left sidebar
-   - Under "Source", select "GitHub Actions"
-
-3. **Update the base path**
-
-   - In `vite.config.ts`, change `/maori-player/` to match your repository name:
-
-   ```typescript
-   base: process.env.NODE_ENV === 'production' ? '/your-repo-name/' : '/',
-   ```
-
-4. **Push your code**
-
-   ```bash
-   git add .
-   git commit -m "Setup GitHub Pages deployment"
-   git push origin main
-   ```
-
-5. **Automatic deployment**
-   - The GitHub Action will automatically build and deploy your app
-   - Your site will be available at: `https://yourusername.github.io/your-repo-name/`
-
-### Manual Deployment (Alternative)
-
-If you prefer manual deployment:
-
-```bash
-# Build the project
-npm run build
-
-# Deploy to gh-pages branch (requires gh-pages package)
-npm install --save-dev gh-pages
-npx gh-pages -d dist
+3
+00:00:08.000 --> 00:00:12.000
+Whero means red.
 ```
 
-### Custom Domain (Optional)
+### How to Write Timings
 
-To use a custom domain:
+The timing format is: `hours:minutes:seconds.milliseconds`
 
-1. Add a `CNAME` file in the `public/` directory with your domain name
-2. Configure your domain's DNS to point to GitHub Pages
-3. Update the base path in `vite.config.ts` to `/`
+Examples:
 
-### Troubleshooting 404 Errors
+- `00:00:00.000` = Start of video
+- `00:01:30.500` = 1 minute, 30.5 seconds
+- `00:10:15.250` = 10 minutes, 15.25 seconds
 
-If you're getting 404 errors on GitHub Pages:
+### Tips for Good Subtitles
 
-1. **Check the repository name** - Ensure your repository name matches the base path
-2. **Verify GitHub Pages settings** - Make sure "Source" is set to "GitHub Actions"
-3. **Check the Actions tab** - Look for any build failures in the workflow
-4. **Wait a few minutes** - GitHub Pages can take 5-10 minutes to update
-5. **Clear browser cache** - Try hard refresh (Ctrl+F5) or incognito mode
+1. **Keep lines short** - Aim for 1-2 sentences per subtitle
+2. **Match the speech** - Start and end times should match when words are spoken
+3. **Leave breathing room** - Give people time to read
+4. **Number your subtitles** - Each subtitle gets a number (1, 2, 3...)
+
+### Easy Ways to Create Subtitles
+
+**Option 1: Use YouTube's Auto-Captions**
+
+1. Upload your video to YouTube (private is fine)
+2. Let YouTube generate automatic captions
+3. Download the `.vtt` file from YouTube
+4. Edit any mistakes
+
+**Option 2: Use Free Subtitle Tools**
+
+- **Subtitle Edit** (Windows) - Free subtitle editing software
+- **Aegisub** (Mac/Windows/Linux) - Professional subtitle editor
+- **Rev.com** - Paid service that creates subtitles for you
+
+**Option 3: Write Them Yourself**
+Use any text editor (like Notepad) and follow the VTT format above.
+
+## 🖼️ Getting Video Thumbnails
+
+For the best-looking library, use good thumbnail images:
+
+1. **From YouTube**: Right-click on a YouTube video thumbnail and "Copy image address"
+2. **Custom image**: Upload your image to a free service like [Imgur](https://imgur.com) and use that link
+3. **Screenshot**: Take a screenshot of your video and upload it somewhere
+
+## 🎨 Customizing Word Descriptions
+
+Want to add custom translations for specific words?
+
+1. Open `src/components/TranscriptViewer.tsx`
+2. Find the line with `"Example description for this word"`
+3. You can create a dictionary of words and their meanings
+
+For now, all words show the same description, but you can customize this to show real translations!
+
+## 🚀 Publishing Your Video Player
+
+Once you've added your videos, you can share your player online:
+
+1. **Upload your files** to GitHub (it's free!)
+2. **Enable GitHub Pages** in your repository settings
+3. **Share the link** - Anyone can use your video player
+
+## ❓ Need Help?
 
 **Common Issues:**
 
-- **Wrong base path**: The config now auto-detects your repo name
-- **Jekyll interference**: The `.nojekyll` file prevents this
-- **SPA routing**: The 404.html file handles client-side routing
+- **Video won't play**: Make sure your video file is in `.mp4` format
+- **Subtitles don't show**: Check that your `.vtt` file is named correctly
+- **Video not in library**: Double-check the `library.json` file for typos
 
-**Debug Steps:**
+**Getting Support:**
 
-```bash
-# Test locally with production build
-pnpm run build
-pnpm run preview
+- Create an issue on GitHub if something isn't working
+- Include what you tried and what happened
+- Screenshots help a lot!
 
-# Check if files are generated correctly
-ls -la dist/
-```
+## 📁 File Organization
 
-## 📁 Project Structure
+Keep your files organized like this:
 
 ```
-maori-player/
-├── src/
-│   ├── components/
-│   │   ├── VideoPlayer.tsx      # Main video player component
-│   │   ├── TranscriptViewer.tsx # Interactive transcript panel
-│   │   ├── SubtitleOverlay.tsx  # Video subtitle overlay
-│   │   └── WordTooltip.tsx      # Word hover tooltips
-│   ├── data/
-│   │   └── sampleTranscript.ts  # Sample transcript data
-│   ├── App.tsx                  # Main application component
-│   ├── App.css                  # Application styles
-│   └── main.tsx                 # Application entry point
+your-project/
 ├── public/
-├── package.json
-└── README.md
+│   ├── video1.mp4          ← Your video files
+│   ├── video1.vtt          ← Your subtitle files
+│   ├── video2.mp4
+│   └── video2.vtt
+└── src/
+    └── assets/
+        └── contents/
+            └── library.json ← Your video list
 ```
 
-## 🔧 Configuration
+## 🎯 Example: Adding a New Video
 
-### Adding Your Own Content
+Let's say you have a video called "Māori Colors":
 
-#### 1. **Replace the Video Source**
+1. **Save files:**
 
-In `src/App.tsx`, update the video `src` prop:
+   - `public/maori-colors.mp4` (your video)
+   - `public/maori-colors.vtt` (your subtitles)
 
-```tsx
-<VideoPlayer
-  src="path/to/your/video.mp4"
-  // ... other props
-/>
-```
+2. **Update library.json:**
 
-#### 2. **Update Transcript Data**
-
-Edit `src/data/sampleTranscript.ts` or create a new transcript file:
-
-```typescript
-export const yourTranscript: TranscriptItem[] = [
-  {
-    id: "1",
-    startTime: 0,
-    endTime: 4.5,
-    text: "Your transcript text here",
-  },
-  // ... more transcript items
-];
-```
-
-#### 3. **Customize Word Descriptions**
-
-In `src/components/TranscriptViewer.tsx`, update the tooltip description:
-
-```tsx
-<WordTooltip
-  word={word}
-  description="Your custom description here"
->
-```
-
-### Styling Customization
-
-The application uses CSS custom properties for easy theming. Key style files:
-
-- `src/App.css` - Main application styles
-- `src/index.css` - Global styles and CSS reset
-
-## 🎨 Customization
-
-### Changing the Color Scheme
-
-Update the gradient and color variables in `src/App.css`:
-
-```css
-.app {
-  background: linear-gradient(135deg, #your-color-1 0%, #your-color-2 100%);
-}
-
-.transcript-item.active {
-  background: linear-gradient(135deg, #your-accent-1, #your-accent-2);
+```json
+{
+  "id": "maori-colors",
+  "title": "Learning Māori Colors",
+  "description": "Learn the names of colors in Te Reo Māori",
+  "thumbnail": "https://i.imgur.com/example.jpg",
+  "video": "maori-colors.mp4",
+  "subtitle": "maori-colors.vtt",
+  "duration": "5:20"
 }
 ```
 
-### Adjusting Subtitle Positioning
-
-Modify subtitle position in `src/App.css`:
-
-```css
-.subtitle-overlay {
-  bottom: 60px; /* Distance from bottom */
-  /* Adjust as needed */
-}
-```
-
-## 🛠️ Technical Details
-
-### Built With
-
-- **React 19** - UI framework
-- **TypeScript** - Type safety and better developer experience
-- **Vite** - Fast build tool and development server
-- **CSS3** - Modern styling with Grid, Flexbox, and CSS logical properties
-
-### Key Technical Features
-
-- **Performance optimized** - CSS-only tooltips, efficient re-renders
-- **Type-safe** - Full TypeScript implementation
-- **Responsive** - Mobile-first design principles
-- **Accessible** - Semantic HTML and keyboard navigation support
-- **Modern CSS** - Uses latest CSS features with graceful fallbacks
-
-### Browser Support
-
-- Chrome 90+
-- Firefox 88+
-- Safari 14+
-- Edge 90+
-
-## 📝 API Reference
-
-### TranscriptItem Interface
-
-```typescript
-interface TranscriptItem {
-  id: string; // Unique identifier
-  startTime: number; // Start time in seconds
-  endTime: number; // End time in seconds
-  text: string; // Transcript text content
-}
-```
-
-### VideoPlayerRef Methods
-
-```typescript
-interface VideoPlayerRef {
-  getCurrentTime: () => number;
-  seekTo: (time: number) => void;
-  play: () => void;
-  pause: () => void;
-}
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Sample video from [Google's sample videos](https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/)
-- Inspired by modern language learning platforms
-- Built with accessibility and user experience in mind
-
-## 🐛 Issues and Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/yourusername/maori-player/issues) page
-2. Create a new issue with a detailed description
-3. Include browser version and steps to reproduce
-
-## 🔮 Future Enhancements
-
-- [ ] Multiple language support
-- [ ] Audio-only mode
-- [ ] Playback speed controls
-- [ ] Keyboard shortcuts
-- [ ] Export transcript functionality
-- [ ] Integration with external subtitle formats (SRT, VTT)
-- [ ] User preference persistence
-- [ ] Advanced word dictionary integration
+3. **Done!** Your video will appear in the library.
 
 ---
 
-**Made with ❤️ for language learners**
+**Happy learning! Kia kaha! 🌟**
