@@ -6,6 +6,7 @@ import TranscriptViewer from "../components/TranscriptViewer";
 import type { TranscriptItem } from "../components/TranscriptViewer";
 import { type VideoData } from "../components/VideoCard";
 import { loadVTTTranscript } from "../utils/vttParser";
+import { getVideoPath, getVTTPath } from "../utils/assetPaths";
 import "./VideoPage.css";
 
 function VideoPage() {
@@ -31,9 +32,9 @@ function VideoPage() {
     const loadTranscript = async () => {
       setIsLoading(true);
       try {
-        // For now, use the tetepus10e6.vtt file
-        // In a real app, this would be dynamic based on the selected video
-        const vttUrl = "/tetepus10e6.vtt";
+        // Use the subtitle file from the selected video or fallback to default
+        const subtitleFile = selectedVideo?.subtitle || "tetepus10e6.vtt";
+        const vttUrl = getVTTPath(subtitleFile);
         const transcriptData = await loadVTTTranscript(vttUrl);
         setTranscript(transcriptData);
       } catch (error) {
@@ -68,8 +69,10 @@ function VideoPage() {
         <div className="video-section">
           <VideoPlayer
             ref={videoPlayerRef}
-            src="/tetepus10e6.mp4"
-            subtitleSrc="/tetepus10e6.vtt"
+            src={getVideoPath(selectedVideo?.video || "tetepus10e6.mp4")}
+            subtitleSrc={getVTTPath(
+              selectedVideo?.subtitle || "tetepus10e6.vtt"
+            )}
             onTimeUpdate={handleTimeUpdate}
             className="main-video-player"
             transcript={transcript}

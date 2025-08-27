@@ -3,16 +3,20 @@
         {
             "id": "tetepus10e6",
             "title": "Te Tēpu: Season 10 Episode 6",
-            "description": "Tetepus 10e6 is a video about the history of the Maori language.",
+            "description": "Interactive Māori language learning video with synchronized transcripts and hover translations.",
             "thumbnail": "https://i.ytimg.com/vi/BKu_xkFP4CU/maxresdefault.jpg",
-            "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            "video": "tetepus10e6.mp4",
+            "subtitle": "tetepus10e6.vtt",
+            "duration": "5:32"
         },
         {
-            "id": "tetepus10e6",
+            "id": "tetepus10e7",
             "title": "Te Tēpu: Season 10 Episode 7",
-            "description": "Tetepus 10e6 is a video about the history of the Maori language.",
+            "description": "Continue your Māori language journey with advanced conversation examples.",
             "thumbnail": "https://i.ytimg.com/vi/BKu_xkFP4CU/maxresdefault.jpg",
-            "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            "video": "tetepus10e6.mp4",
+            "subtitle": "tetepus10e6.vtt",
+            "duration": "4:18"
         }
     ]
 }

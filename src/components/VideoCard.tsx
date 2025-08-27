@@ -6,6 +6,8 @@ export interface VideoData {
   description: string;
   thumbnail: string;
   video: string;
+  subtitle?: string;
+  duration?: string;
 }
 
 interface VideoCardProps {
@@ -22,6 +24,9 @@ const VideoCard: React.FC<VideoCardProps> = ({ video, onPlay }) => {
     <div className="video-card">
       <div className="video-card-thumbnail">
         <img src={video.thumbnail} alt={video.title} loading="lazy" />
+        {video.duration && (
+          <div className="video-duration">{video.duration}</div>
+        )}
         <div className="video-card-overlay">
           <button className="play-button" onClick={handlePlayClick}>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
