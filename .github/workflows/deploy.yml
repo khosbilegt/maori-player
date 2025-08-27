@@ -60,6 +60,18 @@ jobs:
             pnpm install
           fi
 
+      - name: Inject library data
+        run: |
+          echo "Injecting library data from repository variable..."
+          if [ -n "${{ vars.LIBRARY }}" ]; then
+            echo "Found LIBRARY variable, creating library.json..."
+            echo '${{ vars.LIBRARY }}' > src/assets/contents/library.json
+            echo "Library data injected successfully"
+            cat src/assets/contents/library.json
+          else
+            echo "No LIBRARY variable found, using default library.json"
+          fi
+
       - name: Build application
         run: |
           echo "Building application..."
@@ -71,6 +83,7 @@ jobs:
           CI=false pnpm run build
         env:
           NODE_ENV: production
+          VITE_LIBRARY_DATA: ${{ vars.LIBRARY }}
 
       - name: Debug build output
         run: |

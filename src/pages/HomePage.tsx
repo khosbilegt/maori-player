@@ -1,9 +1,24 @@
 import { Link } from "react-router-dom";
-import libraryData from "../assets/contents/library.json";
+import { useState, useEffect } from "react";
+import { getLibraryData } from "../utils/libraryLoader";
 import "./HomePage.css";
 
 function HomePage() {
-  const videoCount = libraryData.videos.length;
+  const [videoCount, setVideoCount] = useState(0);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    getLibraryData()
+      .then((data) => {
+        setVideoCount(data.videos.length);
+        setIsLoading(false);
+      })
+      .catch((error) => {
+        console.error("Failed to load library data:", error);
+        setVideoCount(0);
+        setIsLoading(false);
+      });
+  }, []);
 
   return (
     <div className="home-page">
@@ -16,7 +31,9 @@ function HomePage() {
           </p>
           <div className="hero-stats">
             <div className="stat-item">
-              <span className="stat-number">{videoCount}</span>
+              <span className="stat-number">
+                {isLoading ? "..." : videoCount}
+              </span>
               <span className="stat-label">
                 Video{videoCount !== 1 ? "s" : ""} Available
               </span>

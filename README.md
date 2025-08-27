@@ -144,9 +144,62 @@ For now, all words show the same description, but you can customize this to show
 
 Once you've added your videos, you can share your player online:
 
+### Option 1: Using GitHub Repository Variables (Recommended)
+
 1. **Upload your files** to GitHub (it's free!)
+2. **Set up your video library**:
+   - Go to your repository on GitHub
+   - Click "Settings" → "Secrets and variables" → "Actions"
+   - Click "Variables" tab
+   - Click "New repository variable"
+   - Name: `LIBRARY`
+   - Value: Your entire library.json content (copy and paste the whole thing)
+3. **Enable GitHub Pages** in your repository settings
+4. **Push any change** to trigger the deployment
+5. **Share the link** - Anyone can use your video player
+
+### Option 2: Using the library.json File
+
+1. **Upload your files** to GitHub including the `library.json` file
 2. **Enable GitHub Pages** in your repository settings
 3. **Share the link** - Anyone can use your video player
+
+**Why use GitHub Variables?**
+
+- Change your video library without editing code
+- Keep your library configuration separate from your code
+- Easy to update videos without technical knowledge
+
+### Setting Up the LIBRARY Variable
+
+When creating the `LIBRARY` variable, paste your entire `library.json` content. For example:
+
+```json
+{
+  "videos": [
+    {
+      "id": "maori-colors",
+      "title": "Learning Māori Colors",
+      "description": "Learn the names of colors in Te Reo Māori",
+      "thumbnail": "https://i.imgur.com/example.jpg",
+      "video": "maori-colors.mp4",
+      "subtitle": "maori-colors.vtt",
+      "duration": "5:20"
+    },
+    {
+      "id": "maori-numbers",
+      "title": "Māori Numbers 1-10",
+      "description": "Count from 1 to 10 in Te Reo Māori",
+      "thumbnail": "https://i.imgur.com/example2.jpg",
+      "video": "maori-numbers.mp4",
+      "subtitle": "maori-numbers.vtt",
+      "duration": "3:15"
+    }
+  ]
+}
+```
+
+**Important:** Make sure to copy the entire content, including the outer `{}` brackets!
 
 ## ❓ Need Help?
 
