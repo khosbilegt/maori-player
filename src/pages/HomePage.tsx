@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import libraryData from "../assets/contents/library.json";
 import "./HomePage.css";
@@ -27,7 +26,11 @@ function HomePage() {
             <Link to="/library" className="cta-button primary">
               Explore Library
             </Link>
-            <Link to="/video" className="cta-button secondary">
+            <Link
+              to="/video"
+              className="cta-button secondary"
+              style={{ pointerEvents: "none" }}
+            >
               Start Learning
             </Link>
           </div>

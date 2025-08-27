@@ -15,7 +15,7 @@ function AppRouter() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/library" element={<LibraryPage />} />
-        <Route path="/video" element={<VideoPage />} />
+        <Route path="/video/:videoId" element={<VideoPage />} />
         <Route path="*" element={<HomePage />} />
       </Routes>
     </BrowserRouter>

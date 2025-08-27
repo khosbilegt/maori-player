@@ -1,19 +1,16 @@
 import React, { useState, useMemo } from "react";
 import VideoCard, { type VideoData } from "./VideoCard";
 import SearchBar from "./SearchBar";
+import { useNavigate } from "react-router-dom";
 
 interface VideoLibraryProps {
   videos: VideoData[];
-  onVideoSelect: (video: VideoData) => void;
 }
 
-const VideoLibrary: React.FC<VideoLibraryProps> = ({
-  videos,
-  onVideoSelect,
-}) => {
+const VideoLibrary: React.FC<VideoLibraryProps> = ({ videos }) => {
   const [searchQuery, setSearchQuery] = useState("");
+  const navigate = useNavigate();
 
-  // Filter videos based on search query
   const filteredVideos = useMemo(() => {
     if (!searchQuery.trim()) return videos;
 
@@ -65,7 +62,11 @@ const VideoLibrary: React.FC<VideoLibraryProps> = ({
             <VideoCard
               key={`${video.id}-${video.title}`}
               video={video}
-              onPlay={onVideoSelect}
+              onPlay={() => {
+                navigate(`/video/${video.id}`, {
+                  state: { selectedVideo: video },
+                });
+              }}
             />
           ))}
         </div>
