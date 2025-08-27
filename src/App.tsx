@@ -27,7 +27,8 @@ function App() {
         <div className="video-section">
           <VideoPlayer
             ref={videoPlayerRef}
-            src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            src="/tetepus10e6.mp4"
+            subtitleSrc="/tetepus10e6.vtt"
             onTimeUpdate={handleTimeUpdate}
             className="main-video-player"
             transcript={sampleTranscript}

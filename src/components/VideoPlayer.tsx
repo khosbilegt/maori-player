@@ -11,6 +11,7 @@ export interface VideoPlayerRef {
 
 interface VideoPlayerProps {
   src?: string;
+  subtitleSrc?: string;
   onTimeUpdate?: (currentTime: number) => void;
   className?: string;
   transcript?: TranscriptItem[];
@@ -18,7 +19,7 @@ interface VideoPlayerProps {
 }
 
 const VideoPlayer = forwardRef<VideoPlayerRef, VideoPlayerProps>(
-  ({ src, onTimeUpdate, className = "", transcript, currentTime = 0 }, ref) => {
+  ({ src, subtitleSrc, onTimeUpdate, className = "", transcript, currentTime = 0 }, ref) => {
     const videoRef = useRef<HTMLVideoElement>(null);
 
     useImperativeHandle(ref, () => ({
@@ -54,6 +55,15 @@ const VideoPlayer = forwardRef<VideoPlayerRef, VideoPlayerProps>(
             className="video-element"
             preload="metadata"
           >
+            {subtitleSrc && (
+              <track
+                kind="subtitles"
+                src={subtitleSrc}
+                srcLang="en"
+                label="English"
+                default
+              />
+            )}
             Your browser does not support the video tag.
           </video>
           {transcript && (
