@@ -144,6 +144,134 @@
   }
 }
 
+/* Subtitle Controls */
+.video-subtitle-controls {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 15;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
+  padding: 1rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  min-width: 200px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.video-container:hover .video-subtitle-controls {
+  opacity: 1;
+}
+
+.subtitle-controls-label {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0.75rem;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.subtitle-controls-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.subtitle-control-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: #ffffff;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0;
+}
+
+.subtitle-control-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+.subtitle-control-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.subtitle-size-display {
+  flex: 1;
+  text-align: center;
+  font-weight: 600;
+  color: #4f46e5;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  background: rgba(79, 70, 229, 0.1);
+  border-radius: 6px;
+  border: 1px solid rgba(79, 70, 229, 0.3);
+}
+
+.subtitle-reset-btn {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.subtitle-reset-btn:hover {
+  background: linear-gradient(135deg, #5b52e8, #8b42f0);
+  transform: translateY(-1px);
+}
+
+/* Responsive adjustments for subtitle controls */
+@media (max-width: 768px) {
+  .video-subtitle-controls {
+    top: 10px;
+    right: 10px;
+    padding: 0.75rem;
+    min-width: 180px;
+  }
+
+  .subtitle-controls-buttons {
+    gap: 0.5rem;
+  }
+
+  .subtitle-control-btn {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .video-subtitle-controls {
+    position: fixed;
+    top: auto;
+    bottom: 100px;
+    right: 10px;
+    left: 10px;
+    min-width: auto;
+  }
+
+  .subtitle-controls-buttons {
+    justify-content: center;
+  }
+}
+
 /* Transcript Section */
 .transcript-section {
   flex: 0 0 400px;
@@ -468,4 +596,39 @@
   outline: 2px solid #4f46e5;
   outline-offset: 1px;
   background: rgba(79, 70, 229, 0.3);
+}
+
+/* Transcript Loading */
+.transcript-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: rgba(255, 255, 255, 0.7);
+  gap: 1rem;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  border-top: 3px solid #4f46e5;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.transcript-loading p {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
 }

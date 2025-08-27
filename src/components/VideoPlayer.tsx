@@ -1,5 +1,12 @@
-import { useRef, useEffect, forwardRef, useImperativeHandle } from "react";
+import {
+  useRef,
+  useEffect,
+  forwardRef,
+  useImperativeHandle,
+  useState,
+} from "react";
 import SubtitleOverlay from "./SubtitleOverlay";
+import SubtitleControls from "./SubtitleControls";
 import type { TranscriptItem } from "./TranscriptViewer";
 
 export interface VideoPlayerRef {
@@ -19,8 +26,23 @@ interface VideoPlayerProps {
 }
 
 const VideoPlayer = forwardRef<VideoPlayerRef, VideoPlayerProps>(
-  ({ src, subtitleSrc, onTimeUpdate, className = "", transcript, currentTime = 0 }, ref) => {
+  (
+    {
+      src,
+      subtitleSrc,
+      onTimeUpdate,
+      className = "",
+      transcript,
+      currentTime = 0,
+    },
+    ref
+  ) => {
     const videoRef = useRef<HTMLVideoElement>(null);
+    const [subtitleFontSize, setSubtitleFontSize] = useState(1.1);
+
+    const handleSubtitleSizeChange = (size: number) => {
+      setSubtitleFontSize(size);
+    };
 
     useImperativeHandle(ref, () => ({
       getCurrentTime: () => videoRef.current?.currentTime || 0,
@@ -54,25 +76,20 @@ const VideoPlayer = forwardRef<VideoPlayerRef, VideoPlayerProps>(
             controls
             className="video-element"
             preload="metadata"
-          >
-            {subtitleSrc && (
-              <track
-                kind="subtitles"
-                src={subtitleSrc}
-                srcLang="en"
-                label="English"
-                default
-              />
-            )}
-            Your browser does not support the video tag.
-          </video>
+          />
           {transcript && (
             <SubtitleOverlay
               transcript={transcript}
               currentTime={currentTime}
               className="video-subtitles"
+              fontSize={subtitleFontSize}
             />
           )}
+
+          <SubtitleControls
+            onSizeChange={handleSubtitleSizeChange}
+            className="video-subtitle-controls"
+          />
         </div>
       </div>
     );

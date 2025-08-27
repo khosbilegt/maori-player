@@ -1,10 +1,11 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
 import VideoPlayer from "../components/VideoPlayer";
 import type { VideoPlayerRef } from "../components/VideoPlayer";
 import TranscriptViewer from "../components/TranscriptViewer";
-import { sampleTranscript } from "../data/sampleTranscript";
+import type { TranscriptItem } from "../components/TranscriptViewer";
 import { type VideoData } from "../components/VideoCard";
+import { loadVTTTranscript } from "../utils/vttParser";
 import "./VideoPage.css";
 
 function VideoPage() {
@@ -12,6 +13,8 @@ function VideoPage() {
   const selectedVideo = location.state?.selectedVideo as VideoData | undefined;
 
   const [currentTime, setCurrentTime] = useState(0);
+  const [transcript, setTranscript] = useState<TranscriptItem[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
   const videoPlayerRef = useRef<VideoPlayerRef>(null);
 
   const handleTimeUpdate = (time: number) => {
@@ -22,6 +25,27 @@ function VideoPage() {
     videoPlayerRef.current?.seekTo(time);
     setCurrentTime(time);
   };
+
+  // Load transcript from VTT file
+  useEffect(() => {
+    const loadTranscript = async () => {
+      setIsLoading(true);
+      try {
+        // For now, use the tetepus10e6.vtt file
+        // In a real app, this would be dynamic based on the selected video
+        const vttUrl = "/tetepus10e6.vtt";
+        const transcriptData = await loadVTTTranscript(vttUrl);
+        setTranscript(transcriptData);
+      } catch (error) {
+        console.error("Failed to load transcript:", error);
+        setTranscript([]);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    loadTranscript();
+  }, [selectedVideo]);
 
   return (
     <div className="app">
@@ -48,17 +72,24 @@ function VideoPage() {
             subtitleSrc="/tetepus10e6.vtt"
             onTimeUpdate={handleTimeUpdate}
             className="main-video-player"
-            transcript={sampleTranscript}
+            transcript={transcript}
             currentTime={currentTime}
           />
         </div>
         <div className="transcript-section">
-          <TranscriptViewer
-            transcript={sampleTranscript}
-            currentTime={currentTime}
-            onSeek={handleSeek}
-            className="main-transcript-viewer"
-          />
+          {isLoading ? (
+            <div className="transcript-loading">
+              <div className="loading-spinner"></div>
+              <p>Loading transcript...</p>
+            </div>
+          ) : (
+            <TranscriptViewer
+              transcript={transcript}
+              currentTime={currentTime}
+              onSeek={handleSeek}
+              className="main-transcript-viewer"
+            />
+          )}
         </div>
       </main>
     </div>
