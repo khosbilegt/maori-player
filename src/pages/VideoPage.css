@@ -350,7 +350,7 @@
 /* Ensure transcript item hover works even when hovering over child elements */
 .transcript-item:hover .transcript-text,
 .transcript-item:hover .transcript-time {
-  /* Inherit the hover state from parent */
+  opacity: 1; /* Explicit hover state for child elements */
 }
 
 /* Stronger specificity for transcript item hover */
@@ -436,6 +436,7 @@
   border-radius: 3px;
   transition: all 0.2s ease;
   position: relative;
+  text-decoration: underline;
 }
 
 .hoverable-word:hover {
@@ -496,6 +497,20 @@
   margin-bottom: 0.25rem;
 }
 
+.word-tooltip-english {
+  font-weight: 500;
+  color: #10b981;
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.word-tooltip-pronunciation {
+  font-style: italic;
+  color: #fbbf24;
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
 .word-tooltip-description {
   font-size: 0.8rem;
   line-height: 1.4;
@@ -544,9 +559,9 @@
 
 /* Smart positioning: if tooltip would overflow, align to edges */
 .word-tooltip-popup {
-  /* Use modern CSS to handle positioning */
-  position-try-options: flip-block, flip-inline;
-  position-anchor: --word-anchor;
+  /* Use modern CSS to handle positioning (experimental - not yet widely supported) */
+  /* position-try-options: flip-block, flip-inline; */
+  /* position-anchor: --word-anchor; */
 }
 
 /* Fallback for browsers without position-try */
@@ -585,6 +600,44 @@
 .transcript-item:focus {
   outline: 2px solid #4f46e5;
   outline-offset: 2px;
+}
+
+/* Vocabulary-specific styling using data attributes */
+.hoverable-word[data-vocab-id] {
+  position: relative;
+}
+
+/* Example: Style specific vocabulary items */
+.hoverable-word[data-vocab-id="kia-ora"] {
+  border-bottom: 2px solid #10b981;
+}
+
+.hoverable-word[data-vocab-id="kia-ora-koutou"] {
+  border-bottom: 2px solid #3b82f6;
+}
+
+.hoverable-word[data-vocab-id="nau-mai"] {
+  border-bottom: 2px solid #f59e0b;
+}
+
+.hoverable-word[data-vocab-id="nau-mai-haere-mai"] {
+  border-bottom: 2px solid #8b5cf6;
+}
+
+.hoverable-word[data-vocab-id="tena-koe"] {
+  border-bottom: 2px solid #ef4444;
+}
+
+.hoverable-word[data-vocab-id="tena-koutou"] {
+  border-bottom: 2px solid #ec4899;
+}
+
+/* Hover effects for vocabulary items */
+.hoverable-word[data-vocab-id]:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  padding: 2px 4px;
+  margin: -2px -4px;
 }
 
 .video-element:focus {
