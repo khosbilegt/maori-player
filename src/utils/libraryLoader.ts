@@ -7,22 +7,6 @@ interface LibraryData {
 // Load library data from environment variable or fallback to JSON file
 export async function loadLibraryData(): Promise<LibraryData> {
   // First, try to get library data from Vite environment variable
-  const envLibraryData = import.meta.env.VITE_LIBRARY_DATA;
-
-  if (envLibraryData) {
-    try {
-      console.log("Loading library data from environment variable");
-      const parsed = JSON.parse(envLibraryData);
-      return parsed;
-    } catch (error) {
-      console.warn(
-        "Failed to parse library data from environment variable:",
-        error
-      );
-      console.log("Falling back to local library.json");
-    }
-  }
-
   // Fallback to importing the JSON file directly
   try {
     console.log("Loading library data from local file");
