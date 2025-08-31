@@ -10,13 +10,22 @@
             "duration": "5:32"
         },
         {
-            "id": "tetepus10e7",
-            "title": "Te Tēpu: Season 10 Episode 7",
-            "description": "Continue your Māori language journey with advanced conversation examples.",
-           "thumbnail": "https://www.dropbox.com/scl/fi/eji6eappnmm25kkq45r0x/tetepus10e6.jpg?rlkey=va30la6fq31i2y03mr0ykhj6v&st=oznsw98x&raw=1",
-            "video": "https://www.dropbox.com/scl/fi/r4nmatwmpqobjsi0gtaks/tetepus10e6.mp4?rlkey=kwrf1igeud9lz8l65mfg25qth&st=s2gzu1k1&raw=1",
-            "subtitle": "/tetepus10e6.vtt",
-            "duration": "4:18"
+            "id": "pixie-williams",
+            "title": "Tu╠ä Ma╠äori Ki Te Ao ∩╜£ Pixie Williams (Te Reo Ma╠äori).mp4",
+            "description": "Interactive Māori language learning video with synchronized transcripts and hover translations.",
+            "thumbnail": "https://i.ytimg.com/vi/2uON12nR25E/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgWihRMA8=&rs=AOn4CLA0MzfdFCTJpYlCyjHF4dtbLcJOkg",
+            "video": "https://www.dropbox.com/scl/fi/b713sznbtn3c64c5xuq63/pixie_williams.mp4?rlkey=eaj8tntadvvfcp5ybd4zuwyd0&st=jfx4wavp&raw=1",
+            "subtitle": "/pixie_williams.vtt",
+            "duration": "5:32"
+        },
+        {
+            "id": "rahera_shortland",
+            "title": "Rahera Shortland ΓÇô strengthening and promoting the Ma╠äori language (Te Waka Toi Awards 2015)",
+            "description": "Interactive Māori language learning video with synchronized transcripts and hover translations.",
+            "thumbnail": "https://i.ytimg.com/vi/TXMiuUbptSk/maxresdefault.jpg",
+            "video": "https://www.dropbox.com/scl/fi/abkr9353oajvvx4psx9qu/rahera_shortland.mp4?rlkey=375u515xmshf57m9ofrepjoeq&st=1zlyf18z&raw=1",
+            "subtitle": "/rahera_shortland.vtt",
+            "duration": "5:32"
         }
     ]
 }
