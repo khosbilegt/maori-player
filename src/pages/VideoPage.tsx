@@ -6,7 +6,7 @@ import TranscriptViewer from "../components/TranscriptViewer";
 import type { TranscriptItem } from "../components/TranscriptViewer";
 import { type VideoData } from "../components/VideoCard";
 import { loadVTTTranscript } from "../utils/vttParser";
-import { getVideoPath, getVTTPath } from "../utils/assetPaths";
+import { getVTTPath } from "../utils/assetPaths";
 import "./VideoPage.css";
 
 function VideoPage() {
