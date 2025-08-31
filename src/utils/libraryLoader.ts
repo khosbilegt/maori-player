@@ -1,4 +1,5 @@
 import type { VideoData } from "../components/VideoCard";
+import { getAssetPath } from "./assetPaths";
 
 interface LibraryData {
   videos: VideoData[];
@@ -9,18 +10,13 @@ export async function loadLibraryData(): Promise<LibraryData> {
   // First, try to get library data from Vite environment variable
   // Fallback to importing the JSON file directly
   try {
-    console.log("Loading library data from local file");
-    const libraryData = await fetch("/library.json");
+    console.log("Loading library data from asset path");
+    const libraryPath = getAssetPath("library.json");
+    const libraryData = await fetch(libraryPath);
     return libraryData.json();
   } catch (error) {
-    console.error("Failed to load library data from root:", error);
-    try {
-      const libraryData = await fetch("/maori-player/library.json");
-      return libraryData.json();
-    } catch (error) {
-      console.error("Failed to load library data:", error);
-      return { videos: [] };
-    }
+    console.error("Failed to load library data:", error);
+    return { videos: [] };
   }
 }
 
