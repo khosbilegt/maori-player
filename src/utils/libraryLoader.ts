@@ -26,10 +26,8 @@ export async function loadLibraryData(): Promise<LibraryData> {
   // Fallback to importing the JSON file directly
   try {
     console.log("Loading library data from local file");
-    const { default: libraryData } = await import(
-      "../assets/contents/library.json"
-    );
-    return libraryData;
+    const libraryData = await fetch("/library.json");
+    return libraryData.json();
   } catch (error) {
     console.error("Failed to load library data:", error);
     // Return empty library as last resort

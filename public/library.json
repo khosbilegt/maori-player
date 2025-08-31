@@ -1,0 +1,22 @@
+{
+    "videos": [
+        {
+            "id": "tetepus10e6",
+            "title": "Te Tēpu: Season 10 Episode 6",
+            "description": "Interactive Māori language learning video with synchronized transcripts and hover translations.",
+            "thumbnail": "https://www.dropbox.com/scl/fi/eji6eappnmm25kkq45r0x/tetepus10e6.jpg?rlkey=va30la6fq31i2y03mr0ykhj6v&st=oznsw98x&raw=1",
+            "video": "https://www.dropbox.com/scl/fi/r4nmatwmpqobjsi0gtaks/tetepus10e6.mp4?rlkey=kwrf1igeud9lz8l65mfg25qth&st=s2gzu1k1&raw=1",
+            "subtitle": "/tetepus10e6.vtt",
+            "duration": "5:32"
+        },
+        {
+            "id": "tetepus10e7",
+            "title": "Te Tēpu: Season 10 Episode 7",
+            "description": "Continue your Māori language journey with advanced conversation examples.",
+           "thumbnail": "https://www.dropbox.com/scl/fi/eji6eappnmm25kkq45r0x/tetepus10e6.jpg?rlkey=va30la6fq31i2y03mr0ykhj6v&st=oznsw98x&raw=1",
+            "video": "https://www.dropbox.com/scl/fi/r4nmatwmpqobjsi0gtaks/tetepus10e6.mp4?rlkey=kwrf1igeud9lz8l65mfg25qth&st=s2gzu1k1&raw=1",
+            "subtitle": "/tetepus10e6.vtt",
+            "duration": "4:18"
+        }
+    ]
+}

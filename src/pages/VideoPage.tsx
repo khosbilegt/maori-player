@@ -69,7 +69,7 @@ function VideoPage() {
         <div className="video-section">
           <VideoPlayer
             ref={videoPlayerRef}
-            src={getVideoPath(selectedVideo?.video || "tetepus10e6.mp4")}
+            src={selectedVideo?.video || "/tetepus10e6.mp4"}
             subtitleSrc={getVTTPath(
               selectedVideo?.subtitle || "tetepus10e6.vtt"
             )}
