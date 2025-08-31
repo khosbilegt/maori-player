@@ -13,9 +13,14 @@ export async function loadLibraryData(): Promise<LibraryData> {
     const libraryData = await fetch("/library.json");
     return libraryData.json();
   } catch (error) {
-    console.error("Failed to load library data:", error);
-    // Return empty library as last resort
-    return { videos: [] };
+    console.error("Failed to load library data from root:", error);
+    try {
+      const libraryData = await fetch("/maori-player/library.json");
+      return libraryData.json();
+    } catch (error) {
+      console.error("Failed to load library data:", error);
+      return { videos: [] };
+    }
   }
 }
 
