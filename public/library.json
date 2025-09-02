@@ -11,7 +11,7 @@
         },
         {
             "id": "pixie-williams",
-            "title": "Tū Māori Ki Te Ao - Pixie Williams (Te Reo Māori).mp4",
+            "title": "Tu Maori Ki Te Ao Pixie Williams (Te Reo Māori).mp4",
             "description": "Interactive Māori language learning video with synchronized transcripts and hover translations.",
             "thumbnail": "https://i.ytimg.com/vi/2uON12nR25E/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgWihRMA8=&rs=AOn4CLA0MzfdFCTJpYlCyjHF4dtbLcJOkg",
             "video": "https://www.dropbox.com/scl/fi/b713sznbtn3c64c5xuq63/pixie_williams.mp4?rlkey=eaj8tntadvvfcp5ybd4zuwyd0&st=jfx4wavp&raw=1",
@@ -20,7 +20,7 @@
         },
         {
             "id": "rahera_shortland",
-            "title": "Rahera Shortland - strengthening and promoting the Māori language (Te Waka Toi Awards 2015)",
+            "title": "Rahera Shortland strengthening and promoting the Maori language (Te Waka Toi Awards 2015)",
             "description": "Interactive Māori language learning video with synchronized transcripts and hover translations.",
             "thumbnail": "https://i.ytimg.com/vi/TXMiuUbptSk/maxresdefault.jpg",
             "video": "https://www.dropbox.com/scl/fi/abkr9353oajvvx4psx9qu/rahera_shortland.mp4?rlkey=375u515xmshf57m9ofrepjoeq&st=1zlyf18z&raw=1",
@@ -29,12 +29,12 @@
         },
         {
             "id": "maori-music",
-            "title": "Te Tēpu Season 10： Episode 23 - Māori Music",
+            "title": "Te Tepu Season 10： Episode 23 - Māori Music",
             "description": "this is the description",
             "thumbnail": "https://i.ytimg.com/vi/2uON12nR25E/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgWihRMA8=&rs=AOn4CLA0MzfdFCTJpYlCyjHF4dtbLcJOkg",
             "video": "/Te Tēpu Season 10： Episode 23 - Māori Music.mp4",
             "subtitle": "/Te Tēpu Season 10： Episode 23 - Māori Music.vtt",
             "duration": "3:42"
-        },
+        }
     ]
 }
