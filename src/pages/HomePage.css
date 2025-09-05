@@ -1,7 +1,7 @@
 /* Home Page */
 .home-page {
   min-height: 100vh;
-  background: linear-gradient(135deg, #1e1e2e 0%, #2d2d3f 100%);
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
   color: #ffffff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
@@ -27,7 +27,7 @@
   font-size: 4rem;
   font-weight: 800;
   margin-bottom: 1.5rem;
-  background: linear-gradient(135deg, #4f46e5, #7c3aed, #06b6d4);
+  background: linear-gradient(135deg, #ffd700, #ffa500, #dc143c);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -69,7 +69,7 @@
 .stat-number {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  background: linear-gradient(135deg, #ffd700, #ffa500);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -109,27 +109,28 @@
 }
 
 .cta-button.primary {
-  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  background: linear-gradient(135deg, #dc143c, #b22222);
   color: #ffffff;
-  box-shadow: 0 8px 32px rgba(79, 70, 229, 0.3);
+  box-shadow: 0 8px 32px rgba(220, 20, 60, 0.3);
 }
 
 .cta-button.primary:hover {
-  background: linear-gradient(135deg, #5b52e8, #8b42f0);
+  background: linear-gradient(135deg, #ff1744, #dc143c);
   transform: translateY(-2px);
-  box-shadow: 0 12px 40px rgba(79, 70, 229, 0.4);
+  box-shadow: 0 12px 40px rgba(220, 20, 60, 0.4);
 }
 
 .cta-button.secondary {
-  background: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
-  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 215, 0, 0.1);
+  color: #ffd700;
+  border-color: rgba(255, 215, 0, 0.3);
   backdrop-filter: blur(10px);
 }
 
 .cta-button.secondary:hover {
-  background: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 215, 0, 0.2);
+  border-color: rgba(255, 215, 0, 0.5);
+  color: #ffffff;
   transform: translateY(-2px);
 }
 

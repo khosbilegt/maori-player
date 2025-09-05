@@ -1,7 +1,7 @@
 /* Library Page Layout */
 .library-page {
   min-height: 100vh;
-  background: linear-gradient(135deg, #1e1e2e 0%, #2d2d3f 100%);
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
   color: #ffffff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -27,7 +27,7 @@
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
-  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  background: linear-gradient(135deg, #ffd700, #ffa500);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -81,8 +81,8 @@
 
 .search-input:focus {
   outline: none;
-  border-color: #4f46e5;
-  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.3);
+  border-color: #ffd700;
+  box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.3);
   background: rgba(255, 255, 255, 0.15);
 }
 
@@ -123,7 +123,7 @@
 .stats-number {
   font-size: 2rem;
   font-weight: 700;
-  color: #4f46e5;
+  color: #ffd700;
 }
 
 .stats-label {
@@ -160,14 +160,14 @@
 .video-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
-  border-color: rgba(79, 70, 229, 0.5);
+  border-color: rgba(255, 215, 0, 0.5);
 }
 
 .video-card-thumbnail {
   position: relative;
   aspect-ratio: 16/9;
   overflow: hidden;
-  background: linear-gradient(45deg, #2d2d3f, #1e1e2e);
+  background: linear-gradient(45deg, #1a1a1a, #000000);
 }
 
 .video-card-thumbnail img {
@@ -277,14 +277,14 @@
 }
 
 .video-card-button.primary {
-  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  background: linear-gradient(135deg, #dc143c, #b22222);
   color: #ffffff;
   padding: 0.75rem 1.5rem;
   flex: 1;
 }
 
 .video-card-button.primary:hover {
-  background: linear-gradient(135deg, #5b52e8, #8b42f0);
+  background: linear-gradient(135deg, #ff1744, #dc143c);
   transform: translateY(-1px);
 }
 
@@ -328,7 +328,7 @@
 }
 
 .empty-state-button {
-  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  background: linear-gradient(135deg, #dc143c, #b22222);
   color: #ffffff;
   border: none;
   padding: 0.75rem 2rem;
@@ -339,7 +339,7 @@
 }
 
 .empty-state-button:hover {
-  background: linear-gradient(135deg, #5b52e8, #8b42f0);
+  background: linear-gradient(135deg, #ff1744, #dc143c);
   transform: translateY(-1px);
 }
 
@@ -358,7 +358,7 @@
   width: 40px;
   height: 40px;
   border: 3px solid rgba(255, 255, 255, 0.1);
-  border-top: 3px solid #4f46e5;
+  border-top: 3px solid #ffd700;
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
