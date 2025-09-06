@@ -1,0 +1,1532 @@
+[
+  {
+    "id": "ae",
+    "maori": "ae",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "ah",
+    "maori": "ah",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "ahunga",
+    "maori": "ahunga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "air",
+    "maori": "air",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "angaanga",
+    "maori": "angaanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "angi",
+    "maori": "angi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "apo",
+    "maori": "apo",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "arawatanga",
+    "maori": "arawatanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "arohaina",
+    "maori": "arohaina",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "aru",
+    "maori": "aru",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "baker",
+    "maori": "baker",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "batallion",
+    "maori": "batallion",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "close",
+    "maori": "close",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "dave",
+    "maori": "dave",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "david",
+    "maori": "david",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "economic",
+    "maori": "economic",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "eka",
+    "maori": "eka",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "fiji",
+    "maori": "fiji",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "ha",
+    "maori": "ha",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "haea",
+    "maori": "haea",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "haewae",
+    "maori": "haewae",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hanga",
+    "maori": "hanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hanganga",
+    "maori": "hanganga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "harakeke",
+    "maori": "harakeke",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "harikoa",
+    "maori": "harikoa",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "haruru",
+    "maori": "haruru",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hawai",
+    "maori": "hawai",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hea",
+    "maori": "hea",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "heou",
+    "maori": "heou",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hiako",
+    "maori": "hiako",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hiki",
+    "maori": "hiki",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hinengaro",
+    "maori": "hinengaro",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hinganga",
+    "maori": "hinganga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hirahira",
+    "maori": "hirahira",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hiwi",
+    "maori": "hiwi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hokona",
+    "maori": "hokona",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "homai",
+    "maori": "homai",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hone",
+    "maori": "hone",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "horohoro",
+    "maori": "horohoro",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hu",
+    "maori": "hu",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "huhua",
+    "maori": "huhua",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "huihuinga",
+    "maori": "huihuinga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hura",
+    "maori": "hura",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hā",
+    "maori": "hā",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hākoakoa",
+    "maori": "hākoakoa",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hāmama",
+    "maori": "hāmama",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hāngai",
+    "maori": "hāngai",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hāpaitia",
+    "maori": "hāpaitia",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hāunga",
+    "maori": "hāunga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hēmi",
+    "maori": "hēmi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hī",
+    "maori": "hī",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hītoria",
+    "maori": "hītoria",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hōhonu",
+    "maori": "hōhonu",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hōhā",
+    "maori": "hōhā",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hōia",
+    "maori": "hōia",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hū",
+    "maori": "hū",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "hūranga",
+    "maori": "hūranga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "ihi",
+    "maori": "ihi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "ihowā",
+    "maori": "ihowā",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "inanahi",
+    "maori": "inanahi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "inoi",
+    "maori": "inoi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "inā",
+    "maori": "inā",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "ināku",
+    "maori": "ināku",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "io",
+    "maori": "io",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "irirangi",
+    "maori": "irirangi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "iritana",
+    "maori": "iritana",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kahu",
+    "maori": "kahu",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kaiako",
+    "maori": "kaiako",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kaimahi",
+    "maori": "kaimahi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kaingākauhia",
+    "maori": "kaingākauhia",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kaipuke",
+    "maori": "kaipuke",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kaipūkahu",
+    "maori": "kaipūkahu",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kaitautoko",
+    "maori": "kaitautoko",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kaitoa",
+    "maori": "kaitoa",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kakama",
+    "maori": "kakama",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kala",
+    "maori": "kala",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kani",
+    "maori": "kani",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kanikani",
+    "maori": "kanikani",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kapi",
+    "maori": "kapi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kariri",
+    "maori": "kariri",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kata",
+    "maori": "kata",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kauhanga",
+    "maori": "kauhanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kauhau",
+    "maori": "kauhau",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kaumaiti",
+    "maori": "kaumaiti",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kauwhau",
+    "maori": "kauwhau",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kawanakoa",
+    "maori": "kawanakoa",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kereme",
+    "maori": "kereme",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kete",
+    "maori": "kete",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kingi",
+    "maori": "kingi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kino",
+    "maori": "kino",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kiri",
+    "maori": "kiri",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kiwi",
+    "maori": "kiwi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "koi",
+    "maori": "koi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "konā",
+    "maori": "konā",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "koretake",
+    "maori": "koretake",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "koroua",
+    "maori": "koroua",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kotahua",
+    "maori": "kotahua",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kotinga",
+    "maori": "kotinga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kuia",
+    "maori": "kuia",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kākahu",
+    "maori": "kākahu",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kākano",
+    "maori": "kākano",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kāmura",
+    "maori": "kāmura",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kāre",
+    "maori": "kāre",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kātahi",
+    "maori": "kātahi-",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kātua",
+    "maori": "kātua",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kīhai",
+    "maori": "kīhai",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kīhia",
+    "maori": "kīhia",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kīhini",
+    "maori": "kīhini",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kīngitanga",
+    "maori": "kīngitanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kō",
+    "maori": "kō",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kōhanga",
+    "maori": "kōhanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kōhaturia",
+    "maori": "kōhaturia",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kōhua",
+    "maori": "kōhua",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kōkiri",
+    "maori": "kōkiri",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kōkiringia",
+    "maori": "kōkiringia",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kōnui",
+    "maori": "kōnui",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "kōwhiri",
+    "maori": "kōwhiri",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "lean",
+    "maori": "lean",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "leanne",
+    "maori": "leanne",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "lucala",
+    "maori": "lucala",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mahana",
+    "maori": "mahana",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mahara",
+    "maori": "mahara",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "maharatanga",
+    "maori": "maharatanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mahia",
+    "maori": "mahia",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mahuta",
+    "maori": "mahuta",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "maiwa",
+    "maori": "maiwa",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "makeretanga",
+    "maori": "makeretanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mangumangu",
+    "maori": "mangumangu",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "maramara",
+    "maori": "maramara",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mark",
+    "maori": "mark",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "maru",
+    "maori": "maru",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mata",
+    "maori": "mata",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "matakoikoi",
+    "maori": "matakoikoi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mataora",
+    "maori": "mataora",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "matapiko",
+    "maori": "matapiko",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "matariki",
+    "maori": "matariki",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "matenga",
+    "maori": "matenga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mauhanga",
+    "maori": "mauhanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "maunu",
+    "maori": "maunu",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "meawi",
+    "maori": "meawi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mehameha",
+    "maori": "mehameha",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "menemene",
+    "maori": "menemene",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "moko",
+    "maori": "moko",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "māhanga",
+    "maori": "māhanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "māpū",
+    "maori": "māpū",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "māra",
+    "maori": "māra",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mārewa",
+    "maori": "mārewa",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "māripi",
+    "maori": "māripi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mārire",
+    "maori": "mārire",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mārō",
+    "maori": "mārō",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mātakitaki",
+    "maori": "mātakitaki",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mātauranga",
+    "maori": "mātauranga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mātotoru",
+    "maori": "mātotoru",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mōhaka",
+    "maori": "mōhaka",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mōhiotanga",
+    "maori": "mōhiotanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mōhiotia",
+    "maori": "mōhiotia",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mōkau",
+    "maori": "mōkau",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "mōmai",
+    "maori": "mōmai",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "napi",
+    "maori": "napi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "neke",
+    "maori": "neke",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "nekeneke",
+    "maori": "nekeneke",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "new",
+    "maori": "new",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "ngahiraka",
+    "maori": "ngahiraka",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "ngaromanga",
+    "maori": "ngaromanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "ngāti",
+    "maori": "ngāti",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "ngāwhetū",
+    "maori": "ngāwhetū",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "nuinga",
+    "maori": "nuinga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "nuku",
+    "maori": "nuku",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "nāna",
+    "maori": "nāna",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "nāwai",
+    "maori": "nāwai",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "oho",
+    "maori": "oho",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "omanga",
+    "maori": "omanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "omaoma",
+    "maori": "omaoma",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "ono",
+    "maori": "ono",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "oraatia",
+    "maori": "oraatia",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "oroko",
+    "maori": "oroko",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "paepae",
+    "maori": "paepae",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "paheke",
+    "maori": "paheke",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pahure",
+    "maori": "pahure",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "painga",
+    "maori": "painga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pakipaki",
+    "maori": "pakipaki",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "panana",
+    "maori": "panana",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "papa",
+    "maori": "papa",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "para",
+    "maori": "para",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "paraikiti",
+    "maori": "paraikiti",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "parea",
+    "maori": "parea",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "parekawakawa",
+    "maori": "parekawakawa",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pene",
+    "maori": "pene",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pi",
+    "maori": "pi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "piri",
+    "maori": "piri",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pirinihi",
+    "maori": "pirinihi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pita",
+    "maori": "pita",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "poari",
+    "maori": "poari",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pohora",
+    "maori": "pohora",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "ponotia",
+    "maori": "ponotia",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "poroporoaki",
+    "maori": "poroporoaki",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "poti",
+    "maori": "poti",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pukamata",
+    "maori": "pukamata",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pukapuka",
+    "maori": "pukapuka",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "puna",
+    "maori": "puna",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "purei",
+    "maori": "purei",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pākihi",
+    "maori": "pākihi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pānga",
+    "maori": "pānga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pānui",
+    "maori": "pānui",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pātia",
+    "maori": "pātia",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pātukitukihanga",
+    "maori": "pātukitukihanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pī",
+    "maori": "pī",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pīhi",
+    "maori": "pīhi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pīkari",
+    "maori": "pīkari",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pōhēhē",
+    "maori": "pōhēhē",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pōmare",
+    "maori": "pōmare",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pōrangi",
+    "maori": "pōrangi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pōtatau",
+    "maori": "pōtatau",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pōuritanga",
+    "maori": "pōuritanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pōwhiri",
+    "maori": "pōwhiri",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pū",
+    "maori": "pū",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pūkerikeri",
+    "maori": "pūkerikeri",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pūtake",
+    "maori": "pūtake",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "quinton",
+    "maori": "quinton",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rahu",
+    "maori": "rahu",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "raihana",
+    "maori": "raihana",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "raihanatia",
+    "maori": "raihanatia",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rangimāriatanga",
+    "maori": "rangimāriatanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rangitihi",
+    "maori": "rangitihi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "ranua",
+    "maori": "ranua",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rapu",
+    "maori": "rapu",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "ratū",
+    "maori": "ratū",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "raurangi",
+    "maori": "raurangi",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rawe",
+    "maori": "rawe",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rawiri",
+    "maori": "rawiri",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rere",
+    "maori": "rere",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rerekētanga",
+    "maori": "rerekētanga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "ringaringa",
+    "maori": "ringaringa",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "ritenga",
+    "maori": "ritenga",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "roatia",
+    "maori": "roatia",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "roger",
+    "maori": "roger",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rohe",
+    "maori": "rohe",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "roimata",
+    "maori": "roimata",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rongo",
+    "maori": "rongo",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rongorongo",
+    "maori": "rongorongo",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rourou",
+    "maori": "rourou",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rua",
+    "maori": "rua-",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rāhiritia",
+    "maori": "rāhiritia",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rātana",
+    "maori": "rātana",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rātapu",
+    "maori": "rātapu",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rēkoata",
+    "maori": "rēkoata",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rīpene",
+    "maori": "rīpene",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rītana",
+    "maori": "rītana",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rō",
+    "maori": "rō",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "rū",
+    "maori": "rū",
+    "english": "",
+    "description": ""
+  },
+  {
+    "id": "pīki-tika-pīki-teka-rānei",
+    "maori": "pīki tika, pīki teka rānei",
+    "english": "",
+    "description": "idiom"
+  },
+  {
+    "id": "tēnā-koe",
+    "maori": "tēnā koe",
+    "english": "greeting",
+    "description": "Common greeting"
+  },
+  {
+    "id": "nau-mai",
+    "maori": "nau mai",
+    "english": "welcome",
+    "description": "Greeting / invitation"
+  },
+  {
+    "id": "te-reo",
+    "maori": "te reo",
+    "english": "the language",
+    "description": "Often shorthand for te reo Māori"
+  },
+  {
+    "id": "te-iwi",
+    "maori": "te iwi",
+    "english": "the people",
+    "description": "Refers to the iwi / the people"
+  }
+]
