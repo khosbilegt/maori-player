@@ -68,6 +68,5306 @@
          "english": "patience/perseverance",
          "pronunciation": "MAH-nah-wah-NOO-ee",
          "description": "Refers to enduring with patience or steadfastness."
-     }
+     },
+      {
+    "id": "tika",
+    "maori": "Tika",
+    "english": "Correct, right, just",
+    "description": "Means true, accurate, fair, or morally right."
+  },
+  {
+    "id": "tuatahi",
+    "maori": "Tuatahi",
+    "english": "First",
+    "description": "Ordinal number meaning first in order."
+  },
+  {
+    "id": "kupu",
+    "maori": "Kupu",
+    "english": "Word, speech",
+    "description": "Unit of language; also refers to statement or speech."
+  },
+  {
+    "id": "ingoa",
+    "maori": "Ingoa",
+    "english": "Name",
+    "description": "Word used to identify a person, place, or thing."
+  },
+  {
+    "id": "pa",
+    "maori": "Pā",
+    "english": "Fortified village; to touch",
+    "description": "Traditional Māori village fortification; also verb 'to touch.'"
+  },
+  {
+    "id": "kotahi",
+    "maori": "Kotahi",
+    "english": "One",
+    "description": "Number one; also expresses unity or togetherness."
+  },
+  {
+    "id": "ahakoa",
+    "maori": "Ahakoa",
+    "english": "Although, despite",
+    "description": "Conjunction introducing contrast or concession."
+  },
+  {
+    "id": "tangata",
+    "maori": "Tāngata",
+    "english": "Person, people",
+    "description": "Refers to an individual human being or people collectively."
+  },
+  {
+    "id": "momo",
+    "maori": "Momo",
+    "english": "Type, kind",
+    "description": "Category, variety, or class of things."
+  },
+  {
+    "id": "patai",
+    "maori": "Pātai",
+    "english": "Question",
+    "description": "Noun or verb for asking a question."
+  },
+  {
+    "id": "penei",
+    "maori": "Pēnei",
+    "english": "Like this",
+    "description": "Demonstrative indicating 'in this way.'"
+  },
+  {
+    "id": "kitea",
+    "maori": "Kitea",
+    "english": "To be seen, found",
+    "description": "Passive of kite (to see, find)."
+  },
+  {
+    "id": "pera",
+    "maori": "Pērā",
+    "english": "Like that (over there)",
+    "description": "Demonstrative meaning 'like that' at some distance."
+  },
+  {
+    "id": "huri",
+    "maori": "Huri",
+    "english": "To turn, revolve",
+    "description": "Verb describing turning around, rotating, or changing direction."
+  },
+  {
+    "id": "po",
+    "maori": "Pō",
+    "english": "Night",
+    "description": "Time of darkness; also used in spiritual or poetic contexts."
+  },
+  {
+    "id": "papa",
+    "maori": "Papa",
+    "english": "Earth, ground, board",
+    "description": "Means surface, flat board, or the Earth itself."
+  },
+  {
+    "id": "rite",
+    "maori": "Rite",
+    "english": "Same, equal, ready",
+    "description": "Describes similarity or preparedness."
+  },
+  {
+    "id": "tere",
+    "maori": "Tere",
+    "english": "Fast, quick",
+    "description": "Adjective for speed; also verb 'to float, drift.'"
+  },
+  {
+    "id": "timata",
+    "maori": "Tīmata",
+    "english": "To begin, start",
+    "description": "Verb for commencing or initiating something."
+  },
+  {
+    "id": "waiata",
+    "maori": "Waiata",
+    "english": "Song, chant",
+    "description": "Traditional or modern song; also verb 'to sing.'"
+  },
+  {
+    "id": "kaupapa",
+    "maori": "Kaupapa",
+    "english": "Topic, plan, purpose",
+    "description": "Subject, project, or guiding philosophy."
+  },
+  {
+    "id": "mere",
+    "maori": "Mere",
+    "english": "Short flat weapon; greenstone club",
+    "description": "Traditional Māori weapon made of stone or greenstone."
+  },
+  {
+    "id": "ora",
+    "maori": "Ora",
+    "english": "Life, health, to be alive",
+    "description": "Refers to wellbeing, survival, or vitality."
+  },
+  {
+    "id": "rongo",
+    "maori": "Rongo",
+    "english": "To hear, news; peace",
+    "description": "Verb for hearing; noun for news or peace (atua Rongo)."
+  },
+  {
+    "id": "tata",
+    "maori": "Tata",
+    "english": "Near, close",
+    "description": "Describes closeness in space or time."
+  },
+  {
+    "id": "takaro",
+    "maori": "Tākaro",
+    "english": "Game, play",
+    "description": "Verb to play; noun for game, recreation."
+  },
+  {
+    "id": "tohu",
+    "maori": "Tohu",
+    "english": "Sign, symbol, mark",
+    "description": "Means sign, indication, or to appoint."
+  },
+  {
+    "id": "taonga",
+    "maori": "Taonga",
+    "english": "Treasure, prized possession",
+    "description": "Anything highly valued, tangible or intangible."
+  },
+  {
+    "id": "hiahia",
+    "maori": "Hiahia",
+    "english": "To want, desire",
+    "description": "Verb expressing desire or need."
+  },
+  {
+    "id": "hanga",
+    "maori": "Hanga",
+    "english": "To build, create, make",
+    "description": "Verb for constructing or creating something."
+  },
+  {
+    "id": "tama",
+    "maori": "Tama",
+    "english": "Boy, son",
+    "description": "Term for male child or son."
+  },
+  {
+    "id": "hau",
+    "maori": "Hau",
+    "english": "Wind; vital essence",
+    "description": "Literal wind; also spiritual vitality or life force."
+  },
+  {
+    "id": "ata",
+    "maori": "Āta",
+    "english": "Morning; gently",
+    "description": "Refers to dawn time or careful action."
+  },
+  {
+    "id": "matua",
+    "maori": "Matua",
+    "english": "Parent, elder, main",
+    "description": "Singular form for parent; also means main or important."
+  },
+  {
+    "id": "tikanga",
+    "maori": "Tikanga",
+    "english": "Custom, correct procedure",
+    "description": "Māori customary practices, law, or correct way."
+  },
+  {
+    "id": "mate",
+    "maori": "Mate",
+    "english": "Dead, sick, defeat",
+    "description": "Refers to illness, death, or loss."
+  },
+  {
+    "id": "mutu",
+    "maori": "Mutu",
+    "english": "To end, be finished",
+    "description": "Verb for ceasing, stopping, or concluding."
+  },
+  {
+    "id": "whakaahua",
+    "maori": "Whakaahua",
+    "english": "Photograph, picture; to form",
+    "description": "Modern sense 'photo'; also means to form or depict."
+  },
+  {
+    "id": "whakautu",
+    "maori": "Whakautu",
+    "english": "Answer, reply",
+    "description": "Verb for responding; noun for an answer."
+  },
+  {
+    "id": "mehemea",
+    "maori": "Mehemea",
+    "english": "If, in case",
+    "description": "Conditional word similar to 'mēnā.'"
+  },
+  {
+    "id": "tangi",
+    "maori": "Tangi",
+    "english": "To cry, mourn; sound",
+    "description": "Verb for crying or mourning; noun for funeral or sound."
+  },
+  {
+    "id": "awa",
+    "maori": "Awa",
+    "english": "River",
+    "description": "Large natural watercourse."
+  },
+  {
+    "id": "pehea",
+    "maori": "Pēhea",
+    "english": "How?",
+    "description": "Question word asking manner or condition."
+  },
+  {
+    "id": "ringa",
+    "maori": "Ringa",
+    "english": "Hand, arm",
+    "description": "Body part from shoulder to hand."
+  },
+  {
+    "id": "waho",
+    "maori": "Waho",
+    "english": "Outside",
+    "description": "Refers to exterior or being outdoors."
+  },
+  {
+    "id": "toru",
+    "maori": "Toru",
+    "english": "Three",
+    "description": "Number three."
+  },
+  {
+    "id": "ika",
+    "maori": "Ika",
+    "english": "Fish",
+    "description": "Generic word for fish; also used metaphorically."
+  },
+  {
+    "id": "rau",
+    "maori": "Rau",
+    "english": "Leaf; hundred",
+    "description": "Means leaf of a plant; also number one hundred."
+  },
+  {
+    "id": "konei",
+    "maori": "Konei",
+    "english": "Here (by me)",
+    "description": "Locative demonstrative meaning 'here near speaker.'"
+  },
+  {
+    "id": "moe",
+    "maori": "Moe",
+    "english": "To sleep; to marry",
+    "description": "Verb for resting in sleep; also used for marriage."
+  },
+  {
+    "id": "oku",
+    "maori": "Ōku",
+    "english": "My (plural)",
+    "description": "Possessive determiner for plural belongings of speaker."
+  },
+  {
+    "id": "tana",
+    "maori": "Tāna",
+    "english": "His/her (singular)",
+    "description": "Possessive determiner for one thing belonging to him/her."
+  },
+  {
+    "id": "pou",
+    "maori": "Pou",
+    "english": "Post, pillar, support",
+    "description": "Can mean carved post, support, or symbolic role."
+  },
+  {
+    "id": "tuna",
+    "maori": "Tuna",
+    "english": "Eel",
+    "description": "Freshwater eel, important traditional food source."
+  },
+  {
+    "id": "anake",
+    "maori": "Anake",
+    "english": "Only, alone",
+    "description": "Means exclusive or without others."
+  },
+  {
+    "id": "heke",
+    "maori": "Heke",
+    "english": "To descend; to migrate",
+    "description": "Verb for going down or migrating."
+  },
+  {
+    "id": "tahi",
+    "maori": "Tahi",
+    "english": "One; together",
+    "description": "Number one; also conveys unity."
+  },
+  {
+    "id": "kakahu",
+    "maori": "Kākahu",
+    "english": "Clothing",
+    "description": "General term for garments and apparel."
+  },
+  {
+    "id": "wahanga",
+    "maori": "Wāhanga",
+    "english": "Section, part, division",
+    "description": "Segment of a whole, part of a text, or school term."
+  },
+  {
+    "id": "pakeke",
+    "maori": "Pakeke",
+    "english": "Adult, mature",
+    "description": "Refers to a grown person; can mean tough/difficult."
+  },
+  {
+    "id": "ae",
+    "maori": "Āe",
+    "english": "Yes",
+    "description": "Word of affirmation or agreement."
+  },
+  {
+    "id": "awhina",
+    "maori": "Āwhina",
+    "english": "To help, assist",
+    "description": "Verb for helping or giving support."
+  },
+  {
+    "id": "kaua",
+    "maori": "Kaua",
+    "english": "Don't, do not",
+    "description": "Negative imperative used in commands."
+  },
+  {
+    "id": "rangatira",
+    "maori": "Rangatira",
+    "english": "Chief, leader",
+    "description": "Title for a leader, chief, or person of mana."
+  },
+  {
+    "id": "whakataetae",
+    "maori": "Whakataetae",
+    "english": "Competition, contest",
+    "description": "Refers to a match, race, or competition."
+  },
+  {
+    "id": "karanga",
+    "maori": "Karanga",
+    "english": "Ceremonial call of welcome",
+    "description": "Traditional call by women to welcome visitors onto a marae."
+  },
+  {
+    "id": "iti",
+    "maori": "Iti",
+    "english": "Small, little",
+    "description": "Describes smallness of size or significance."
+  },
+  {
+    "id": "pukapuka",
+    "maori": "Pukapuka",
+    "english": "Book; document",
+    "description": "Refers to a written work or paperwork."
+  },
+  {
+    "id": "maha",
+    "maori": "Maha",
+    "english": "Many, much",
+    "description": "Describes largeness of quantity."
+  },
+  {
+    "id": "kuia",
+    "maori": "Kuia",
+    "english": "Elderly woman, grandmother",
+    "description": "Respectful term for old woman, grandmother."
+  },
+  {
+    "id": "pango",
+    "maori": "Pango",
+    "english": "Black",
+    "description": "Name of the colour black."
+  },
+  {
+    "id": "era",
+    "maori": "Ēra",
+    "english": "Those (over there)",
+    "description": "Demonstrative pronoun referring to distant things."
+  },
+  {
+    "id": "aua",
+    "maori": "Aua",
+    "english": "I don't know",
+    "description": "Expression meaning uncertainty or lack of knowledge."
+  },
+  {
+    "id": "take",
+    "maori": "Take",
+    "english": "Reason, purpose, issue",
+    "description": "Cause, matter, or motivation for something."
+  }
+  {
+    "id": "tane",
+    "maori": "Tāne",
+    "english": "Man, male, husband",
+    "description": "Refers to an adult male, a husband, or the atua Tāne-mahuta."
+  },
+  {
+    "id": "hea",
+    "maori": "Hea",
+    "english": "Where?",
+    "description": "Question word for asking location."
+  },
+  {
+    "id": "hou",
+    "maori": "Hou",
+    "english": "New",
+    "description": "Describes something fresh, recent, or new."
+  },
+  {
+    "id": "ehara",
+    "maori": "Ehara",
+    "english": "Is not, was not",
+    "description": "Negator used for emphasis: 'it is not.'"
+  },
+  {
+    "id": "tinana",
+    "maori": "Tinana",
+    "english": "Body",
+    "description": "Physical body of a person or animal."
+  },
+  {
+    "id": "ahi",
+    "maori": "Ahi",
+    "english": "Fire",
+    "description": "Literal fire or flame; symbol of occupation and presence."
+  },
+  {
+    "id": "oma",
+    "maori": "Oma",
+    "english": "To run",
+    "description": "Verb for sprinting or fleeing."
+  },
+  {
+    "id": "roopu",
+    "maori": "Rōpū",
+    "english": "Group, organisation",
+    "description": "Collective of people, organisation, or company."
+  },
+  {
+    "id": "marama",
+    "maori": "Marama",
+    "english": "Month; moon; light",
+    "description": "Refers to lunar month, the moon itself, or brightness/light."
+  },
+  {
+    "id": "heoi",
+    "maori": "Hēoi",
+    "english": "However, nevertheless",
+    "description": "Conjunction introducing contrast."
+  },
+  {
+    "id": "ngati",
+    "maori": "Ngāti",
+    "english": "Tribe, clan",
+    "description": "Prefix denoting tribal group descended from an ancestor."
+  },
+  {
+    "id": "wahine",
+    "maori": "Wahine",
+    "english": "Woman, wife",
+    "description": "Refers to an adult female or wife."
+  },
+  {
+    "id": "huarahi",
+    "maori": "Huarahi",
+    "english": "Road, path, way",
+    "description": "Means literal street or figurative method."
+  },
+  {
+    "id": "hia",
+    "maori": "Hia",
+    "english": "To want, desire",
+    "description": "Often used with 'pīrangi' for expressing desire."
+  },
+  {
+    "id": "ahuatanga",
+    "maori": "Āhuatanga",
+    "english": "Situation, circumstance, characteristic",
+    "description": "Refers to condition, event, or attribute."
+  },
+  {
+    "id": "kau",
+    "maori": "Kau",
+    "english": "Alone, only; cow",
+    "description": "Means alone, bare, or (loan) cow."
+  },
+  {
+    "id": "mihi",
+    "maori": "Mihi",
+    "english": "Greeting, acknowledgment",
+    "description": "Formal or informal greeting or thanks."
+  },
+  {
+    "id": "ngaro",
+    "maori": "Ngaro",
+    "english": "Lost, missing",
+    "description": "Describes being gone, hidden, or disappeared."
+  },
+  {
+    "id": "aku",
+    "maori": "Aku",
+    "english": "My (plural)",
+    "description": "Possessive form for multiple things belonging to the speaker."
+  },
+  {
+    "id": "pouaka",
+    "maori": "Pouaka",
+    "english": "Box, container",
+    "description": "Can mean cupboard, crate, or chest."
+  },
+  {
+    "id": "aue",
+    "maori": "Auē",
+    "english": "Alas!, oh dear!",
+    "description": "Exclamation of grief, pain, or surprise."
+  },
+  {
+    "id": "korua",
+    "maori": "Kōrua",
+    "english": "You two",
+    "description": "Dual pronoun for addressing two people."
+  },
+  {
+    "id": "tuarua",
+    "maori": "Tuarua",
+    "english": "Second",
+    "description": "Ordinal number meaning second in order."
+  },
+  {
+    "id": "aroha",
+    "maori": "Aroha",
+    "english": "Love, compassion",
+    "description": "Refers to affection, empathy, or sympathy."
+  },
+  {
+    "id": "uru",
+    "maori": "Uru",
+    "english": "To enter; grove",
+    "description": "Verb for entering; noun for small wood or clump of trees."
+  },
+  {
+    "id": "anei",
+    "maori": "Anei",
+    "english": "Here is",
+    "description": "Expression meaning 'here it is' or 'behold here.'"
+  },
+  {
+    "id": "waewae",
+    "maori": "Waewae",
+    "english": "Leg, foot",
+    "description": "Refers to limbs for walking; used in idioms."
+  },
+  {
+    "id": "hua",
+    "maori": "Hua",
+    "english": "Fruit, product, egg",
+    "description": "Means the outcome, fruit, or result of something."
+  },
+  {
+    "id": "rarangi",
+    "maori": "Rārangi",
+    "english": "Line, list, row",
+    "description": "Refers to ordered sequence or alignment."
+  },
+  {
+    "id": "rereke",
+    "maori": "Rerekē",
+    "english": "Different, unusual",
+    "description": "Means being distinct or changed."
+  },
+  {
+    "id": "maunga",
+    "maori": "Maunga",
+    "english": "Mountain",
+    "description": "Large natural elevation of the land."
+  },
+  {
+    "id": "taua",
+    "maori": "Tāua",
+    "english": "We two (inclusive)",
+    "description": "Dual pronoun including speaker and listener."
+  },
+  {
+    "id": "piki",
+    "maori": "Piki",
+    "english": "To climb, ascend",
+    "description": "Verb for moving upward, increasing."
+  },
+  {
+    "id": "tauira",
+    "maori": "Tauira",
+    "english": "Student, model, example",
+    "description": "Refers to learner, follower, or exemplar."
+  },
+  {
+    "id": "rima",
+    "maori": "Rima",
+    "english": "Five",
+    "description": "Number five."
+  },
+  {
+    "id": "whaea",
+    "maori": "Whaea",
+    "english": "Mother, aunt",
+    "description": "Respectful term for mother or maternal aunt."
+  },
+  {
+    "id": "whakaatu",
+    "maori": "Whakaatu",
+    "english": "To show, display",
+    "description": "Verb for demonstrating or presenting."
+  },
+  {
+    "id": "ana",
+    "maori": "Āna",
+    "english": "His/hers (possessive)",
+    "description": "Form showing possession by another person."
+  },
+  {
+    "id": "wha",
+    "maori": "Whā",
+    "english": "Four",
+    "description": "Number four."
+  },
+  {
+    "id": "matua",
+    "maori": "Mātua",
+    "english": "Parents, elders",
+    "description": "Plural form for parents; can also mean respected elder."
+  },
+  {
+    "id": "tuhi",
+    "maori": "Tuhi",
+    "english": "To write, draw",
+    "description": "Verb for inscribing or marking."
+  },
+  {
+    "id": "kiia",
+    "maori": "Kiia",
+    "english": "To be said, called",
+    "description": "Passive form of kī (to say)."
+  },
+  {
+    "id": "tuku",
+    "maori": "Tuku",
+    "english": "To release, allow, give",
+    "description": "Verb for setting free or permitting."
+  },
+  {
+    "id": "pepa",
+    "maori": "Pepa",
+    "english": "Paper",
+    "description": "Loanword for paper or documents."
+  },
+  {
+    "id": "ro",
+    "maori": "Rō",
+    "english": "Inside, within",
+    "description": "Locative particle meaning 'in, within.'"
+  },
+  {
+    "id": "kete",
+    "maori": "Kete",
+    "english": "Basket",
+    "description": "Woven container made from flax or other materials."
+  },
+  {
+    "id": "moko",
+    "maori": "Moko",
+    "english": "Tattoo; lizard",
+    "description": "Refers to traditional tattoo or reptile."
+  },
+  {
+    "id": "toi",
+    "maori": "Toi",
+    "english": "Summit; art",
+    "description": "Means pinnacle or high point; modern sense 'art.'"
+  },
+  {
+    "id": "kahore",
+    "maori": "Kāhore",
+    "english": "No, not",
+    "description": "Negator meaning 'no' or 'not.'"
+  },
+  {
+    "id": "haora",
+    "maori": "Hāora",
+    "english": "Hour; oxygen",
+    "description": "Loanword for hour of time; also term for oxygen."
+  },
+  {
+    "id": "pakeha",
+    "maori": "Pākehā",
+    "english": "Non-Māori person (European)",
+    "description": "Common term for New Zealander of European descent."
+  },
+  {
+    "id": "tipu",
+    "maori": "Tipu",
+    "english": "To grow, sprout",
+    "description": "Verb describing plant growth or development."
+  },
+  {
+    "id": "maku",
+    "maori": "Māku",
+    "english": "For me",
+    "description": "Possessive pronoun meaning something is for the speaker."
+  },
+  {
+    "id": "ata",
+    "maori": "Ata",
+    "english": "Morning; shadow; form",
+    "description": "Can mean dawn/morning, a shadow, or a form/likeness."
+  },
+  {
+    "id": "mutunga",
+    "maori": "Mutunga",
+    "english": "End, conclusion",
+    "description": "Refers to the final stage or finish of something."
+  },
+  {
+    "id": "whatu",
+    "maori": "Whatu",
+    "english": "Eye; to weave",
+    "description": "Means an eye, or the process of weaving by hand."
+  },
+  {
+    "id": "huia",
+    "maori": "Huia",
+    "english": "Huia (extinct bird); to collect together",
+    "description": "Name of a sacred bird; also verb 'to gather.'"
+  },
+  {
+    "id": "pirangi",
+    "maori": "Pīrangi",
+    "english": "To want, desire",
+    "description": "Verb meaning to wish or crave."
+  },
+  {
+    "id": "waea",
+    "maori": "Waea",
+    "english": "Telephone, wire",
+    "description": "Loanword for phone; also wire/line."
+  },
+  {
+    "id": "whakamaramara",
+    "maori": "Whakamārama",
+    "english": "To explain, clarify; light, lamp",
+    "description": "Verb for explaining; also means illumination or light."
+  },
+  {
+    "id": "tima",
+    "maori": "Tīma",
+    "english": "Team",
+    "description": "Loanword for a sports or work team."
+  },
+  {
+    "id": "waenganui",
+    "maori": "Waenganui",
+    "english": "Middle, midst",
+    "description": "Location at the centre or between things."
+  },
+  {
+    "id": "tiaki",
+    "maori": "Tiaki",
+    "english": "To guard, protect, care for",
+    "description": "Verb meaning to take care of or watch over."
+  },
+  {
+    "id": "oti",
+    "maori": "Oti",
+    "english": "Finished, completed",
+    "description": "Means that something is done or ended."
+  },
+  {
+    "id": "ruma",
+    "maori": "Rūma",
+    "english": "Room",
+    "description": "Loanword for a room in a house or building."
+  },
+  {
+    "id": "mana",
+    "maori": "Mana",
+    "english": "Prestige, authority, spiritual power",
+    "description": "Concept of influence, authority, and respect."
+  },
+  {
+    "id": "taki",
+    "maori": "Taki",
+    "english": "To recite, lead, drag",
+    "description": "Verb for leading or pulling along; also reciting chants."
+  },
+  {
+    "id": "ara",
+    "maori": "Ara",
+    "english": "Path, way",
+    "description": "Road, route, or figurative pathway."
+  },
+  {
+    "id": "hunga",
+    "maori": "Hunga",
+    "english": "Group of people, party",
+    "description": "Collective noun for a set of people."
+  },
+  {
+    "id": "motoka",
+    "maori": "Motokā",
+    "english": "Car",
+    "description": "Loanword for automobile."
+  },
+  {
+    "id": "rahi",
+    "maori": "Rahi",
+    "english": "Large, many",
+    "description": "Describes bigness or abundance."
+  },
+  {
+    "id": "tou",
+    "maori": "Tōu",
+    "english": "Your (singular)",
+    "description": "Possessive determiner for one thing belonging to 'you.'"
+  },
+  {
+    "id": "tawhiti",
+    "maori": "Tawhiti",
+    "english": "Far, distant",
+    "description": "Refers to long distance or remoteness."
+  }
+  {
+    "id": "taku",
+    "maori": "Tāku",
+    "english": "My, mine (singular)",
+    "description": "Possessive determiner used for singular items belonging to the speaker."
+  },
+  {
+    "id": "ako",
+    "maori": "Ako",
+    "english": "To learn, teach",
+    "description": "Verb meaning to acquire knowledge or to instruct others."
+  },
+  {
+    "id": "riro",
+    "maori": "Riro",
+    "english": "Taken, received, gone",
+    "description": "Indicates something has been carried off, received, or lost."
+  },
+  {
+    "id": "kuri",
+    "maori": "Kurī",
+    "english": "Dog",
+    "description": "Domestic dog; the Polynesian dog was also called kurī."
+  },
+  {
+    "id": "wera",
+    "maori": "Wera",
+    "english": "Hot, heat, burn",
+    "description": "Describes high temperature, burning, or fiery heat."
+  },
+  {
+    "id": "mena",
+    "maori": "Mēnā",
+    "english": "If",
+    "description": "Conditional word introducing hypothetical clauses."
+  },
+  {
+    "id": "koia",
+    "maori": "Koia",
+    "english": "That is it; indeed",
+    "description": "Expression of affirmation or emphasis."
+  },
+  {
+    "id": "ngahere",
+    "maori": "Ngahere",
+    "english": "Forest, bush",
+    "description": "General word for wooded or bushy areas."
+  },
+  {
+    "id": "tiro",
+    "maori": "Tiro",
+    "english": "To look, view",
+    "description": "Verb for looking at, examining, or inspecting."
+  },
+  {
+    "id": "ataahua",
+    "maori": "Ātaahua",
+    "english": "Beautiful",
+    "description": "Refers to physical beauty or attractiveness."
+  },
+  {
+    "id": "kararehe",
+    "maori": "Kararehe",
+    "english": "Animal",
+    "description": "Generic word for non-human animals."
+  },
+  {
+    "id": "miharo",
+    "maori": "Mīharo",
+    "english": "Amazing, wonderful; astonished",
+    "description": "Can describe something astonishing or the feeling of wonder."
+  },
+  {
+    "id": "motu",
+    "maori": "Motu",
+    "english": "Island; to be severed",
+    "description": "Refers to land surrounded by water, or to sever/cut off."
+  },
+  {
+    "id": "nuinga",
+    "maori": "Nuinga",
+    "english": "Majority, most",
+    "description": "Refers to the larger part of a group or quantity."
+  },
+  {
+    "id": "reka",
+    "maori": "Reka",
+    "english": "Sweet, delicious",
+    "description": "Describes food or experiences as tasty, pleasant."
+  },
+  {
+    "id": "tai",
+    "maori": "Tai",
+    "english": "Sea, tide, coast",
+    "description": "Refers to the sea, shore, or the ocean tides."
+  },
+  {
+    "id": "eke",
+    "maori": "Eke",
+    "english": "To climb, mount, board",
+    "description": "Verb for getting on or ascending something."
+  },
+  {
+    "id": "kanohi",
+    "maori": "Kanohi",
+    "english": "Face, eye",
+    "description": "Literal face; used in expressions like 'kanohi ki te kanohi' (face to face)."
+  },
+  {
+    "id": "taka",
+    "maori": "Taka",
+    "english": "To fall, drop, revolve",
+    "description": "Verb for falling down or revolving; also means season/time."
+  },
+  {
+    "id": "whakahoki",
+    "maori": "Whakahoki",
+    "english": "To return, reply",
+    "description": "Verb for giving back, answering, or responding."
+  },
+  {
+    "id": "tatari",
+    "maori": "Tatari",
+    "english": "To wait",
+    "description": "Verb for staying in expectation."
+  },
+  {
+    "id": "kata",
+    "maori": "Kata",
+    "english": "To laugh",
+    "description": "Verb for laughing; noun for laughter."
+  },
+  {
+    "id": "toka",
+    "maori": "Toka",
+    "english": "Rock, boulder",
+    "description": "Large stone or rock mass."
+  },
+  {
+    "id": "kino",
+    "maori": "Kino",
+    "english": "Bad, evil, damaged",
+    "description": "Describes negative quality, moral wrongness, or damage."
+  },
+  {
+    "id": "whakarongo",
+    "maori": "Whakarongo",
+    "english": "To listen, hear",
+    "description": "Verb for paying attention with the ears."
+  },
+  {
+    "id": "kotiro",
+    "maori": "Kōtiro",
+    "english": "Girl, daughter",
+    "description": "Refers to a girl or young female child."
+  },
+  {
+    "id": "koroua",
+    "maori": "Koroua",
+    "english": "Elderly man, grandfather",
+    "description": "Respectful term for an old man or grandfather."
+  },
+  {
+    "id": "matauranga",
+    "maori": "Mātauranga",
+    "english": "Knowledge, education",
+    "description": "Refers to knowledge, wisdom, learning."
+  },
+  {
+    "id": "puku",
+    "maori": "Puku",
+    "english": "Stomach; to be silent",
+    "description": "Noun for belly; adjective for keeping quiet."
+  },
+  {
+    "id": "tiki",
+    "maori": "Tiki",
+    "english": "To fetch, get; carved figure",
+    "description": "Verb for bringing something; also carved ancestral figure."
+  },
+  {
+    "id": "hui",
+    "maori": "Hui",
+    "english": "Meeting, gathering",
+    "description": "General term for group meeting or assembly."
+  },
+  {
+    "id": "ono",
+    "maori": "Ono",
+    "english": "Six",
+    "description": "Number six."
+  },
+  {
+    "id": "tamaiti",
+    "maori": "Tamaiti",
+    "english": "Child",
+    "description": "Singular form for child, boy or girl."
+  },
+  {
+    "id": "mataku",
+    "maori": "Mataku",
+    "english": "Fear, frightened",
+    "description": "Describes being afraid or fearful."
+  },
+  {
+    "id": "otira",
+    "maori": "Otirā",
+    "english": "However, but",
+    "description": "Conjunction introducing contrast or qualification."
+  },
+  {
+    "id": "takoto",
+    "maori": "Takoto",
+    "english": "To lie down, be placed",
+    "description": "Verb for reclining or being set down."
+  },
+  {
+    "id": "koro",
+    "maori": "Koro",
+    "english": "Elderly man, grandfather",
+    "description": "Alternative respectful term for old man or grandfather."
+  },
+  {
+    "id": "moni",
+    "maori": "Moni",
+    "english": "Money",
+    "description": "Loanword for currency, money."
+  },
+  {
+    "id": "pu",
+    "maori": "Pū",
+    "english": "Gun; origin, base",
+    "description": "Loanword for firearm; also means root or source."
+  },
+  {
+    "id": "mihini",
+    "maori": "Mīhini",
+    "english": "Machine",
+    "description": "Loanword for machine or device."
+  },
+  {
+    "id": "hoatu",
+    "maori": "Hoatu",
+    "english": "Give (away from speaker)",
+    "description": "Imperative verb meaning 'give (to someone else)'."
+  },
+  {
+    "id": "mahia",
+    "maori": "Mahia",
+    "english": "To be done, worked",
+    "description": "Passive of mahi (to do, work)."
+  },
+  {
+    "id": "paku",
+    "maori": "Paku",
+    "english": "Small, little",
+    "description": "Describes smallness of size or degree."
+  },
+  {
+    "id": "nana",
+    "maori": "Nāna",
+    "english": "His/hers (agent)",
+    "description": "Indicates action done by him/her."
+  },
+  {
+    "id": "haereere",
+    "maori": "Hāereere",
+    "english": "To wander, travel",
+    "description": "Verb for roaming, strolling, or travelling."
+  },
+  {
+    "id": "hoko",
+    "maori": "Hoko",
+    "english": "To buy, sell",
+    "description": "Verb for trading goods."
+  },
+  {
+    "id": "marama",
+    "maori": "Mārama",
+    "english": "Clear, bright; month, moon",
+    "description": "Adjective for clarity/brightness; noun for moon or month."
+  },
+  {
+    "id": "mahana",
+    "maori": "Mahana",
+    "english": "Warm",
+    "description": "Refers to comfortable warmth or heated state."
+  },
+  {
+    "id": "waru",
+    "maori": "Waru",
+    "english": "Eight",
+    "description": "Number eight."
+  },
+  {
+    "id": "ne",
+    "maori": "Nē",
+    "english": "Isn't it?, right?",
+    "description": "Particle used at end of sentence to seek confirmation."
+  },
+  {
+    "id": "marae",
+    "maori": "Marae",
+    "english": "Courtyard, meeting place",
+    "description": "Central communal space of a Māori community."
+  },
+  {
+    "id": "tatau",
+    "maori": "Tatau",
+    "english": "Door; count",
+    "description": "Noun for door; verb for counting."
+  },
+  {
+    "id": "tuhia",
+    "maori": "Tuhia",
+    "english": "To be written",
+    "description": "Passive of tuhi (to write)."
+  },
+  {
+    "id": "hangaia",
+    "maori": "Hangaia",
+    "english": "To be built, created",
+    "description": "Passive of hanga (to build, make)."
+  },
+  {
+    "id": "horoi",
+    "maori": "Horoi",
+    "english": "To wash, clean",
+    "description": "Verb for cleansing or scrubbing."
+  },
+  {
+    "id": "kiri",
+    "maori": "Kiri",
+    "english": "Skin, bark",
+    "description": "Surface of human, animal, or tree."
+  },
+  {
+    "id": "rawe",
+    "maori": "Rawe",
+    "english": "Excellent, great",
+    "description": "Adjective praising quality or performance."
+  },
+  {
+    "id": "waiho",
+    "maori": "Waiho",
+    "english": "To leave, allow",
+    "description": "Verb for leaving something behind or permitting."
+  },
+  {
+    "id": "kemu",
+    "maori": "Kēmu",
+    "english": "Game",
+    "description": "Loanword for a game or match."
+  },
+  {
+    "id": "taniwha",
+    "maori": "Taniwha",
+    "english": "Supernatural being, monster",
+    "description": "Mythical guardian or monster in rivers, caves, or seas."
+  },
+  {
+    "id": "kohanga",
+    "maori": "Kōhanga",
+    "english": "Nest, nursery",
+    "description": "Refers to a nest; in modern usage kōhanga reo = language nest."
+  },
+  {
+    "id": "hikoi",
+    "maori": "Hīkoi",
+    "english": "Walk, march",
+    "description": "Verb for walking; noun for protest march."
+  },
+  {
+    "id": "tukuna",
+    "maori": "Tukuna",
+    "english": "To be released, allowed",
+    "description": "Passive of tuku (to release, allow)."
+  },
+  {
+    "id": "kapa",
+    "maori": "Kapa",
+    "english": "Group, company, team",
+    "description": "Team or performing group (e.g., kapa haka)."
+  },
+  {
+    "id": "whanui",
+    "maori": "Whānui",
+    "english": "Wide, broad",
+    "description": "Describes width or breadth."
+  },
+  {
+    "id": "tuturu",
+    "maori": "Tūturu",
+    "english": "True, real, authentic",
+    "description": "Means genuine, real, or steadfast."
+  },
+  {
+    "id": "haka",
+    "maori": "Haka",
+    "english": "Haka (dance, posture performance)",
+    "description": "Traditional Māori performance dance with chanting."
+  },
+  {
+    "id": "hi",
+    "maori": "Hī",
+    "english": "To fish",
+    "description": "Verb for catching fish with a line or net."
+  },
+  {
+    "id": "koinei",
+    "maori": "Koinei",
+    "english": "This is it",
+    "description": "Expression identifying something close to the speaker."
+  },
+  {
+    "id": "uaua",
+    "maori": "Uaua",
+    "english": "Muscle; difficult",
+    "description": "Means physical muscle or difficulty."
+  },
+  {
+    "id": "whakaae",
+    "maori": "Whakaae",
+    "english": "To agree, consent",
+    "description": "Verb for granting approval or agreement."
+  },
+  {
+    "id": "utu",
+    "maori": "Utu",
+    "english": "Revenge; payment, reciprocity",
+    "description": "Concept of returning actions in kind — repayment, revenge, or compensation."
+  },
+  {
+    "id": "kimi",
+    "maori": "Kimi",
+    "english": "To seek, search",
+    "description": "Verb for looking for something or someone."
+  },
+  {
+    "id": "ina",
+    "maori": "Inā",
+    "english": "Here is; when",
+    "description": "Exclamation of pointing out; also marks time 'when.'"
+  }
+  {
+    "id": "hopu",
+    "maori": "Hopu",
+    "english": "To catch, seize",
+    "description": "Verb meaning to capture, grasp, or take hold of."
+  },
+  {
+    "id": "kawe",
+    "maori": "Kawe",
+    "english": "To carry, convey, bear",
+    "description": "Means to take something or bear responsibility."
+  },
+  {
+    "id": "whetu",
+    "maori": "Whetū",
+    "english": "Star",
+    "description": "Celestial body in the night sky; can also mean a celebrity."
+  },
+  {
+    "id": "mana",
+    "maori": "Māna",
+    "english": "For him/her; authority, prestige",
+    "description": "Possessive particle meaning 'for him/her'; also refers to spiritual power or authority."
+  },
+  {
+    "id": "tua",
+    "maori": "Tua",
+    "english": "Beyond, other side",
+    "description": "Directional term meaning on the far side, across."
+  },
+  {
+    "id": "rangatahi",
+    "maori": "Rangatahi",
+    "english": "Youth, young people",
+    "description": "Collective term for teenagers or young adults."
+  },
+  {
+    "id": "wahine",
+    "maori": "Wāhine",
+    "english": "Women",
+    "description": "Plural form of wāhine — women collectively."
+  },
+  {
+    "id": "mokopuna",
+    "maori": "Mokopuna",
+    "english": "Grandchild, descendant",
+    "description": "Refers to grandchildren or descendants in general."
+  },
+  {
+    "id": "pau",
+    "maori": "Pau",
+    "english": "Consumed, used up",
+    "description": "Means exhausted or completely used up."
+  },
+  {
+    "id": "hu",
+    "maori": "Hū",
+    "english": "Shoe",
+    "description": "Loanword for footwear such as shoes or sneakers."
+  },
+  {
+    "id": "pupuri",
+    "maori": "Pupuri",
+    "english": "To hold, keep, retain",
+    "description": "Means to keep possession of or restrain."
+  },
+  {
+    "id": "taumaha",
+    "maori": "Taumaha",
+    "english": "Heavy, burdensome",
+    "description": "Describes weight or emotional burden."
+  },
+  {
+    "id": "tipuna",
+    "maori": "Tipuna",
+    "english": "Ancestor",
+    "description": "Singular form for ancestor; variant of tūpuna."
+  },
+  {
+    "id": "koa",
+    "maori": "Koa",
+    "english": "Happy, glad",
+    "description": "Expresses joy and pleasure."
+  },
+  {
+    "id": "haerenga",
+    "maori": "Haerenga",
+    "english": "Journey, trip",
+    "description": "Refers to travel or a trip taken."
+  },
+  {
+    "id": "whakahaere",
+    "maori": "Whakahaere",
+    "english": "To manage, organise, direct",
+    "description": "Verb for running or managing something."
+  },
+  {
+    "id": "mata",
+    "maori": "Mata",
+    "english": "Face; edge; raw",
+    "description": "Can mean human face, sharp edge, or uncooked/raw."
+  },
+  {
+    "id": "oho",
+    "maori": "Oho",
+    "english": "To wake, arise",
+    "description": "Verb meaning to awaken or become alert."
+  },
+  {
+    "id": "kati",
+    "maori": "Kāti",
+    "english": "Stop, enough",
+    "description": "Exclamation to cease an action; 'stop!'"
+  },
+  {
+    "id": "kaita",
+    "maori": "Kaitā",
+    "english": "Ferocious, fierce",
+    "description": "Describes someone fierce, aggressive, or destructive."
+  },
+  {
+    "id": "pae",
+    "maori": "Pae",
+    "english": "Horizon, line, perch, bench",
+    "description": "Refers to a horizon line, platform, or bench."
+  },
+  {
+    "id": "putanga",
+    "maori": "Putanga",
+    "english": "Exit, edition, outcome",
+    "description": "Means a way out, a release/publication, or result."
+  },
+  {
+    "id": "karaka",
+    "maori": "Karaka",
+    "english": "Clock; karaka tree",
+    "description": "Loanword for timepiece; also native tree with orange berries."
+  },
+  {
+    "id": "tau",
+    "maori": "Tāu",
+    "english": "Your (singular)",
+    "description": "Possessive determiner showing something belongs to 'you.'"
+  },
+  {
+    "id": "upoko",
+    "maori": "Upoko",
+    "english": "Head",
+    "description": "Literal head of a person; also used for chief/leader."
+  },
+  {
+    "id": "tipuna",
+    "maori": "Tīpuna",
+    "english": "Ancestors",
+    "description": "Plural form for forebears or ancestral figures."
+  },
+  {
+    "id": "panui",
+    "maori": "Pānui",
+    "english": "Notice, announcement; to read",
+    "description": "Noun for notice/poster; verb meaning to read or announce."
+  },
+  {
+    "id": "patu",
+    "maori": "Patu",
+    "english": "To strike, hit; club/weapon",
+    "description": "Verb for hitting; also a traditional weapon."
+  },
+  {
+    "id": "wiki",
+    "maori": "Wiki",
+    "english": "Week",
+    "description": "Loanword for week."
+  },
+  {
+    "id": "rohe",
+    "maori": "Rohe",
+    "english": "Region, district, boundary",
+    "description": "Area or territory under a group's authority."
+  },
+  {
+    "id": "kanikani",
+    "maori": "Kanikani",
+    "english": "Dance",
+    "description": "Modern word for dancing to music."
+  },
+  {
+    "id": "kaukau",
+    "maori": "Kaukau",
+    "english": "To bathe, swim",
+    "description": "Verb for washing or swimming."
+  },
+  {
+    "id": "whero",
+    "maori": "Whero",
+    "english": "Red",
+    "description": "Name of the colour red."
+  },
+  {
+    "id": "ngakau",
+    "maori": "Ngākau",
+    "english": "Heart, feelings",
+    "description": "Seat of emotions, feelings, and thoughts."
+  },
+  {
+    "id": "ngawari",
+    "maori": "Ngāwari",
+    "english": "Gentle, easy, soft",
+    "description": "Describes kindness, gentleness, or ease."
+  },
+  {
+    "id": "peke",
+    "maori": "Peke",
+    "english": "To jump, leap",
+    "description": "Verb meaning to spring up or jump."
+  },
+  {
+    "id": "hine",
+    "maori": "Hine",
+    "english": "Girl, daughter",
+    "description": "Term for girl or young woman; often used in names."
+  },
+  {
+    "id": "waha",
+    "maori": "Waha",
+    "english": "Mouth",
+    "description": "Body part used for speaking or eating."
+  },
+  {
+    "id": "oranga",
+    "maori": "Oranga",
+    "english": "Welfare, livelihood, wellbeing",
+    "description": "Relates to life, survival, and living well."
+  },
+  {
+    "id": "tohutohu",
+    "maori": "Tohutohu",
+    "english": "Instructions, guidance",
+    "description": "Refers to directions, advice, or commands."
+  },
+  {
+    "id": "wehi",
+    "maori": "Wehi",
+    "english": "Fear, awe",
+    "description": "Respectful fear, reverence, or dread."
+  },
+  {
+    "id": "karu",
+    "maori": "Karu",
+    "english": "Eye",
+    "description": "Synonym for kanohi (eye)."
+  },
+  {
+    "id": "taputapu",
+    "maori": "Taputapu",
+    "english": "Tools, equipment",
+    "description": "Objects or gear used for a task."
+  },
+  {
+    "id": "whiwhi",
+    "maori": "Whiwhi",
+    "english": "To get, obtain",
+    "description": "Verb for acquiring or receiving."
+  },
+  {
+    "id": "peke",
+    "maori": "Pēke",
+    "english": "Bag, bank",
+    "description": "Loanword meaning bag, sack, or bank institution."
+  },
+  {
+    "id": "taenga",
+    "maori": "Taenga",
+    "english": "Arrival",
+    "description": "Refers to the act of coming or arriving."
+  },
+  {
+    "id": "whiti",
+    "maori": "Whiti",
+    "english": "To shine, cross over",
+    "description": "Verb for shining light or crossing a space."
+  },
+  {
+    "id": "matakitaki",
+    "maori": "Mātakitaki",
+    "english": "To watch, gaze",
+    "description": "Verb for closely observing or viewing."
+  },
+  {
+    "id": "whakamahi",
+    "maori": "Whakamahi",
+    "english": "To use, employ",
+    "description": "Verb for making use of something."
+  },
+  {
+    "id": "tango",
+    "maori": "Tango",
+    "english": "To take, remove",
+    "description": "Verb for removing or seizing something."
+  },
+  {
+    "id": "whakaata",
+    "maori": "Whakaata",
+    "english": "Reflection; television",
+    "description": "Means to reflect an image; also used for television."
+  },
+  {
+    "id": "he",
+    "maori": "Hē",
+    "english": "Wrong, error",
+    "description": "Adjective for being incorrect; noun for mistake."
+  },
+  {
+    "id": "raruraru",
+    "maori": "Raruraru",
+    "english": "Trouble, problem",
+    "description": "Refers to complications or difficulties."
+  },
+  {
+    "id": "tonga",
+    "maori": "Tonga",
+    "english": "South; prized possession",
+    "description": "Direction 'south'; also means treasure or prized thing."
+  },
+  {
+    "id": "miraka",
+    "maori": "Miraka",
+    "english": "Milk",
+    "description": "Loanword for milk."
+  },
+  {
+    "id": "moenga",
+    "maori": "Moenga",
+    "english": "Bed",
+    "description": "Resting place for sleeping."
+  },
+  {
+    "id": "tautoko",
+    "maori": "Tautoko",
+    "english": "Support, advocate",
+    "description": "Verb for endorsing or assisting someone."
+  },
+  {
+    "id": "whawhai",
+    "maori": "Whawhai",
+    "english": "To fight, struggle",
+    "description": "Refers to combat or struggle, literal or figurative."
+  },
+  {
+    "id": "tirohia",
+    "maori": "Tirohia",
+    "english": "Look at! Examine!",
+    "description": "Imperative/passive of tiro (to look)."
+  },
+  {
+    "id": "whakamahia",
+    "maori": "Whakamahia",
+    "english": "To be used",
+    "description": "Passive form of whakamahi (to use)."
+  },
+  {
+    "id": "ahu",
+    "maori": "Ahu",
+    "english": "Direction; to tend toward, shape",
+    "description": "Refers to orientation, growth, or form."
+  },
+  {
+    "id": "mahanga",
+    "maori": "Māhanga",
+    "english": "Twin, pair; trap",
+    "description": "Means set of twins, or a snare for catching birds."
+  },
+  {
+    "id": "ngaru",
+    "maori": "Ngaru",
+    "english": "Wave (of sea)",
+    "description": "Sea waves; also used metaphorically for surges."
+  },
+  {
+    "id": "poto",
+    "maori": "Poto",
+    "english": "Short",
+    "description": "Describes smallness of length, size, or brevity."
+  },
+  {
+    "id": “inaianei",
+    "maori": “ināianei",
+    "english": "Now, at present",
+    "description": "Refers to the present moment."
+  },
+  {
+    "id": "manawa",
+    "maori": "Manawa",
+    "english": "Heart, breath, spirit",
+    "description": "Refers to heart or seat of emotions; also breath."
+  },
+  {
+    "id": "ture",
+    "maori": "Ture",
+    "english": "Law, rule",
+    "description": "Loanword for legal rules and regulations."
+  },
+  {
+    "id": "matau",
+    "maori": "Matau",
+    "english": "Right (direction); fish hook",
+    "description": "Means right-hand side; also hook for fishing."
+  },
+  {
+    "id": "mura",
+    "maori": "Mura",
+    "english": "Flame, blaze",
+    "description": "Refers to firelight or blazing flame."
+  },
+  {
+    "id": "iwa",
+    "maori": "Iwa",
+    "english": "Nine",
+    "description": "Number nine."
+  },
+  {
+    "id": "ou",
+    "maori": "Ōu",
+    "english": "Your (plural)",
+    "description": "Possessive form for multiple belongings of 'you.'"
+  },
+  {
+    "id": "potae",
+    "maori": "Pōtae",
+    "english": "Hat, cap",
+    "description": "Headwear such as hats or caps."
+  },
+  {
+    "id": "teitei",
+    "maori": "Teitei",
+    "english": "Tall, high",
+    "description": "Describes height, elevation, or loftiness."
+  },
+  {
+    "id": "atua",
+    "maori": "Atua",
+    "english": "God, deity, ancestor with continuing influence",
+    "description": "Refers to spiritual beings, gods, or powerful ancestors."
+  }
+  {
+    "id": "tokorua",
+    "maori": "Tokorua",
+    "english": "Two people",
+    "description": "Numeral prefix 'toko-' for counting people; means a pair of people."
+  },
+  {
+    "id": "nama",
+    "maori": "Nama",
+    "english": "Number; debt",
+    "description": "Loanword used for numbers and financial debt."
+  },
+  {
+    "id": "poaka",
+    "maori": "Poaka",
+    "english": "Pig",
+    "description": "Domestic pig; also used metaphorically."
+  },
+  {
+    "id": "tini",
+    "maori": "Tini",
+    "english": "Many, numerous",
+    "description": "Means a multitude or large number of things/people."
+  },
+  {
+    "id": "tohunga",
+    "maori": "Tohunga",
+    "english": "Expert, specialist, priest",
+    "description": "Traditional expert in spiritual, practical, or technical fields."
+  },
+  {
+    "id": "waimarie",
+    "maori": "Waimarie",
+    "english": "Lucky, fortunate",
+    "description": "Describes good fortune or luck."
+  },
+  {
+    "id": "kiwi",
+    "maori": "Kiwi",
+    "english": "Kiwi (bird); New Zealander",
+    "description": "Native flightless bird; also nickname for New Zealanders."
+  },
+  {
+    "id": "ko",
+    "maori": "Kō",
+    "english": "Digging stick; to speak",
+    "description": "Noun: traditional digging implement. Verb: to address or speak."
+  },
+  {
+    "id": "kuhu",
+    "maori": "Kuhu",
+    "english": "To enter, put on",
+    "description": "Verb for entering or putting on clothing."
+  },
+  {
+    "id": "whea",
+    "maori": "Whea",
+    "english": "Where?",
+    "description": "Question word asking location."
+  },
+  {
+    "id": "neke",
+    "maori": "Neke",
+    "english": "To move, shift",
+    "description": "Verb for moving or shifting position."
+  },
+  {
+    "id": "tangohia",
+    "maori": "Tangohia",
+    "english": "To be taken, removed",
+    "description": "Passive of tango (to take)."
+  },
+  {
+    "id": "mano",
+    "maori": "Mano",
+    "english": "Thousand; multitude",
+    "description": "Numerical value 1000; also a great many."
+  },
+  {
+    "id": "hoiho",
+    "maori": "Hōiho",
+    "english": "Horse",
+    "description": "Loanword for horse; also a species of penguin (Hoiho)."
+  },
+  {
+    "id": "taringa",
+    "maori": "Taringa",
+    "english": "Ear",
+    "description": "Body part used for hearing."
+  },
+  {
+    "id": "hiko",
+    "maori": "Hiko",
+    "english": "Electricity; lightning",
+    "description": "Refers to electric power or natural lightning."
+  },
+  {
+    "id": "rorohiko",
+    "maori": "Rorohiko",
+    "english": "Computer",
+    "description": "Modern Māori word for computer; literally 'lightning brain.'"
+  },
+  {
+    "id": "tapu",
+    "maori": "Tapu",
+    "english": "Sacred, restricted",
+    "description": "State of being sacred or under restriction."
+  },
+  {
+    "id": "orite",
+    "maori": "Ōrite",
+    "english": "Equal, alike",
+    "description": "Describes similarity or equality."
+  },
+  {
+    "id": "whangai",
+    "maori": "Whāngai",
+    "english": "To feed; foster child",
+    "description": "Verb for feeding; noun for adopted/foster child."
+  },
+  {
+    "id": "hika",
+    "maori": "Hika",
+    "english": "Term of address (friend, relative); to rub for fire",
+    "description": "Used as an address of affection; also verb for making fire by friction."
+  },
+  {
+    "id": "ina",
+    "maori": "Ina",
+    "english": "When (specific); behold",
+    "description": "Used in temporal clauses 'when'; also exclamatory."
+  },
+  {
+    "id": "tupato",
+    "maori": "Tūpato",
+    "english": "Be careful, cautious",
+    "description": "Warning to take care, be wary."
+  },
+  {
+    "id": "huna",
+    "maori": "Huna",
+    "english": "To hide, conceal",
+    "description": "Verb meaning to cover up or keep secret."
+  },
+  {
+    "id": "kaitiaki",
+    "maori": "Kaitiaki",
+    "english": "Guardian, caretaker",
+    "description": "Person or being who protects, cares for, or preserves."
+  },
+  {
+    "id": "kui",
+    "maori": "Kui",
+    "english": "Elderly woman",
+    "description": "Respectful address for an old woman."
+  },
+  {
+    "id": "hinga",
+    "maori": "Hinga",
+    "english": "To fall, collapse",
+    "description": "Refers to falling down, dying, or collapsing."
+  },
+  {
+    "id": "tutaki",
+    "maori": "Tūtaki",
+    "english": "To meet; to close",
+    "description": "Can mean to meet someone, or to shut/close something."
+  },
+  {
+    "id": "aho",
+    "maori": "Aho",
+    "english": "Thread, line",
+    "description": "String, fishing line, or thread."
+  },
+  {
+    "id": "akonga",
+    "maori": "Ākonga",
+    "english": "Student, learner",
+    "description": "Person engaged in study or learning."
+  },
+  {
+    "id": "hiki",
+    "maori": "Hiki",
+    "english": "To lift, raise",
+    "description": "Verb meaning to elevate or raise up."
+  },
+  {
+    "id": "pepi",
+    "maori": "Pēpi",
+    "english": "Baby",
+    "description": "Infant, newborn child."
+  },
+  {
+    "id": "takiwa",
+    "maori": "Takiwā",
+    "english": "Time, period; district, region",
+    "description": "Spans both time and space — time period or geographical area."
+  },
+  {
+    "id": "toroa",
+    "maori": "Toroa",
+    "english": "Albatross",
+    "description": "Large seabird with spiritual significance."
+  },
+  {
+    "id": "hari",
+    "maori": "Hari",
+    "english": "To carry, bring; to be joyful",
+    "description": "Verb meaning to transport; also expresses joy."
+  },
+  {
+    "id": "koka",
+    "maori": "Kōkā",
+    "english": "Mother, aunt",
+    "description": "Respectful term for mother or maternal aunt."
+  },
+  {
+    "id": "mahara",
+    "maori": "Mahara",
+    "english": "Thought, memory",
+    "description": "Mental faculty of thinking and remembering."
+  },
+  {
+    "id": "pena",
+    "maori": "Pēnā",
+    "english": "Like that (near listener)",
+    "description": "Demonstrative meaning 'like that, in that way.'"
+  },
+  {
+    "id": "wharangi",
+    "maori": "Whārangi",
+    "english": "Page",
+    "description": "Page of a book, document, or website."
+  },
+  {
+    "id": "au",
+    "maori": "Āu",
+    "english": "Your (plural possessions)",
+    "description": "Possessive form for things belonging to 'you.'"
+  },
+  {
+    "id": "kaiako",
+    "maori": "Kaiako",
+    "english": "Teacher",
+    "description": "Person who teaches; agent noun from ako (to learn/teach)."
+  },
+  {
+    "id": "piri",
+    "maori": "Piri",
+    "english": "To cling, stick close",
+    "description": "Verb for attaching or staying close."
+  },
+  {
+    "id": "uri",
+    "maori": "Uri",
+    "english": "Descendant, offspring",
+    "description": "Refers to children, descendants, posterity."
+  },
+  {
+    "id": "mamae",
+    "maori": "Mamae",
+    "english": "Pain, hurt, sore",
+    "description": "Physical or emotional pain."
+  },
+  {
+    "id": "kaimahi",
+    "maori": "Kaimahi",
+    "english": "Worker, staff member",
+    "description": "Agent noun from mahi (work)."
+  },
+  {
+    "id": "mahunga",
+    "maori": "Māhunga",
+    "english": "Head",
+    "description": "Body part; also metaphorically leader."
+  },
+  {
+    "id": "wawata",
+    "maori": "Wawata",
+    "english": "Desire, aspiration",
+    "description": "Refers to hopes, longings, or wishes."
+  },
+  {
+    "id": "heki",
+    "maori": "Hēki",
+    "english": "Egg",
+    "description": "Loanword for chicken egg."
+  },
+  {
+    "id": "moemoea",
+    "maori": "Moemoeā",
+    "english": "Dream",
+    "description": "Vision or dream experienced in sleep."
+  },
+  {
+    "id": "poro",
+    "maori": "Pōro",
+    "english": "Ball",
+    "description": "Loanword for ball (sports)."
+  },
+  {
+    "id": "rapu",
+    "maori": "Rapu",
+    "english": "To seek, search",
+    "description": "Verb for looking for or searching out."
+  },
+  {
+    "id": "wananga",
+    "maori": "Wānanga",
+    "english": "Learning, forum, tertiary institution",
+    "description": "Traditional or modern higher learning context."
+  },
+  {
+    "id": "kainga",
+    "maori": "Kāinga",
+    "english": "Home, village",
+    "description": "Dwelling place, settlement, home."
+  },
+  {
+    "id": "ngutu",
+    "maori": "Ngutu",
+    "english": "Lip; beak",
+    "description": "Refers to lips of people or beaks of birds."
+  },
+  {
+    "id": "hinengaro",
+    "maori": "Hinengaro",
+    "english": "Mind, thoughts",
+    "description": "Mental faculties; inner thoughts and feelings."
+  },
+  {
+    "id": "whitu",
+    "maori": "Whitu",
+    "english": "Seven",
+    "description": "Number seven."
+  },
+  {
+    "id": "ha",
+    "maori": "Hā",
+    "english": "Breath",
+    "description": "The breath of life, vital essence."
+  },
+  {
+    "id": "kaumatua",
+    "maori": "Kaumātua",
+    "english": "Elder",
+    "description": "Respected elder of a community."
+  },
+  {
+    "id": "mau",
+    "maori": "Māu",
+    "english": "For you",
+    "description": "Possessive pronoun meaning 'for you.'"
+  },
+  {
+    "id": "moutere",
+    "maori": "Moutere",
+    "english": "Island",
+    "description": "Land mass surrounded by water."
+  },
+  {
+    "id": "taone",
+    "maori": "Tāone",
+    "english": "Town, city",
+    "description": "Urban settlement; modern Māori word for city."
+  },
+  {
+    "id": "karakia",
+    "maori": "Karakia",
+    "english": "Prayer, incantation",
+    "description": "Traditional chant or modern prayer."
+  },
+  {
+    "id": "mokai",
+    "maori": "Mōkai",
+    "english": "Pet, servant",
+    "description": "Domesticated animal; also refers historically to a servant/slave."
+  },
+  {
+    "id": "pakanga",
+    "maori": "Pakanga",
+    "english": "Battle, war",
+    "description": "Armed conflict or war."
+  },
+  {
+    "id": "riwai",
+    "maori": "Rīwai",
+    "english": "Potato",
+    "description": "Loanword for potato."
+  },
+  {
+    "id": "pi",
+    "maori": "Pī",
+    "english": "Bee; chirp",
+    "description": "Refers to bee insect, or sound of chirping."
+  },
+  {
+    "id": "hinu",
+    "maori": "Hinu",
+    "english": "Oil, fat",
+    "description": "Fat or oil used for cooking or fuel."
+  },
+  {
+    "id": "pouri",
+    "maori": "Pōuri",
+    "english": "Dark; sad",
+    "description": "Means darkness or sorrow."
+  },
+  {
+    "id": "ahiahi",
+    "maori": "Ahiahi",
+    "english": "Afternoon, evening",
+    "description": "Time of day after midday."
+  },
+  {
+    "id": "haruru",
+    "maori": "Haruru",
+    "english": "To rumble, resound",
+    "description": "Loud reverberating noise, thunderous sound."
+  },
+  {
+    "id": "kao",
+    "maori": "Kāo",
+    "english": "No",
+    "description": "Informal word for 'no' in reply."
+  },
+  {
+    "id": "kapu",
+    "maori": "Kapu",
+    "english": "Cup",
+    "description": "Drinking vessel."
+  },
+  {
+    "id": "poti",
+    "maori": "Pōti",
+    "english": "Boat; vote",
+    "description": "Loanword for boat or the act of voting."
+  },
+  {
+    "id": "wareware",
+    "maori": "Wareware",
+    "english": "Forget, forgotten",
+    "description": "Verb meaning to forget; adjective for being forgotten."
+  }
+  {
+    "id": "whakarite",
+    "maori": "Whakarite",
+    "english": "To arrange, prepare, compare",
+    "description": "Means to organise or prepare; can also mean to liken or compare."
+  },
+  {
+    "id": "anga",
+    "maori": "Anga",
+    "english": "Shell, framework; to face towards",
+    "description": "Can be a physical shell or structure, or a verb meaning to turn toward."
+  },
+  {
+    "id": "kari",
+    "maori": "Kāri",
+    "english": "Card",
+    "description": "Loanword for card (playing card, ID card, etc.)."
+  },
+  {
+    "id": "rino",
+    "maori": "Rino",
+    "english": "Iron, steel",
+    "description": "Refers to metal iron/steel."
+  },
+  {
+    "id": "tono",
+    "maori": "Tono",
+    "english": "Request, apply, command",
+    "description": "Verb to ask or apply for; noun meaning application or request."
+  },
+  {
+    "id": "whakawhiti",
+    "maori": "Whakawhiti",
+    "english": "To cross, transfer",
+    "description": "Crossing over, exchanging, or transferring."
+  },
+  {
+    "id": "tehea",
+    "maori": "Tēhea",
+    "english": "Which?",
+    "description": "Question word used to ask which one."
+  },
+  {
+    "id": "teteki",
+    "maori": "Tētehi",
+    "english": "A certain, one of",
+    "description": "Indefinite determiner for 'a' or 'one (of).'"
+  },
+  {
+    "id": "hakinakina",
+    "maori": "Hākinakina",
+    "english": "Sport, games",
+    "description": "Modern Māori term for physical games and sport."
+  },
+  {
+    "id": "mahue",
+    "maori": "Mahue",
+    "english": "Left behind, missed",
+    "description": "Describes being left out or something remaining."
+  },
+  {
+    "id": "maumahara",
+    "maori": "Maumahara",
+    "english": "To remember, memory",
+    "description": "Refers to recollection or memory."
+  },
+  {
+    "id": "taura",
+    "maori": "Taura",
+    "english": "Rope, cord, string",
+    "description": "General term for rope or cordage."
+  },
+  {
+    "id": "ahei",
+    "maori": "Āhei",
+    "english": "Able, capable, permitted",
+    "description": "Refers to ability or permission to do something."
+  },
+  {
+    "id": "kaipuke",
+    "maori": "Kaipuke",
+    "english": "Ship, vessel",
+    "description": "Large sea-going vessel."
+  },
+  {
+    "id": "ohorere",
+    "maori": "Ohorere",
+    "english": "Surprised, sudden",
+    "description": "Refers to shock or unexpected occurrence."
+  },
+  {
+    "id": "paraoa",
+    "maori": "Parāoa",
+    "english": "Bread; sperm whale",
+    "description": "Loanword for bread; also the sperm whale."
+  },
+  {
+    "id": "peka",
+    "maori": "Peka",
+    "english": "Branch; to turn aside",
+    "description": "Tree branch or offshoot; also deviation or detour."
+  },
+  {
+    "id": "puare",
+    "maori": "Puare",
+    "english": "Open, opening",
+    "description": "Means an opening or gap; also verb 'to be open.'"
+  },
+  {
+    "id": "puke",
+    "maori": "Puke",
+    "english": "Hill",
+    "description": "Small mountain, mound, or hill."
+  },
+  {
+    "id": "kohatu",
+    "maori": "Kōhatu",
+    "english": "Stone, rock",
+    "description": "General term for stones and rocks."
+  },
+  {
+    "id": "tahuri",
+    "maori": "Tahuri",
+    "english": "To turn, capsize",
+    "description": "Refers to turning over or capsizing."
+  },
+  {
+    "id": "tuatoru",
+    "maori": "Tuatoru",
+    "english": "Third",
+    "description": "Ordinal number — third in sequence."
+  },
+  {
+    "id": "wairua",
+    "maori": "Wairua",
+    "english": "Spirit, soul",
+    "description": "Refers to spiritual essence or soul of a person."
+  },
+  {
+    "id": "wehe",
+    "maori": "Wehe",
+    "english": "Separate, depart",
+    "description": "Verb for separating or leaving."
+  },
+  {
+    "id": "mona",
+    "maori": "Mōna",
+    "english": "For him/her",
+    "description": "Possessive form meaning 'for him/her.'"
+  },
+  {
+    "id": "whakamatau",
+    "maori": "Whakamātau",
+    "english": "To try, experiment, test",
+    "description": "Verb for attempting or testing."
+  },
+  {
+    "id": "whakamutunga",
+    "maori": "Whakamutunga",
+    "english": "End, conclusion",
+    "description": "Final part of something; conclusion."
+  },
+  {
+    "id": "whakapono",
+    "maori": "Whakapono",
+    "english": "Faith, belief",
+    "description": "Religious or personal faith and trust."
+  },
+  {
+    "id": "inu",
+    "maori": "Inu",
+    "english": "Drink",
+    "description": "Verb: to drink. Noun: a beverage."
+  },
+  {
+    "id": "tepu",
+    "maori": "Tēpu",
+    "english": "Table",
+    "description": "Loanword for table."
+  },
+  {
+    "id": "tiriti",
+    "maori": "Tiriti",
+    "english": "Street; treaty",
+    "description": "Means street/road; also used in 'Te Tiriti' (The Treaty)."
+  },
+  {
+    "id": "huruhuru",
+    "maori": "Huruhuru",
+    "english": "Feathers, hair",
+    "description": "Refers to body hair or bird feathers."
+  },
+  {
+    "id": "one",
+    "maori": "One",
+    "english": "Sand, beach",
+    "description": "Word for sandy beach or soil."
+  },
+  {
+    "id": "kahurangi",
+    "maori": "Kahurangi",
+    "english": "Blue; precious, esteemed",
+    "description": "Can mean the colour blue, or someone treasured."
+  },
+  {
+    "id": "mahere",
+    "maori": "Mahere",
+    "english": "Plan, map",
+    "description": "Diagram, strategy, or layout plan."
+  },
+  {
+    "id": "makawe",
+    "maori": "Makawe",
+    "english": "Hair (of the head)",
+    "description": "Refers specifically to head hair."
+  },
+  {
+    "id": "rama",
+    "maori": "Rama",
+    "english": "Lamp, light, torch",
+    "description": "Device for giving light; also verb to shine."
+  },
+  {
+    "id": "roimata",
+    "maori": "Roimata",
+    "english": "Tear (from the eye)",
+    "description": "Drops of tears shed when crying."
+  },
+  {
+    "id": "whakatau",
+    "maori": "Whakatau",
+    "english": "To settle, decide; welcome ceremony",
+    "description": "Means to make a decision or to settle guests."
+  },
+  {
+    "id": "kauwhata",
+    "maori": "Kauwhata",
+    "english": "Graph, chart",
+    "description": "Modern Māori term for diagram or chart."
+  },
+  {
+    "id": "niho",
+    "maori": "Niho",
+    "english": "Tooth",
+    "description": "Teeth of humans or animals; also gear teeth."
+  },
+  {
+    "id": "nunui",
+    "maori": "Nunui",
+    "english": "Big, large",
+    "description": "Intensified form of nui (big)."
+  },
+  {
+    "id": "paepae",
+    "maori": "Paepae",
+    "english": "Threshold, beam, orators' bench",
+    "description": "Can mean structural beam or the speaking bench on a marae."
+  },
+  {
+    "id": "rongonui",
+    "maori": "Rongonui",
+    "english": "Famous, well-known",
+    "description": "Refers to renown or fame."
+  },
+  {
+    "id": "watea",
+    "maori": "Wātea",
+    "english": "Free, unoccupied, clear",
+    "description": "Describes being available or unobstructed."
+  },
+  {
+    "id": "arai",
+    "maori": "Ārai",
+    "english": "Curtain, screen, shield",
+    "description": "Something that blocks or protects."
+  },
+  {
+    "id": "pounamu",
+    "maori": "Pounamu",
+    "english": "Greenstone, jade",
+    "description": "Highly prized stone, often carved into taonga."
+  },
+  {
+    "id": "ringaringa",
+    "maori": "Ringaringa",
+    "english": "Hand, arm",
+    "description": "Refers to hand or forearm."
+  },
+  {
+    "id": "haramai",
+    "maori": "Haramai (Haere mai)",
+    "english": "Come here, welcome",
+    "description": "Expression for inviting or welcoming someone to approach."
+  },
+  {
+    "id": "mauria",
+    "maori": "Mauria",
+    "english": "To be carried, brought",
+    "description": "Passive of mau (to carry, hold)."
+  },
+  {
+    "id": "taraka",
+    "maori": "Taraka",
+    "english": "Truck",
+    "description": "Loanword for motor truck or lorry."
+  },
+  {
+    "id": "oneone",
+    "maori": "Oneone",
+    "english": "Soil, earth",
+    "description": "Refers to cultivated earth or dirt."
+  },
+  {
+    "id": "taumata",
+    "maori": "Taumata",
+    "english": "Summit, level, platform",
+    "description": "Top point or stage of something."
+  },
+  {
+    "id": "hoariri",
+    "maori": "Hoariri",
+    "english": "Enemy, opponent",
+    "description": "Refers to adversary in conflict."
+  },
+  {
+    "id": "hokinga",
+    "maori": "Hokinga",
+    "english": "Return, retreat",
+    "description": "The act of going back, returning."
+  },
+  {
+    "id": "kitenga",
+    "maori": "Kitenga",
+    "english": "Sight, discovery",
+    "description": "What is seen, finding or discovery."
+  },
+  {
+    "id": "puna",
+    "maori": "Puna",
+    "english": "Spring, well, fountain",
+    "description": "Source of water or supply; also metaphorical source."
+  },
+  {
+    "id": "tirotiro",
+    "maori": "Tirotiro",
+    "english": "To look at, examine",
+    "description": "To inspect or survey carefully."
+  },
+  {
+    "id": "whakamuri",
+    "maori": "Whakamuri",
+    "english": "Backwards, behind",
+    "description": "Indicates direction or movement to the rear."
+  },
+  {
+    "id": "whakatipu",
+    "maori": "Whakatipu",
+    "english": "To grow, raise",
+    "description": "Verb for fostering growth of plants, children, or ideas."
+  },
+  {
+    "id": "aku",
+    "maori": "Āku",
+    "english": "My (plural)",
+    "description": "Possessive determiner for things belonging to the speaker (plural)."
+  },
+  {
+    "id": "hoe",
+    "maori": "Hoe",
+    "english": "Paddle, oar",
+    "description": "Used to propel a canoe or boat."
+  },
+  {
+    "id": "karani",
+    "maori": "Karani",
+    "english": "Clerk, secretary",
+    "description": "Loanword for clerical or administrative worker."
+  },
+  {
+    "id": "nuku",
+    "maori": "Nuku",
+    "english": "Earth, land; to move",
+    "description": "Can mean the Earth/land, or verb 'to move, shift.'"
+  },
+  {
+    "id": "poi",
+    "maori": "Poi",
+    "english": "Poi (ball on string); performance dance",
+    "description": "Traditional performance implement and associated dance."
+  },
+  {
+    "id": "tumanako",
+    "maori": "Tūmanako",
+    "english": "Hope, desire",
+    "description": "Refers to wishing or hoping for something."
+  },
+  {
+    "id": "turanga",
+    "maori": "Tūranga",
+    "english": "Position, place, stance",
+    "description": "Refers to physical standing place or figurative role/position."
+  },
+  {
+    "id": "uta",
+    "maori": "Uta",
+    "english": "Inland; to load",
+    "description": "Refers to inland areas; also verb to load cargo."
+  },
+  {
+    "id": "pirihimana",
+    "maori": "Pirihimana",
+    "english": "Police",
+    "description": "Loanword used for police force."
+  },
+  {
+    "id": "punua",
+    "maori": "Punua",
+    "english": "Young (animal), puppy",
+    "description": "Refers to young offspring of animals."
+  },
+  {
+    "id": "pupuhi",
+    "maori": "Pupuhi",
+    "english": "To blow, shoot",
+    "description": "Can mean blowing of wind, or shooting a weapon."
+  },
+  {
+    "id": "whakamau",
+    "maori": "Whakamau",
+    "english": "To put on, fasten, hold",
+    "description": "Means wearing clothing, fastening, or holding a grudge."
+  },
+  {
+    "id": "ana",
+    "maori": "Anā",
+    "english": "There (near you); behold!",
+    "description": "Locative 'there' (near listener), also an exclamation."
+  },
+  {
+    "id": "aro",
+    "maori": "Aro",
+    "english": "To pay attention, focus",
+    "description": "Verb meaning to notice, heed, or show concern."
+  }
+  {
+    "id": "kiore",
+    "maori": "Kiore",
+    "english": "Rat",
+    "description": "Native Polynesian rat, important in Māori tradition."
+  },
+  {
+    "id": "makariri",
+    "maori": "Makariri",
+    "english": "Cold, winter",
+    "description": "Refers to low temperature or the winter season."
+  },
+  {
+    "id": "whakararo",
+    "maori": "Whakararo",
+    "english": "Downwards",
+    "description": "Directional term meaning toward below."
+  },
+  {
+    "id": "apopo",
+    "maori": "Āpōpō",
+    "english": "Tomorrow",
+    "description": "Refers to the day after today."
+  },
+  {
+    "id": "naku",
+    "maori": "Nāku",
+    "english": "Mine (by me)",
+    "description": "Possessive pronoun showing ownership by the speaker."
+  },
+  {
+    "id": "painga",
+    "maori": "Painga",
+    "english": "Benefit, advantage",
+    "description": "Refers to good outcome, advantage, or blessing."
+  },
+  {
+    "id": "putaiao",
+    "maori": "Pūtaiao",
+    "english": "Science",
+    "description": "Modern Māori term for science."
+  },
+  {
+    "id": "ua",
+    "maori": "Ua",
+    "english": "Rain",
+    "description": "Rainfall, showers."
+  },
+  {
+    "id": "whakangahau",
+    "maori": "Whakangahau",
+    "english": "To entertain, amuse",
+    "description": "Can refer to hosting, amusing, or putting on entertainment."
+  },
+  {
+    "id": "maharahara",
+    "maori": "Māharahara",
+    "english": "Anxious, worried",
+    "description": "State of concern or unease."
+  },
+  {
+    "id": "pakaru",
+    "maori": "Pakaru",
+    "english": "Broken, smashed",
+    "description": "Describes breakage, damage, or fracture."
+  },
+  {
+    "id": "whakaari",
+    "maori": "Whakaari",
+    "english": "Drama, play, performance",
+    "description": "Theatrical performance or acting; also means to display."
+  },
+  {
+    "id": "maui",
+    "maori": "Mauī",
+    "english": "Left (direction); Māui (demigod)",
+    "description": "Refers to left-hand side, or the cultural hero Māui."
+  },
+  {
+    "id": "putiputi",
+    "maori": "Putiputi",
+    "english": "Flower",
+    "description": "Loanword for flower, common term for blossoms."
+  },
+  {
+    "id": "timatanga",
+    "maori": "Tīmatanga",
+    "english": "Beginning, start",
+    "description": "Refers to the start or origin of something."
+  },
+  {
+    "id": "ihu",
+    "maori": "Ihu",
+    "english": "Nose",
+    "description": "Body part; also the prow of a canoe."
+  },
+  {
+    "id": "raki",
+    "maori": "Raki",
+    "english": "North; sky",
+    "description": "Refers to the north direction or the heavens."
+  },
+  {
+    "id": "rererangi",
+    "maori": "Rererangi",
+    "english": "Airplane; airspace",
+    "description": "Modern compound: rererangi = flying in the sky."
+  },
+  {
+    "id": "maroke",
+    "maori": "Maroke",
+    "english": "Dry",
+    "description": "Without moisture; opposite of wet."
+  },
+  {
+    "id": "matapihi",
+    "maori": "Matapihi",
+    "english": "Window",
+    "description": "Literally 'eye hole'; a window opening."
+  },
+  {
+    "id": "ngeru",
+    "maori": "Ngeru",
+    "english": "Cat",
+    "description": "Domestic cat."
+  },
+  {
+    "id": "pene",
+    "maori": "Pene",
+    "english": "Pen, pencil",
+    "description": "Loanword for writing instrument."
+  },
+  {
+    "id": "pamu",
+    "maori": "Pāmu",
+    "english": "Farm",
+    "description": "Loanword for farm; also farming."
+  },
+  {
+    "id": "tapa",
+    "maori": "Tapa",
+    "english": "Edge, border; to name",
+    "description": "Means side or margin; also verb for naming."
+  },
+  {
+    "id": "tokena",
+    "maori": "Tōkena",
+    "english": "Sock",
+    "description": "Loanword for socks/stockings."
+  },
+  {
+    "id": "pouaka-whakaata",
+    "maori": "Pouaka Whakaata",
+    "english": "Television",
+    "description": "Literally 'viewing box' — modern Māori word for TV."
+  },
+  {
+    "id": "meneti",
+    "maori": "Meneti",
+    "english": "Minute (time)",
+    "description": "Loanword for minute of time."
+  },
+  {
+    "id": "pito",
+    "maori": "Pito",
+    "english": "End, tip, umbilical cord",
+    "description": "Can mean end of something, or the navel cord."
+  },
+  {
+    "id": "turehu",
+    "maori": "Tūrehu",
+    "english": "Fairy, mythical being",
+    "description": "Light-skinned supernatural beings in Māori tradition."
+  },
+  {
+    "id": "umere",
+    "maori": "Umere",
+    "english": "Cheer, shout of approval",
+    "description": "Applause or cheer from a crowd."
+  },
+  {
+    "id": "huka",
+    "maori": "Huka",
+    "english": "Sugar; frost, snow, foam",
+    "description": "Can mean sugar or natural forms like snow/frost."
+  },
+  {
+    "id": "raru",
+    "maori": "Raru",
+    "english": "Problem, trouble",
+    "description": "Refers to difficulty or issue."
+  },
+  {
+    "id": "riri",
+    "maori": "Riri",
+    "english": "Anger, fight",
+    "description": "Can mean anger, conflict, or battle."
+  },
+  {
+    "id": "takuta",
+    "maori": "Tākuta",
+    "english": "Doctor",
+    "description": "Loanword used for medical doctor."
+  },
+  {
+    "id": "manaaki",
+    "maori": "Manaaki",
+    "english": "To support, show hospitality",
+    "description": "Refers to caring for others, showing generosity."
+  },
+  {
+    "id": "motuhake",
+    "maori": "Motuhake",
+    "english": "Separate, distinct, special",
+    "description": "Describes independence or uniqueness."
+  },
+  {
+    "id": "peita",
+    "maori": "Peita",
+    "english": "Paint",
+    "description": "Loanword for paint, painting."
+  },
+  {
+    "id": "keke",
+    "maori": "Keke",
+    "english": "Cake",
+    "description": "Loanword for cake."
+  },
+  {
+    "id": "tunu",
+    "maori": "Tunu",
+    "english": "To cook, bake, roast",
+    "description": "Cooking with heat, often roasting or baking."
+  },
+  {
+    "id": "turu",
+    "maori": "Tūru",
+    "english": "Chair, seat",
+    "description": "Loanword for chair."
+  },
+  {
+    "id": "whakatu",
+    "maori": "Whakatū",
+    "english": "To establish, set up, erect",
+    "description": "Refers to building, raising, or founding something."
+  },
+  {
+    "id": "hangai",
+    "maori": "Hāngai",
+    "english": "Fitting, appropriate, relevant",
+    "description": "Means aligned or appropriate to context."
+  },
+  {
+    "id": "hoia",
+    "maori": "Hōia",
+    "english": "Soldier",
+    "description": "Loanword for soldier."
+  },
+  {
+    "id": "hurihuri",
+    "maori": "Hurihuri",
+    "english": "To turn over, revolve, consider",
+    "description": "Can mean physical turning, or turning over thoughts."
+  },
+  {
+    "id": "kihai",
+    "maori": "Kīhai",
+    "english": "Did not, was not",
+    "description": "Past tense negator, alternative to kāore."
+  },
+  {
+    "id": "kirikiri",
+    "maori": "Kirikiri",
+    "english": "Gravel, sand",
+    "description": "Small stones or coarse sand."
+  },
+  {
+    "id": "maro",
+    "maori": "Mārō",
+    "english": "Hard, firm, strong",
+    "description": "Describes firmness or determination."
+  },
+  {
+    "id": "pukaha",
+    "maori": "Pūkaha",
+    "english": "Engine, machinery",
+    "description": "Loanword used for engines and mechanical devices."
+  },
+  {
+    "id": "rapa",
+    "maori": "Rapa",
+    "english": "Rubber",
+    "description": "Loanword for rubber, elastic material."
+  },
+  {
+    "id": "reti",
+    "maori": "Reti",
+    "english": "Sled, ski, skate",
+    "description": "Used for sliding vehicles or devices."
+  },
+  {
+    "id": "u",
+    "maori": "Ū",
+    "english": "Breast; to land, settle",
+    "description": "Means breast/nipple; also used for landing or settling."
+  },
+  {
+    "id": "whakaritea",
+    "maori": "Whakaritea",
+    "english": "To be arranged, prepared",
+    "description": "Passive of whakarite (to arrange, prepare)."
+  },
+  {
+    "id": "hai",
+    "maori": "Hai",
+    "english": "For, in order to",
+    "description": "Particle marking purpose or function."
+  },
+  {
+    "id": "pakupaku",
+    "maori": "Pakupaku",
+    "english": "Small, little, tiny",
+    "description": "Refers to size or insignificance."
+  },
+  {
+    "id": "ruku",
+    "maori": "Ruku",
+    "english": "To dive, plunge",
+    "description": "Verb for going underwater or plunging in."
+  },
+  {
+    "id": "taihoa",
+    "maori": "Taihoa",
+    "english": "Wait, delay",
+    "description": "Means to hold off, wait a while."
+  },
+  {
+    "id": "tawhito",
+    "maori": "Tawhito",
+    "english": "Old, ancient",
+    "description": "Describes age of objects, customs, or people."
+  },
+  {
+    "id": "whutuporo",
+    "maori": "Whutupōro",
+    "english": "Rugby",
+    "description": "Modern Māori word for the game of rugby."
+  },
+  {
+    "id": "atea",
+    "maori": "Ātea",
+    "english": "Open space, clearing",
+    "description": "Also refers to the courtyard in front of a wharenui."
+  },
+  {
+    "id": "awhi",
+    "maori": "Awhi",
+    "english": "To embrace, help, support",
+    "description": "Verb for hugging or assisting."
+  },
+  {
+    "id": "mara",
+    "maori": "Māra",
+    "english": "Garden",
+    "description": "Cultivated plot for food or plants."
+  },
+  {
+    "id": "miro",
+    "maori": "Miro",
+    "english": "Thread, twist; miro tree",
+    "description": "Verb for twisting/threading; also native miro tree."
+  },
+  {
+    "id": "mita",
+    "maori": "Mita",
+    "english": "Metre; accent, rhythm",
+    "description": "Loanword for unit of measure; also means speech rhythm."
+  },
+  {
+    "id": "puhi",
+    "maori": "Puhi",
+    "english": "Plume; chaste girl",
+    "description": "Feather adornment; or young woman under protection."
+  },
+  {
+    "id": "akuanei",
+    "maori": "Ākuanei",
+    "english": "Soon, presently",
+    "description": "Indicates something happening shortly."
+  },
+  {
+    "id": "kapua",
+    "maori": "Kapua",
+    "english": "Cloud",
+    "description": "Mass of condensed water vapour in the sky."
+  },
+  {
+    "id": "tina",
+    "maori": "Tina",
+    "english": "Lunch, dinner",
+    "description": "Meal term, often midday meal in modern usage."
+  },
+  {
+    "id": "tukua",
+    "maori": "Tukua",
+    "english": "To let go, allow, release",
+    "description": "Passive of tuku (to allow or release)."
+  },
+  {
+    "id": "waenga",
+    "maori": "Waenga",
+    "english": "Middle, centre",
+    "description": "Position between things or median point."
+  },
+  {
+    "id": "here",
+    "maori": "Here",
+    "english": "To tie, bind",
+    "description": "Verb for fastening, also metaphorical 'binding' agreements."
+  },
+  {
+    "id": "kaiwhakahaere",
+    "maori": "Kaiwhakahaere",
+    "english": "Manager, organiser",
+    "description": "Agent noun for someone who manages or directs."
+  },
+  {
+    "id": "kaki",
+    "maori": "Kakī",
+    "english": "Neck; black stilt bird",
+    "description": "Means neck of person/animal; also rare native bird."
+  },
+  {
+    "id": "whaiti",
+    "maori": "Whāiti",
+    "english": "Narrow, confined",
+    "description": "Describes narrowness or restricted space."
+  },
+  {
+    "id": "haurua",
+    "maori": "Haurua",
+    "english": "Half",
+    "description": "Fraction meaning one half of a whole."
+  }
+  {
+    "id": "ine",
+    "maori": "Ine",
+    "english": "Measure, measurement",
+    "description": "To measure or calculate; also a noun for measurement."
+  },
+  {
+    "id": "pakari",
+    "maori": "Pakari",
+    "english": "Strong, mature, firm",
+    "description": "Refers to physical strength, sturdiness, or maturity."
+  },
+  {
+    "id": "patua",
+    "maori": "Patua",
+    "english": "To be struck, beaten",
+    "description": "Passive of patu (to hit)."
+  },
+  {
+    "id": "tipua",
+    "maori": "Tipua",
+    "english": "Goblin, demon, supernatural being",
+    "description": "Refers to mythical or supernatural entity."
+  },
+  {
+    "id": "tuakana",
+    "maori": "Tuakana",
+    "english": "Older sibling (same sex)",
+    "description": "Older brother of a male, or older sister of a female."
+  },
+  {
+    "id": "kare",
+    "maori": "Kare",
+    "english": "Dear, beloved; ripples",
+    "description": "Term of affection; also means small ripples on water."
+  },
+  {
+    "id": "moka",
+    "maori": "Moka",
+    "english": "Portion, fragment",
+    "description": "A piece or portion of something."
+  },
+  {
+    "id": "pakete",
+    "maori": "Pākete",
+    "english": "Bucket",
+    "description": "Loanword for bucket or pail."
+  },
+  {
+    "id": "whakahokia",
+    "maori": "Whakahokia",
+    "english": "To be returned, sent back",
+    "description": "Passive of whakahoki (to return)."
+  },
+  {
+    "id": "arahi",
+    "maori": "Ārahi",
+    "english": "To lead, guide",
+    "description": "Means to show the way or provide leadership."
+  },
+  {
+    "id": "mataki",
+    "maori": "Mātaki",
+    "english": "To watch, observe",
+    "description": "Refers to looking closely or keeping watch."
+  },
+  {
+    "id": "mohiotia",
+    "maori": "Mōhiotia",
+    "english": "To be known, recognised",
+    "description": "Passive of mōhio (to know)."
+  },
+  {
+    "id": "pahi",
+    "maori": "Pahi",
+    "english": "Bus; ship",
+    "description": "Modern meaning is bus; also historically a type of large canoe or ship."
+  },
+  {
+    "id": "patiti",
+    "maori": "Pātītī",
+    "english": "Slasher, machete",
+    "description": "Large cutting tool for clearing brush."
+  },
+  {
+    "id": "tuara",
+    "maori": "Tuarā",
+    "english": "Back (of body)",
+    "description": "Refers to the back part of a person or animal."
+  },
+  {
+    "id": "hakari",
+    "maori": "Hākari",
+    "english": "Feast, banquet",
+    "description": "Celebratory feast with food and hospitality."
+  },
+  {
+    "id": "haria",
+    "maori": "Haria",
+    "english": "To be carried, taken",
+    "description": "Passive of hari (to carry, bring)."
+  },
+  {
+    "id": "heihei",
+    "maori": "Heihei",
+    "english": "Chicken; commotion",
+    "description": "Domestic fowl; also means disturbance or uproar."
+  },
+  {
+    "id": "pohehe",
+    "maori": "Pōhēhē",
+    "english": "Mistaken, misled",
+    "description": "Refers to being wrong or in error."
+  },
+  {
+    "id": "purua",
+    "maori": "Purua",
+    "english": "To be blocked, plugged",
+    "description": "Passive of puru (to block, plug up)."
+  },
+  {
+    "id": "toro",
+    "maori": "Toro",
+    "english": "To visit, stretch out",
+    "description": "Verb for visiting or reaching out."
+  },
+  {
+    "id": "waihanga",
+    "maori": "Waihanga",
+    "english": "To build, create",
+    "description": "Used for making or constructing."
+  },
+  {
+    "id": "harakeke",
+    "maori": "Harakeke",
+    "english": "Flax (Phormium tenax)",
+    "description": "Culturally significant plant used for weaving and other purposes."
+  },
+  {
+    "id": "hoha",
+    "maori": "Hōhā",
+    "english": "Bored, annoyed",
+    "description": "Describes frustration or boredom."
+  },
+  {
+    "id": "matao",
+    "maori": "Mātao",
+    "english": "Cold",
+    "description": "Physical temperature; chilled."
+  },
+  {
+    "id": "nawai",
+    "maori": "Nāwai",
+    "english": "After a time, eventually",
+    "description": "Indicates lapse of time before something occurs."
+  },
+  {
+    "id": "pekana",
+    "maori": "Pēkana",
+    "english": "Bacon",
+    "description": "Loanword for bacon meat."
+  },
+  {
+    "id": "pono",
+    "maori": "Pono",
+    "english": "True, honest, genuine",
+    "description": "Refers to truthfulness and sincerity."
+  },
+  {
+    "id": "tapahia",
+    "maori": "Tapahia",
+    "english": "To be cut",
+    "description": "Passive of tapahi (to cut)."
+  },
+  {
+    "id": "whaia",
+    "maori": "Whāia",
+    "english": "To be pursued, followed",
+    "description": "Passive of whāi (to follow, pursue, seek)."
+  },
+  {
+    "id": "whakahirahira",
+    "maori": "Whakahirahira",
+    "english": "Important, significant",
+    "description": "Describes something of great importance."
+  },
+  {
+    "id": "hono",
+    "maori": "Hono",
+    "english": "To join, connect",
+    "description": "Verb for joining or uniting together."
+  },
+  {
+    "id": "matimati",
+    "maori": "Matimati",
+    "english": "Fingers, toes",
+    "description": "Digits of the hands or feet."
+  },
+  {
+    "id": "pakitara",
+    "maori": "Pakitara",
+    "english": "Wall",
+    "description": "The wall of a house or building."
+  },
+  {
+    "id": "atawhai",
+    "maori": "Atawhai",
+    "english": "Kind, caring, charitable",
+    "description": "Refers to showing kindness or providing care."
+  },
+  {
+    "id": "hangarau",
+    "maori": "Hangarau",
+    "english": "Technology",
+    "description": "Modern Māori term for technology or technical knowledge."
+  },
+  {
+    "id": "hararei",
+    "maori": "Hararei",
+    "english": "Holiday",
+    "description": "Loanword for holiday, vacation, or break."
+  },
+  {
+    "id": "manuhiri",
+    "maori": "Manuhiri",
+    "english": "Visitor, guest",
+    "description": "Refers to those arriving as guests or visitors."
+  },
+  {
+    "id": "moku",
+    "maori": "Mōku",
+    "english": "For me, mine",
+    "description": "Possessive form showing something is for the speaker."
+  },
+  {
+    "id": "ripene",
+    "maori": "Rīpene",
+    "english": "Ribbon; tape",
+    "description": "Loanword for ribbon, cassette tape, or video tape."
+  },
+  {
+    "id": "wero",
+    "maori": "Wero",
+    "english": "Challenge, spear-thrust",
+    "description": "Formal challenge (esp. on marae); also means spear thrust."
+  },
+  {
+    "id": "hokohoko",
+    "maori": "Hokohoko",
+    "english": "Trade, exchange, barter",
+    "description": "Buying, selling, or exchanging goods."
+  },
+  {
+    "id": "kakano",
+    "maori": "Kākano",
+    "english": "Seed",
+    "description": "Seed or kernel; metaphor for origin or potential."
+  },
+  {
+    "id": "pipi",
+    "maori": "Pīpī",
+    "english": "Chick, young bird; small shellfish",
+    "description": "Refers to young birds or the edible shellfish pipi."
+  },
+  {
+    "id": "uhi",
+    "maori": "Uhi",
+    "english": "Cover, spread over; tattoo chisel",
+    "description": "Means to cover something; also traditional tattooing chisel."
+  },
+  {
+    "id": "whakaora",
+    "maori": "Whakaora",
+    "english": "To save, restore, heal",
+    "description": "Means to revive life, restore, or heal."
+  },
+  {
+    "id": "whakata",
+    "maori": "Whakatā",
+    "english": "To rest, relax",
+    "description": "Taking a break, pausing from activity."
+  },
+  {
+    "id": "kakariki",
+    "maori": "Kākāriki",
+    "english": "Green; parakeet",
+    "description": "Name of colour green; also native green parakeet."
+  },
+  {
+    "id": "kauhoe",
+    "maori": "Kauhoe",
+    "english": "To swim",
+    "description": "Verb for swimming."
+  },
+  {
+    "id": "haparangi",
+    "maori": "Hāparangi",
+    "english": "To shout, yell",
+    "description": "Loudly calling out or shouting."
+  },
+  {
+    "id": "hapu",
+    "maori": "Hapū",
+    "english": "Sub-tribe; pregnant",
+    "description": "Can mean a social unit (sub-tribe) or pregnancy."
+  },
+  {
+    "id": "huakina",
+    "maori": "Huakina",
+    "english": "To open",
+    "description": "Means to open something like a door or container."
+  },
+  {
+    "id": "ira",
+    "maori": "Ira",
+    "english": "Gene, life principle; dot",
+    "description": "Refers to life essence, a gene, or a mark/dot."
+  },
+  {
+    "id": "maia",
+    "maori": "Māia",
+    "english": "Brave, confident",
+    "description": "Refers to courage and boldness."
+  },
+  {
+    "id": "mokemoke",
+    "maori": "Mokemoke",
+    "english": "Lonely",
+    "description": "Feeling of isolation or solitude."
+  },
+  {
+    "id": "otaota",
+    "maori": "Otaota",
+    "english": "Weeds",
+    "description": "Unwanted plants or weeds."
+  },
+  {
+    "id": "pukenga",
+    "maori": "Pūkenga",
+    "english": "Skill, expertise; lecturer",
+    "description": "Means skill or knowledge; also a title for university lecturer."
+  },
+  {
+    "id": "tupuna",
+    "maori": "Tūpuna",
+    "english": "Ancestors",
+    "description": "Forebears, grandparents, ancestral figures."
+  },
+  {
+    "id": "kapia",
+    "maori": "Kāpia",
+    "english": "Kauri gum; glue",
+    "description": "Resin from kauri tree, also used for adhesives."
+  },
+  {
+    "id": "rata",
+    "maori": "Rata",
+    "english": "Doctor; rātā tree",
+    "description": "Can mean medical doctor or the native rātā tree."
+  },
+  {
+    "id": "tikina",
+    "maori": "Tīkina",
+    "english": "Fetch, bring",
+    "description": "Imperative meaning 'go get it.'"
+  },
+  {
+    "id": "herea",
+    "maori": "Herea",
+    "english": "To be tied, bound",
+    "description": "Passive of here (to tie)."
+  },
+  {
+    "id": "tupu",
+    "maori": "Tupu",
+    "english": "To grow, sprout",
+    "description": "Verb describing growth of plants or people."
+  },
+  {
+    "id": "paoro",
+    "maori": "Paoro",
+    "english": "Ball",
+    "description": "Loanword for sports ball."
+  },
+  {
+    "id": "poro",
+    "maori": "Poro",
+    "english": "Block, log, stump",
+    "description": "Short length of timber; also used for groups/blocks."
+  },
+  {
+    "id": "tumeke",
+    "maori": "Tumeke",
+    "english": "Astonished, amazing",
+    "description": "Exclamation of surprise; modern usage 'awesome.'"
+  },
+  {
+    "id": "whakatakoto",
+    "maori": "Whakatakoto",
+    "english": "To lay down, set out",
+    "description": "Means to put down or establish."
+  },
+  {
+    "id": "whanga",
+    "maori": "Whanga",
+    "english": "Harbour, bay",
+    "description": "Large coastal bay or harbour."
+  },
+  {
+    "id": "miti",
+    "maori": "Mīti",
+    "english": "Meat",
+    "description": "Loanword for meat as food."
+  },
+  {
+    "id": "taia",
+    "maori": "Tāia",
+    "english": "To be printed, published",
+    "description": "Passive of tā (to print, strike)."
+  },
+  {
+    "id": "whakaputa",
+    "maori": "Whakaputa",
+    "english": "To produce, express, publish",
+    "description": "Means to release or make something come forth."
+  },
+  {
+    "id": "whakatika",
+    "maori": "Whakatika",
+    "english": "To straighten, correct, rise",
+    "description": "Refers to making right, standing up, or correcting."
+  },
+  {
+    "id": "koi",
+    "maori": "Koi",
+    "english": "Sharp, clever",
+    "description": "Refers to a sharp edge or an intelligent person."
+  },
+  {
+    "id": "pere",
+    "maori": "Pere",
+    "english": "Bell, arrow",
+    "description": "Means bell (church/school) or arrow."
+  }
+]
+
+  {
+    "id": "tirohanga",
+    "maori": "Tirohanga",
+    "english": "View, perspective, outlook",
+    "description": "Can mean a literal view or a figurative perspective on something."
+  },
+  {
+    "id": "toe",
+    "maori": "Toe",
+    "english": "Remaining, left over; toe (of foot)",
+    "description": "Used for leftovers or remainder; also the body part toe."
+  },
+  {
+    "id": "toenga",
+    "maori": "Toenga",
+    "english": "Remainder, residue, balance",
+    "description": "Means what is left over, or balance remaining."
+  },
+  {
+    "id": "tungane",
+    "maori": "Tungāne",
+    "english": "Brother (of a female)",
+    "description": "Used when a woman refers to her brother."
+  },
+  {
+    "id": "whakama",
+    "maori": "Whakamā",
+    "english": "Shy, embarrassed, ashamed",
+    "description": "Refers to feelings of modesty or shame."
+  },
+  {
+    "id": "tao",
+    "maori": "Tao",
+    "english": "Spear; to cook",
+    "description": "Noun: a traditional weapon. Verb: to cook (esp. in oven)."
+  },
+  {
+    "id": "taro",
+    "maori": "Taro",
+    "english": "Taro (root crop)",
+    "description": "Polynesian staple root vegetable."
+  },
+  {
+    "id": "tokomaha",
+    "maori": "Tokomaha",
+    "english": "Many people",
+    "description": "Numeral prefix 'toko-' used with people, meaning 'many.'"
+  },
+  {
+    "id": "whakamiharo",
+    "maori": "Whakamīharo",
+    "english": "To admire, wonder at",
+    "description": "Expresses amazement or admiration."
+  },
+  {
+    "id": "homai",
+    "maori": "Hōmai",
+    "english": "Give (to me)",
+    "description": "Imperative request for something to be handed over."
+  },
+  {
+    "id": "karahe",
+    "maori": "Karāhe",
+    "english": "Glass",
+    "description": "Loanword for glass (material or drinking vessel)."
+  },
+  {
+    "id": "katakata",
+    "maori": "Katakata",
+    "english": "Laughter",
+    "description": "Means laughter or the sound of laughing."
+  },
+  {
+    "id": "kawanatanga",
+    "maori": "Kāwanatanga",
+    "english": "Governorship, government",
+    "description": "Key term in Te Tiriti o Waitangi, meaning governance or government authority."
+  },
+  {
+    "id": "kowhai",
+    "maori": "Kōwhai",
+    "english": "Yellow; kōwhai tree",
+    "description": "Colour yellow, or the native kōwhai tree with yellow flowers."
+  },
+  {
+    "id": "maku",
+    "maori": "Mākū",
+    "english": "Wet, damp",
+    "description": "Opposite of dry. Can also mean 'for me' depending on context."
+  },
+  {
+    "id": "mauri",
+    "maori": "Mauri",
+    "english": "Life force, vital essence",
+    "description": "Spiritual principle that gives life to all things."
+  },
+  {
+    "id": "parakuihi",
+    "maori": "Parakuihi",
+    "english": "Breakfast",
+    "description": "Loanword for the morning meal."
+  },
+  {
+    "id": "purapura",
+    "maori": "Purapura",
+    "english": "Seed",
+    "description": "Used for crop seeds and metaphorically for descendants."
+  },
+  {
+    "id": "purere",
+    "maori": "Pūrere",
+    "english": "Appliance, device",
+    "description": "General term for mechanical or electronic device."
+  },
+  {
+    "id": "rehia",
+    "maori": "Rēhia",
+    "english": "Entertainment, amusement",
+    "description": "To be entertained or find enjoyment."
+  },
+  {
+    "id": "ti",
+    "maori": "Tī",
+    "english": "Tea; cabbage tree",
+    "description": "Loanword for tea drink; also the tī kōuka (cabbage tree)."
+  },
+  {
+    "id": "tukutuku",
+    "maori": "Tukutuku",
+    "english": "Ornamental lattice work",
+    "description": "Decorative woven panels in meeting houses."
+  },
+  {
+    "id": "whakamua",
+    "maori": "Whakamua",
+    "english": "Forward, ahead",
+    "description": "Direction or movement into the future."
+  },
+  {
+    "id": "whakarunga",
+    "maori": "Whakarunga",
+    "english": "Upwards",
+    "description": "Indicates upward direction or movement."
+  },
+  {
+    "id": "ha",
+    "maori": "Hā",
+    "english": "Breath",
+    "description": "Breath, essence of life; also exclamation."
+  },
+  {
+    "id": "harikoa",
+    "maori": "Harikoa",
+    "english": "Joyful, glad",
+    "description": "Expresses delight and happiness."
+  },
+  {
+    "id": "ipu",
+    "maori": "Ipu",
+    "english": "Container, bowl, cup",
+    "description": "General word for vessels used to hold liquids or food."
+  },
+  {
+    "id": "irirangi",
+    "maori": "Irirangi",
+    "english": "Radio, broadcast",
+    "description": "Loanword for radio; also refers to spirit voices."
+  },
+  {
+    "id": "maramara",
+    "maori": "Maramara",
+    "english": "Chip, splinter, fragment",
+    "description": "Small pieces of wood, food, or other materials."
+  },
+  {
+    "id": "marangai",
+    "maori": "Marangai",
+    "english": "East wind; storm",
+    "description": "Traditional term for storm or easterly wind."
+  },
+  {
+    "id": "pangarau",
+    "maori": "Pāngarau",
+    "english": "Mathematics",
+    "description": "Modern Māori term for mathematics as a subject."
+  },
+  {
+    "id": "puehu",
+    "maori": "Puehu",
+    "english": "Dust",
+    "description": "Fine particles in the air; can also mean dispersed."
+  },
+  {
+    "id": "purei",
+    "maori": "Purei",
+    "english": "To play (games, sport)",
+    "description": "Loanword commonly used for playing games."
+  },
+  {
+    "id": "tuhituhi",
+    "maori": "Tuhituhi",
+    "english": "To write, writing",
+    "description": "Refers to act of writing or the written product."
+  },
+  {
+    "id": "whainga",
+    "maori": "Whāinga",
+    "english": "Goal, objective, pursuit",
+    "description": "Something sought after, a target or aim."
+  },
+  {
+    "id": "whakamaori",
+    "maori": "Whakamāori",
+    "english": "To translate into Māori",
+    "description": "Refers to rendering something in te reo Māori."
+  },
+  {
+    "id": "pahu",
+    "maori": "Pahū",
+    "english": "Explosion, loud noise",
+    "description": "Means to boom or burst with noise."
+  },
+  {
+    "id": "tame",
+    "maori": "Tame",
+    "english": "Male (child); tame",
+    "description": "Means boy; also 'tame' in the sense of domesticated."
+  },
+  {
+    "id": "ngarara",
+    "maori": "Ngārara",
+    "english": "Insect, reptile, creepy-crawly",
+    "description": "Covers lizards, insects, and mythical monsters."
+  },
+  {
+    "id": "noke",
+    "maori": "Noke",
+    "english": "Earthworm",
+    "description": "Generic word for worms."
+  },
+  {
+    "id": "parirau",
+    "maori": "Parirau",
+    "english": "Wing",
+    "description": "Wings of a bird or aircraft."
+  },
+  {
+    "id": "tapahi",
+    "maori": "Tapahi",
+    "english": "To cut",
+    "description": "Act of cutting or slicing."
+  },
+  {
+    "id": "ope",
+    "maori": "Ope",
+    "english": "Group, company",
+    "description": "Group of people gathered together, often a contingent."
+  },
+  {
+    "id": "whakamaua",
+    "maori": "Whakamaua",
+    "english": "To put on, fasten",
+    "description": "Used for fastening or wearing something."
+  },
+  {
+    "id": "wiriwiri",
+    "maori": "Wiriwiri",
+    "english": "To shake, tremble",
+    "description": "Means to quiver or tremble repeatedly."
+  },
+  {
+    "id": "hipi",
+    "maori": "Hipi",
+    "english": "Sheep",
+    "description": "Loanword for sheep, a common farm animal."
+  },
+  {
+    "id": "matekai",
+    "maori": "Matekai",
+    "english": "Hungry",
+    "description": "Refers to being in need of food."
+  },
+  {
+    "id": "pari",
+    "maori": "Pari",
+    "english": "Cliff",
+    "description": "High steep rock face."
+  },
+  {
+    "id": "poraka",
+    "maori": "Poraka",
+    "english": "Frog; block",
+    "description": "Commonly frog; also used for 'block' in modern contexts."
+  },
+  {
+    "id": "porohita",
+    "maori": "Porohita",
+    "english": "Circle",
+    "description": "Geometric circle shape."
+  },
+  {
+    "id": "porowhita",
+    "maori": "Porowhita",
+    "english": "Round, circular",
+    "description": "Describes round shapes or cycles."
+  },
+  {
+    "id": "tamatane",
+    "maori": "Tamatāne",
+    "english": "Son, boy",
+    "description": "Male child in relation to parents."
+  },
+  {
+    "id": "tutuki",
+    "maori": "Tutuki",
+    "english": "To collide; to be achieved",
+    "description": "Means to hit against, or for a goal to be fulfilled."
+  },
+  {
+    "id": "weka",
+    "maori": "Weka",
+    "english": "Weka (native bird)",
+    "description": "Flightless native rail of Aotearoa."
+  },
+  {
+    "id": "wira",
+    "maori": "Wīra",
+    "english": "Wheel",
+    "description": "Loanword for wheel."
+  },
+  {
+    "id": "auahi",
+    "maori": "Auahi",
+    "english": "Smoke",
+    "description": "Smoke from fire, cigarettes, etc."
+  },
+  {
+    "id": "etehi",
+    "maori": "Ētehi",
+    "english": "Some (plural)",
+    "description": "Indefinite determiner for 'some' things or people."
+  },
+  {
+    "id": "kaituhi",
+    "maori": "Kaituhi",
+    "english": "Writer, author",
+    "description": "Agent noun from tuhi (to write)."
+  },
+  {
+    "id": "kotuku",
+    "maori": "Kōtuku",
+    "english": "White heron",
+    "description": "Sacred and rare bird, symbol of prestige."
+  },
+  {
+    "id": "rawhiti",
+    "maori": "Rāwhiti",
+    "english": "East",
+    "description": "Refers to the direction east, sunrise."
+  },
+  {
+    "id": "teina",
+    "maori": "Teina",
+    "english": "Younger sibling (same sex)",
+    "description": "Younger sibling of the same gender as the speaker."
+  },
+  {
+    "id": "hangi",
+    "maori": "Hāngi",
+    "english": "Earth oven feast",
+    "description": "Traditional Māori method of cooking food in the ground with heated stones."
+  },
+  {
+    "id": "kaikorero",
+    "maori": "Kaikōrero",
+    "english": "Speaker",
+    "description": "Person who speaks formally on the marae or in meetings."
+  },
+  {
+    "id": "kareti",
+    "maori": "Kāreti",
+    "english": "Carrot; college",
+    "description": "Loanword: vegetable carrot, or sometimes for college."
+  },
+  {
+    "id": "pata",
+    "maori": "Pata",
+    "english": "Butter; drop",
+    "description": "Loanword for butter; also means droplet."
+  },
+  {
+    "id": "rango",
+    "maori": "Rango",
+    "english": "Fly (insect)",
+    "description": "Generic for housefly and similar insects."
+  },
+  {
+    "id": "taiapa",
+    "maori": "Taiapa",
+    "english": "Fence",
+    "description": "Enclosure or barrier."
+  },
+  {
+    "id": "tara",
+    "maori": "Tāra",
+    "english": "Dollar",
+    "description": "Loanword for currency unit dollar."
+  },
+  {
+    "id": "tihi",
+    "maori": "Tihi",
+    "english": "Summit, peak",
+    "description": "Top point of a mountain or high place."
+  },
+  {
+    "id": "tohora",
+    "maori": "Tohorā",
+    "english": "Whale",
+    "description": "Generic term for whale species."
+  },
+  {
+    "id": "turituri",
+    "maori": "Turituri",
+    "english": "Noisy, be quiet!",
+    "description": "Used both as description of noise and as an imperative to hush."
+  },
+  {
+    "id": "whakanga",
+    "maori": "Whakangā",
+    "english": "To rest, relax",
+    "description": "Taking a break, relaxing."
+  },
+  {
+    "id": "aporo",
+    "maori": "Āporo",
+    "english": "Apple",
+    "description": "Loanword for apple fruit."
+  },
+  {
+    "id": "hohonu",
+    "maori": "Hōhonu",
+    "english": "Deep, profound",
+    "description": "Describes depth physically or metaphorically."
+  }
+]
+
+  {
+    "id": "kongakonga",
+    "maori": "Kongakonga",
+    "english": "Fragment, piece",
+    "description": "Small fragment or broken piece of something."
+  },
+  {
+    "id": "makere",
+    "maori": "Makere",
+    "english": "To fall, drop",
+    "description": "Refers to something coming loose and falling."
+  },
+  {
+    "id": "nanakia",
+    "maori": "Nanakia",
+    "english": "Clever, mischievous, sly",
+    "description": "Often used affectionately for cheeky cleverness."
+  },
+  {
+    "id": "tari",
+    "maori": "Tari",
+    "english": "Office; to carry",
+    "description": "Noun: an office or department. Verb: to carry or take."
+  },
+  {
+    "id": "tini",
+    "maori": "Tīni",
+    "english": "Change",
+    "description": "Loanword from 'change' (money or alteration)."
+  },
+  {
+    "id": "tote",
+    "maori": "Tote",
+    "english": "Salt",
+    "description": "Everyday word for salt."
+  },
+  {
+    "id": "totika",
+    "maori": "Tōtika",
+    "english": "Correct, straight, right",
+    "description": "Means accurate, upright, or fair."
+  },
+  {
+    "id": "whakamatautau",
+    "maori": "Whakamātautau",
+    "english": "Test, trial, exam",
+    "description": "To put to the test; also a noun for exams."
+  },
+  {
+    "id": "whakatupato",
+    "maori": "Whakatūpato",
+    "english": "To warn, caution",
+    "description": "Giving a warning or raising awareness of danger."
+  },
+  {
+    "id": "kauaka",
+    "maori": "Kauaka",
+    "english": "Do not, don’t",
+    "description": "Negative imperative — forbidding action."
+  },
+  {
+    "id": "kawana",
+    "maori": "Kāwana",
+    "english": "Governor",
+    "description": "Loanword; used historically for colonial governors."
+  },
+  {
+    "id": "kekeno",
+    "maori": "Kekeno",
+    "english": "Fur seal",
+    "description": "Common New Zealand fur seal."
+  },
+  {
+    "id": "marika",
+    "maori": "Mārika",
+    "english": "Indeed, absolutely",
+    "description": "Used for emphasis: 'truly,' 'certainly.'"
+  },
+  {
+    "id": "matu",
+    "maori": "Matū",
+    "english": "Substance, material; fat",
+    "description": "Can mean material substance or animal fat."
+  },
+  {
+    "id": "ngata",
+    "maori": "Ngata",
+    "english": "Snail, slug",
+    "description": "Generic for gastropods."
+  },
+  {
+    "id": "pare",
+    "maori": "Pare",
+    "english": "Headband; to ward off",
+    "description": "Also refers to carved lintel over doorways."
+  },
+  {
+    "id": "tuahine",
+    "maori": "Tuahine",
+    "english": "Sister (of a male)",
+    "description": "Used when a male refers to his sister."
+  },
+  {
+    "id": "whakatata",
+    "maori": "Whakatata",
+    "english": "To approach, draw near",
+    "description": "Can be physical or metaphorical closeness."
+  },
+  {
+    "id": "rerenga",
+    "maori": "Rerenga",
+    "english": "Flight, leap; sentence",
+    "description": "Means a leap/journey; also grammar term for sentence."
+  },
+  {
+    "id": "tahau",
+    "maori": "Tāhau",
+    "english": "Your side, near you",
+    "description": "Directional, meaning close to you."
+  },
+  {
+    "id": "tokotoru",
+    "maori": "Tokotoru",
+    "english": "Three people",
+    "description": "Numeral prefix for people — group of three."
+  },
+  {
+    "id": "tomo",
+    "maori": "Tomo",
+    "english": "To enter; cave, opening",
+    "description": "Verb for entering; noun for cave or chasm."
+  },
+  {
+    "id": "whakapapa",
+    "maori": "Whakapapa",
+    "english": "Genealogy, layering",
+    "description": "Ancestral lineage; also concept of layering in knowledge."
+  },
+  {
+    "id": "akoranga",
+    "maori": "Akoranga",
+    "english": "Lesson, study",
+    "description": "Teaching or learning session; course of study."
+  },
+  {
+    "id": "kaute",
+    "maori": "Kaute",
+    "english": "Count, account",
+    "description": "Loanword used for counting or accounting."
+  },
+  {
+    "id": "kehua",
+    "maori": "Kēhua",
+    "english": "Ghost, spirit",
+    "description": "Supernatural being, spectre."
+  },
+  {
+    "id": "kumara",
+    "maori": "Kūmara",
+    "english": "Sweet potato",
+    "description": "Staple root crop in Māori tradition."
+  },
+  {
+    "id": "tuhinga",
+    "maori": "Tuhinga",
+    "english": "Writing, document",
+    "description": "Anything written; article, document, manuscript."
+  },
+  {
+    "id": "whakahau",
+    "maori": "Whakahau",
+    "english": "Instruction, command",
+    "description": "To direct, order, or urge action."
+  },
+  {
+    "id": "aitua",
+    "maori": "Aituā",
+    "english": "Accident, misfortune",
+    "description": "Unlucky event, disaster, calamity."
+  },
+  {
+    "id": "kohi",
+    "maori": "Kohi",
+    "english": "To gather, collect",
+    "description": "Used for collecting things like food or resources."
+  },
+  {
+    "id": "kona",
+    "maori": "Konā",
+    "english": "There (near the listener)",
+    "description": "Locative — 'there by you.'"
+  },
+  {
+    "id": "paipa",
+    "maori": "Paipa",
+    "english": "Pipe",
+    "description": "Smoking pipe or tubular pipe."
+  },
+  {
+    "id": "paru",
+    "maori": "Paru",
+    "english": "Dirty, soiled; mud",
+    "description": "Means filth, dirt, or muddy state."
+  },
+  {
+    "id": "pungawerewere",
+    "maori": "Pūngāwerewere",
+    "english": "Spider",
+    "description": "Generic for spider species."
+  },
+  {
+    "id": "rangona",
+    "maori": "Rangona",
+    "english": "To be heard, felt",
+    "description": "Passive of rongo (to hear, feel)."
+  },
+  {
+    "id": "rekareka",
+    "maori": "Rekareka",
+    "english": "Happy, delighted",
+    "description": "Refers to joy, enjoyment, contentment."
+  },
+  {
+    "id": "tatai",
+    "maori": "Tātai",
+    "english": "Line, row; genealogy",
+    "description": "Can mean arrangement in a line, or whakapapa."
+  },
+  {
+    "id": "tuawha",
+    "maori": "Tuawhā",
+    "english": "Fourth",
+    "description": "Ordinal number for four."
+  },
+  {
+    "id": "kawenga",
+    "maori": "Kawenga",
+    "english": "Burden, responsibility",
+    "description": "What is carried physically or metaphorically."
+  },
+  {
+    "id": "pewhea",
+    "maori": "Pēwhea",
+    "english": "How?",
+    "description": "Question word asking manner/condition."
+  },
+  {
+    "id": "tinihanga",
+    "maori": "Tinihanga",
+    "english": "Deceit, trickery",
+    "description": "Dishonesty, cunning trick, or fraud."
+  },
+  {
+    "id": "wharekura",
+    "maori": "Wharekura",
+    "english": "Secondary school; sacred school",
+    "description": "Modern sense: Māori-medium high school. Traditional sense: house of esoteric learning."
+  },
+  {
+    "id": "horo",
+    "maori": "Horo",
+    "english": "To fall down, landslip; to devour quickly",
+    "description": "Collapse or landslide; also gobbling food."
+  },
+  {
+    "id": "koha",
+    "maori": "Koha",
+    "english": "Gift, contribution",
+    "description": "Voluntary gift, often in cultural exchange."
+  },
+  {
+    "id": "manga",
+    "maori": "Manga",
+    "english": "Stream, branch",
+    "description": "Branch of a tree or a stream of water."
+  },
+  {
+    "id": "pani",
+    "maori": "Pani",
+    "english": "Orphan; to smear",
+    "description": "Noun: orphan. Verb: to smear or spread."
+  },
+  {
+    "id": "patene",
+    "maori": "Pātene",
+    "english": "Button",
+    "description": "Clothing fastener or device button."
+  },
+  {
+    "id": "paua",
+    "maori": "Pāua",
+    "english": "Abalone shellfish",
+    "description": "Valued shellfish with colourful shell."
+  },
+  {
+    "id": "rori",
+    "maori": "Rori",
+    "english": "Road",
+    "description": "Loanword for road or street."
+  },
+  {
+    "id": "tapuwae",
+    "maori": "Tapuwae",
+    "english": "Footprint, track",
+    "description": "Literal footprints or traces left behind."
+  },
+  {
+    "id": "tauhou",
+    "maori": "Tauhou",
+    "english": "Stranger, newcomer; silvereye bird",
+    "description": "Refers to new arrivals or the small green bird."
+  },
+  {
+    "id": "whakaheke",
+    "maori": "Whakaheke",
+    "english": "To descend, reduce, lower",
+    "description": "Movement downward or reducing something."
+  },
+  {
+    "id": "whakaki",
+    "maori": "Whakakī",
+    "english": "To fill, satisfy",
+    "description": "Means to fill up or make replete."
+  },
+  {
+    "id": "whakapakari",
+    "maori": "Whakapakari",
+    "english": "To strengthen, develop",
+    "description": "Used for physical training or personal development."
+  },
+  {
+    "id": "kaitakaro",
+    "maori": "Kaitākaro",
+    "english": "Player (sport, game)",
+    "description": "Agent noun for playing games or sports."
+  },
+  {
+    "id": "koiwi",
+    "maori": "Kōiwi",
+    "english": "Bones, skeleton",
+    "description": "Can mean individual bones or skeleton."
+  },
+  {
+    "id": "kupenga",
+    "maori": "Kupenga",
+    "english": "Net",
+    "description": "Fishing net or network."
+  },
+  {
+    "id": "pekapeka",
+    "maori": "Pekapeka",
+    "english": "Bat (animal)",
+    "description": "The native bat species of Aotearoa."
+  },
+  {
+    "id": "ena",
+    "maori": "Ēnā",
+    "english": "Those (near listener)",
+    "description": "Demonstrative pronoun for multiple things near the listener."
+  },
+  {
+    "id": "hao",
+    "maori": "Hao",
+    "english": "To catch, gather",
+    "description": "Especially used in fishing or gathering."
+  },
+  {
+    "id": "hemo",
+    "maori": "Hemo",
+    "english": "To die, expire",
+    "description": "Polite/formal term for death."
+  },
+  {
+    "id": "kapata",
+    "maori": "Kāpata",
+    "english": "Cupboard, pantry",
+    "description": "Storage cupboard for food or goods."
+  },
+  {
+    "id": "ngenge",
+    "maori": "Ngenge",
+    "english": "Tired, weary",
+    "description": "Physical or mental fatigue."
+  },
+  {
+    "id": "pana",
+    "maori": "Pana",
+    "english": "To push, expel",
+    "description": "Means to shove or dismiss."
+  },
+  {
+    "id": "ui",
+    "maori": "Ui",
+    "english": "To ask, enquire",
+    "description": "Verb for questioning or asking."
+  },
+  {
+    "id": "uku",
+    "maori": "Uku",
+    "english": "Clay; soap",
+    "description": "Natural clay; also refers to soap."
+  },
+  {
+    "id": "uwha",
+    "maori": "Uwha",
+    "english": "Female (of animals)",
+    "description": "Refers to female gender of animals."
+  },
+  {
+    "id": "whakauru",
+    "maori": "Whakauru",
+    "english": "To insert, include, involve",
+    "description": "Means to put into, or to involve someone."
+  },
+  {
+    "id": "ariki",
+    "maori": "Ariki",
+    "english": "High chief, leader",
+    "description": "Highest-ranking chief in traditional Māori society."
+  },
+  {
+    "id": "kawehe",
+    "maori": "Kāwhe",
+    "english": "Coffee",
+    "description": "Loanword for the drink coffee."
+  },
+  {
+    "id": "kiki",
+    "maori": "Kikī",
+    "english": "Full, crowded",
+    "description": "Packed tight, no room left."
+  },
+  {
+    "id": "kohikohi",
+    "maori": "Kohikohi",
+    "english": "To collect, gather",
+    "description": "Repetitive or emphatic form of kohi (gather)."
+  },
+  {
+    "id": "miriona",
+    "maori": "Miriona",
+    "english": "Million",
+    "description": "Loanword for the number one million."
+  }
+]
+
+  {
+    "id": "panga",
+    "maori": "Panga",
+    "english": "Puzzle, riddle; also to throw, cast",
+    "description": "Can mean a problem to solve, or the act of throwing something."
+  },
+  {
+    "id": "tahuhu",
+    "maori": "Tāhuhu",
+    "english": "Ridgepole; backbone",
+    "description": "The main ridgepole of a meeting house; also figuratively the backbone or main support."
+  },
+  {
+    "id": "toto",
+    "maori": "Toto",
+    "english": "Blood",
+    "description": "Used for human or animal blood; carries connotations of life force."
+  },
+  {
+    "id": "wehenga",
+    "maori": "Wehenga",
+    "english": "Separation, division, section",
+    "description": "A parting or dividing line; can also mean a part/section of something."
+  },
+  {
+    "id": "whakanui",
+    "maori": "Whakanui",
+    "english": "To enlarge, celebrate, honour",
+    "description": "Used for making great, celebrating events, or showing respect."
+  },
+  {
+    "id": "auau",
+    "maori": "Auau",
+    "english": "Frequent, repeated; to bark",
+    "description": "Means something occurring often; also refers to a dog's bark."
+  },
+  {
+    "id": "kapene",
+    "maori": "Kāpene",
+    "english": "Captain",
+    "description": "Loanword; used for a leader in sport, ship, or military contexts."
+  },
+  {
+    "id": "karere",
+    "maori": "Karere",
+    "english": "Message, messenger",
+    "description": "Can mean a person carrying news, or the news/message itself."
+  },
+  {
+    "id": "kiromita",
+    "maori": "Kiromita",
+    "english": "Kilometre",
+    "description": "Loanword for metric measurement of distance."
+  },
+  {
+    "id": "nekeneke",
+    "maori": "Nekeneke",
+    "english": "To move gradually, shift",
+    "description": "Refers to slow or steady movement, shifting along."
+  },
+  {
+    "id": "paki",
+    "maori": "Paki",
+    "english": "Fine (weather); to slap, clap",
+    "description": "Can describe fine weather, or the sound/action of clapping or slapping."
+  },
+  {
+    "id": "pakipaki",
+    "maori": "Pakipaki",
+    "english": "To clap, applaud",
+    "description": "Repetitive form, often used for applause."
+  },
+  {
+    "id": "putake",
+    "maori": "Pūtake",
+    "english": "Origin, reason, root",
+    "description": "Refers to the root of a plant, or the cause/reason for something."
+  },
+  {
+    "id": "putu",
+    "maori": "Putu",
+    "english": "Heap, pile, stack",
+    "description": "Also used as a verb: to collapse or fall in a heap."
+  },
+  {
+    "id": "reri",
+    "maori": "Reri",
+    "english": "Ready",
+    "description": "Loanword adaptation from English 'ready.'"
+  },
+  {
+    "id": "whakatikatika",
+    "maori": "Whakatikatika",
+    "english": "To adjust, correct, fix",
+    "description": "Refers to setting right, mending, or making corrections."
+  },
+  {
+    "id": "hamama",
+    "maori": "Hāmama",
+    "english": "To shout, yell, roar",
+    "description": "Used for loud human or animal calls."
+  },
+  {
+    "id": "hauora",
+    "maori": "Hauora",
+    "english": "Health, wellbeing",
+    "description": "Holistic concept of physical, mental, spiritual, and social wellbeing."
+  },
+  {
+    "id": "kapi",
+    "maori": "Kapi",
+    "english": "Full, covered",
+    "description": "Means filled up or completely covered."
+  },
+  {
+    "id": "ngunguru",
+    "maori": "Ngunguru",
+    "english": "To rumble, growl",
+    "description": "Describes low vibrating sounds, e.g. stomach, thunder, dogs."
+  },
+  {
+    "id": "patata",
+    "maori": "Pātata",
+    "english": "Near, close by",
+    "description": "Refers to physical closeness or nearness in time."
+  },
+  {
+    "id": "patiki",
+    "maori": "Pātiki",
+    "english": "Flounder (flat fish)",
+    "description": "Common edible flat fish."
+  },
+  {
+    "id": "roanga",
+    "maori": "Roanga",
+    "english": "Length, duration",
+    "description": "Refers to extent in time or space."
+  },
+  {
+    "id": "tira",
+    "maori": "Tira",
+    "english": "Company, group, flock",
+    "description": "Travelling party, procession, or group of people."
+  },
+  {
+    "id": "tuanui",
+    "maori": "Tuanui",
+    "english": "Roof, rooftop",
+    "description": "The covering of a house or building."
+  },
+  {
+    "id": "whakapae",
+    "maori": "Whakapae",
+    "english": "To allege, accuse; to lay sideways",
+    "description": "Means to put an accusation, or to place something horizontally."
+  },
+  {
+    "id": "whariki",
+    "maori": "Whāriki",
+    "english": "Mat, carpet",
+    "description": "Traditional woven floor mat; also used for modern rugs/carpets."
+  },
+  {
+    "id": "kakara",
+    "maori": "Kakara",
+    "english": "Fragrant, aroma",
+    "description": "Refers to pleasant smell."
+  },
+  {
+    "id": "kawea",
+    "maori": "Kawea",
+    "english": "To be carried, conveyed",
+    "description": "Passive of kawe (to carry)."
+  },
+  {
+    "id": "kimihia",
+    "maori": "Kimihia",
+    "english": "To be sought, searched for",
+    "description": "Passive of kimi (to seek)."
+  },
+  {
+    "id": "kohua",
+    "maori": "Kōhua",
+    "english": "Pot, boiler; to boil",
+    "description": "Large cooking pot, or the process of boiling."
+  },
+  {
+    "id": "kukume",
+    "maori": "Kukume",
+    "english": "To pull, drag",
+    "description": "Refers to hauling or drawing something towards oneself."
+  },
+  {
+    "id": "ngatahi",
+    "maori": "Ngātahi",
+    "english": "Together, jointly",
+    "description": "Doing something collectively, as one."
+  },
+  {
+    "id": "piriti",
+    "maori": "Piriti",
+    "english": "Bridge",
+    "description": "Structure crossing a river or gap."
+  },
+  {
+    "id": "retireti",
+    "maori": "Retireti",
+    "english": "Slide",
+    "description": "Loanword for playground slide or act of sliding."
+  },
+  {
+    "id": "rita",
+    "maori": "Rita",
+    "english": "Litre",
+    "description": "Loanword for metric liquid measure."
+  },
+  {
+    "id": "tamahine",
+    "maori": "Tamāhine",
+    "english": "Daughter",
+    "description": "Female child in relation to parents."
+  },
+  {
+    "id": "taraiwa",
+    "maori": "Taraiwa",
+    "english": "Driver",
+    "description": "Loanword for a person who drives a vehicle."
+  },
+  {
+    "id": "tarau",
+    "maori": "Tarau",
+    "english": "Trousers, shorts",
+    "description": "General clothing term for pants/shorts."
+  },
+  {
+    "id": "tuki",
+    "maori": "Tuki",
+    "english": "To strike, crash, collide",
+    "description": "Also used for pounding or hammering."
+  },
+  {
+    "id": "whara",
+    "maori": "Whara",
+    "english": "To be hurt, wounded",
+    "description": "Refers to physical injury."
+  },
+  {
+    "id": "haina",
+    "maori": "Haina",
+    "english": "To sign (signature)",
+    "description": "Loanword from English 'sign.'"
+  },
+  {
+    "id": "ka",
+    "maori": "Kā",
+    "english": "To burn; also particle for emphasis",
+    "description": "Means burning or alight. Also used as a particle: Kāore = not."
+  },
+  {
+    "id": "kake",
+    "maori": "Kake",
+    "english": "To climb, ascend",
+    "description": "Used for going up, climbing, or boarding transport."
+  },
+  {
+    "id": "kano",
+    "maori": "Kano",
+    "english": "Seed, kernel",
+    "description": "Small reproductive part of a plant."
+  },
+  {
+    "id": "miere",
+    "maori": "Mīere",
+    "english": "Honey",
+    "description": "Sweet food produced by bees."
+  },
+  {
+    "id": "panana",
+    "maori": "Panana",
+    "english": "Banana",
+    "description": "Loanword for banana fruit."
+  },
+  {
+    "id": "piro",
+    "maori": "Piro",
+    "english": "Stinky, foul-smelling",
+    "description": "Refers to bad odour."
+  },
+  {
+    "id": "purakau",
+    "maori": "Pūrākau",
+    "english": "Myth, story, legend",
+    "description": "Traditional Māori narrative or legend."
+  },
+  {
+    "id": "tapiri",
+    "maori": "Tāpiri",
+    "english": "To add, append",
+    "description": "Means to join on or add to something."
+  },
+  {
+    "id": "tohua",
+    "maori": "Tohua",
+    "english": "To be marked, chosen",
+    "description": "Passive of tohu (to mark, select)."
+  },
+  {
+    "id": "whakatoi",
+    "maori": "Whakatoi",
+    "english": "Cheeky, mischievous",
+    "description": "Playfully cheeky, often in children."
+  },
+  {
+    "id": "whiua",
+    "maori": "Whiua",
+    "english": "To be thrown, cast, rejected",
+    "description": "Passive of whiu (throw)."
+  },
+  {
+    "id": "ahatia",
+    "maori": "Ahatia",
+    "english": "No matter what, whatever happens",
+    "description": "Expression meaning 'let it be,' 'whatever may come.'"
+  },
+  {
+    "id": "akau",
+    "maori": "Ākau",
+    "english": "Seashore, coast",
+    "description": "Refers to the edge of the sea, shoreline."
+  },
+  {
+    "id": "awangawanga",
+    "maori": "Āwangawanga",
+    "english": "Worried, anxious",
+    "description": "Refers to feelings of unease or concern."
+  },
+  {
+    "id": "kaimoana",
+    "maori": "Kaimoana",
+    "english": "Seafood",
+    "description": "General word for food gathered from the sea."
+  },
+  {
+    "id": "kaiputaiao",
+    "maori": "Kaipūtaiao",
+    "english": "Scientist",
+    "description": "Compound of kai- (agent) + pūtaiao (science)."
+  },
+  {
+    "id": "kanga",
+    "maori": "Kānga",
+    "english": "Corn, maize",
+    "description": "Loanword for corn."
+  },
+  {
+    "id": "mahau",
+    "maori": "Māhau",
+    "english": "Porch, veranda",
+    "description": "Covered area at the front of a house or meeting house."
+  },
+  {
+    "id": "mokomoko",
+    "maori": "Mokomoko",
+    "english": "Lizard",
+    "description": "Generic term for small lizards, often spiritually significant."
+  },
+  {
+    "id": "pumau",
+    "maori": "Pūmau",
+    "english": "Fixed, permanent, steadfast",
+    "description": "Means secure, lasting, or loyal."
+  },
+  {
+    "id": "rongoa",
+    "maori": "Rongoā",
+    "english": "Medicine, remedy",
+    "description": "Traditional healing and medicine, both physical and spiritual."
+  },
+  {
+    "id": "taupoki",
+    "maori": "Taupoki",
+    "english": "Lid, cover",
+    "description": "Something that closes or covers an opening."
+  },
+  {
+    "id": "tuhituhinga",
+    "maori": "Tuhituhinga",
+    "english": "Writing, document",
+    "description": "Anything written; a piece of writing or document."
+  },
+  {
+    "id": "awatea",
+    "maori": "Awatea",
+    "english": "Daytime, dawn",
+    "description": "Light of day; morning or daytime in general."
+  },
+  {
+    "id": "haunga",
+    "maori": "Haunga",
+    "english": "Apart from, except; also smell",
+    "description": "Can mean 'except for' in grammar, or 'smell/odour' depending on context."
+  },
+  {
+    "id": "hokona",
+    "maori": "Hokona",
+    "english": "To be bought, purchased",
+    "description": "Passive of hoko (to buy/sell)."
+  },
+  {
+    "id": "kahu",
+    "maori": "Kahu",
+    "english": "Cloak, garment; harrier hawk",
+    "description": "Means a cloak or clothing; also the swamp harrier bird."
+  },
+  {
+    "id": "mohiotanga",
+    "maori": "Mōhiotanga",
+    "english": "Knowledge, awareness",
+    "description": "State of knowing or understanding."
+  },
+  {
+    "id": "pirau",
+    "maori": "Pirau",
+    "english": "Rotten, decayed",
+    "description": "Refers to decay, rottenness, decomposition."
+  },
+  {
+    "id": "purerehua",
+    "maori": "Pūrerehua",
+    "english": "Butterfly; bullroarer instrument",
+    "description": "Refers to butterfly; also a traditional instrument swung to make sound."
+  },
+  {
+    "id": "uira",
+    "maori": "Uira",
+    "english": "Lightning, electricity",
+    "description": "Means lightning flash; also modern sense of electrical power."
+  },
+  {
+    "id": "whakaturia",
+    "maori": "Whakatūria",
+    "english": "To be erected, established",
+    "description": "Passive of whakatū (to set up, establish, raise)."
+  }
+]
+
+  {
+    "id": "whiu",
+    "maori": "Whiu",
+    "english": "To throw, fling; to punish",
+    "description": "Used for casting or throwing something. Also means to punish or discipline."
+  },
+  {
+    "id": "haki",
+    "maori": "Haki",
+    "english": "Flag",
+    "description": "General word for a flag or banner."
+  },
+  {
+    "id": "haunga",
+    "maori": "Hāunga",
+    "english": "Smell, odour",
+    "description": "Can be pleasant or unpleasant, but often negative: bad smell, stench."
+  },
+  {
+    "id": "koina",
+    "maori": "Koina",
+    "english": "That’s it, exactly",
+    "description": "Expression of agreement or confirmation — 'that’s the one.'"
+  },
+  {
+    "id": "maringi",
+    "maori": "Maringi",
+    "english": "To spill, pour, shed",
+    "description": "Used of liquids spilling, or shedding tears/blood."
+  },
+  {
+    "id": "ngau",
+    "maori": "Ngau",
+    "english": "To bite; to sting",
+    "description": "Used for biting (by animals or insects), also figuratively for emotional pain."
+  },
+  {
+    "id": "oreore",
+    "maori": "Oreore",
+    "english": "To shake, tremble, stir",
+    "description": "Refers to quivering or stirring movement."
+  },
+  {
+    "id": "parauri",
+    "maori": "Parauri",
+    "english": "Brown (colour)",
+    "description": "Common term for the colour brown."
+  },
+  {
+    "id": "tonoa",
+    "maori": "Tonoa",
+    "english": "To be requested, asked",
+    "description": "Passive form of tono (to request)."
+  },
+  {
+    "id": "whakairo",
+    "maori": "Whakairo",
+    "english": "Carving, sculpture",
+    "description": "Traditional Māori carving in wood, stone, or bone."
+  },
+  {
+    "id": "whakapaipai",
+    "maori": "Whakapaipai",
+    "english": "To decorate, adorn, beautify",
+    "description": "Used for ornamentation, tidying, making something attractive."
+  },
+  {
+    "id": "whawha",
+    "maori": "Whāwhā",
+    "english": "To feel, handle, touch",
+    "description": "Refers to using the hands to feel or handle something."
+  },
+  {
+    "id": "kokiri",
+    "maori": "Kōkiri",
+    "english": "To thrust forward, rush, charge",
+    "description": "Used for charging ahead, launching, or advocating strongly."
+  },
+  {
+    "id": "kopae",
+    "maori": "Kōpae",
+    "english": "Disc, record, CD",
+    "description": "Round flat object; modern sense includes CDs or records."
+  },
+  {
+    "id": "pahi",
+    "maori": "Pāhi",
+    "english": "Bus",
+    "description": "Loanword adaptation, common for public bus transport."
+  },
+  {
+    "id": "paruparu",
+    "maori": "Paruparu",
+    "english": "Dirty, muddy; also a type of preserved food",
+    "description": "Means filth or mud. Also refers to a traditional preservation method for food (esp. birds)."
+  },
+  {
+    "id": "poka",
+    "maori": "Poka",
+    "english": "Hole, perforation; to operate (surgically)",
+    "description": "General sense of hole or opening. Also a medical term for surgery."
+  },
+  {
+    "id": "puru",
+    "maori": "Puru",
+    "english": "To plug, block, fill up",
+    "description": "Means to stuff, block, or close up an opening."
+  },
+  {
+    "id": "tatahi",
+    "maori": "Tātahi",
+    "english": "Seashore, beach",
+    "description": "The edge of the sea; foreshore, beach."
+  },
+  {
+    "id": "uhia",
+    "maori": "Uhia",
+    "english": "To cover, spread over",
+    "description": "Means to cloak or cover with something."
+  },
+  {
+    "id": "wao",
+    "maori": "Wao",
+    "english": "Forest, wilderness",
+    "description": "Deep forest or wilderness, sometimes sacred space."
+  },
+  {
+    "id": "kara",
+    "maori": "Kara",
+    "english": "Flag, ensign; also gravel",
+    "description": "Commonly 'flag' (esp. national or tribal), but also refers to small stones/gravel."
+  },
+  {
+    "id": "korerorero",
+    "maori": "Kōrerorero",
+    "english": "Conversation, discussion",
+    "description": "Extended talk or discussion between people."
+  },
+  {
+    "id": "korerotia",
+    "maori": "Kōrerotia",
+    "english": "To be spoken, said",
+    "description": "Passive form of kōrero (speak)."
+  },
+  {
+    "id": "piupiu",
+    "maori": "Piupiu",
+    "english": "Flax skirt; to sway",
+    "description": "Traditional Māori garment of flax strands; also describes the swaying motion."
+  },
+  {
+    "id": "puoro",
+    "maori": "Puoro",
+    "english": "Music, musical instrument",
+    "description": "Generic word for music or sound produced as music."
+  },
+  {
+    "id": "putea",
+    "maori": "Pūtea",
+    "english": "Bag, wallet; money, funds",
+    "description": "Originally a container, now commonly refers to financial resources."
+  },
+  {
+    "id": "reta",
+    "maori": "Reta",
+    "english": "Letter (mail); alphabet letter",
+    "description": "Loanword from English. Can mean correspondence or alphabet character."
+  },
+  {
+    "id": "tonutia",
+    "maori": "Tonutia",
+    "english": "Still, continuously, repeatedly",
+    "description": "Often used to emphasise ongoing action."
+  },
+  {
+    "id": "hekenga",
+    "maori": "Hekenga",
+    "english": "Descent, migration",
+    "description": "Used for moving downwards, or large-scale migration of people."
+  },
+  {
+    "id": "meatia",
+    "maori": "Meatia",
+    "english": "To be done, carried out",
+    "description": "Passive form of mea (to do)."
+  },
+  {
+    "id": "nau",
+    "maori": "Nau",
+    "english": "You, yours; welcome",
+    "description": "Pronoun for 'you/your'. Also used in greetings (e.g., Nau mai = welcome)."
+  },
+  {
+    "id": "ngaungau",
+    "maori": "Ngaungau",
+    "english": "To chew, gnaw",
+    "description": "Repetitive action of chewing, gnawing, or biting."
+  },
+  {
+    "id": "noku",
+    "maori": "Nōku",
+    "english": "Mine, belonging to me",
+    "description": "Possessive pronoun indicating ownership by the speaker."
+  },
+  {
+    "id": "nona",
+    "maori": "Nōna",
+    "english": "His, hers, theirs",
+    "description": "Possessive pronoun indicating ownership by another person."
+  },
+  {
+    "id": "pakiwaitara",
+    "maori": "Pakiwaitara",
+    "english": "Story, narrative, tale",
+    "description": "General term for a story, can be fictional or traditional."
+  }
+  {
+    "id": "whiu",
+    "maori": "Whiu",
+    "english": "To throw, fling; to punish",
+    "description": "Used for casting or throwing something. Also means to punish or discipline."
+  },
+  {
+    "id": "haki",
+    "maori": "Haki",
+    "english": "Flag",
+    "description": "General word for a flag or banner."
+  },
+  {
+    "id": "haunga",
+    "maori": "Hāunga",
+    "english": "Smell, odour",
+    "description": "Can be pleasant or unpleasant, but often negative: bad smell, stench."
+  },
+  {
+    "id": "koina",
+    "maori": "Koina",
+    "english": "That’s it, exactly",
+    "description": "Expression of agreement or confirmation — 'that’s the one.'"
+  },
+  {
+    "id": "maringi",
+    "maori": "Maringi",
+    "english": "To spill, pour, shed",
+    "description": "Used of liquids spilling, or shedding tears/blood."
+  },
+  {
+    "id": "ngau",
+    "maori": "Ngau",
+    "english": "To bite; to sting",
+    "description": "Used for biting (by animals or insects), also figuratively for emotional pain."
+  },
+  {
+    "id": "oreore",
+    "maori": "Oreore",
+    "english": "To shake, tremble, stir",
+    "description": "Refers to quivering or stirring movement."
+  },
+  {
+    "id": "parauri",
+    "maori": "Parauri",
+    "english": "Brown (colour)",
+    "description": "Common term for the colour brown."
+  },
+  {
+    "id": "tonoa",
+    "maori": "Tonoa",
+    "english": "To be requested, asked",
+    "description": "Passive form of tono (to request)."
+  },
+  {
+    "id": "whakairo",
+    "maori": "Whakairo",
+    "english": "Carving, sculpture",
+    "description": "Traditional Māori carving in wood, stone, or bone."
+  },
+  {
+    "id": "whakapaipai",
+    "maori": "Whakapaipai",
+    "english": "To decorate, adorn, beautify",
+    "description": "Used for ornamentation, tidying, making something attractive."
+  },
+  {
+    "id": "whawha",
+    "maori": "Whāwhā",
+    "english": "To feel, handle, touch",
+    "description": "Refers to using the hands to feel or handle something."
+  },
+  {
+    "id": "kokiri",
+    "maori": "Kōkiri",
+    "english": "To thrust forward, rush, charge",
+    "description": "Used for charging ahead, launching, or advocating s
+
+  {
+    "id": "pupu",
+    "maori": "Pupū",
+    "english": "Bubble up, gush forth; shellfish (whelk)",
+    "description": "Used for water or emotions welling up. Also a noun for certain molluscs."
+  },
+  {
+    "id": "taitama",
+    "maori": "Taitama",
+    "english": "Youth, adolescent male",
+    "description": "Refers to a young man or boy of adolescent age."
+  },
+  {
+    "id": "taunga",
+    "maori": "Taunga",
+    "english": "Anchorage, mooring place; habit, custom",
+    "description": "Literally a place of coming to rest. Can mean harbour/port or a personal habit."
+  },
+  {
+    "id": "wahie",
+    "maori": "Wahie",
+    "english": "Firewood, fuel",
+    "description": "Wood for burning. Common everyday term."
+  },
+  {
+    "id": "waiariki",
+    "maori": "Waiariki",
+    "english": "Hot spring, thermal waters",
+    "description": "Literally 'chiefly water.' Often sacred or used for healing."
+  },
+  {
+    "id": "whakahihi",
+    "maori": "Whakahīhī",
+    "english": "To be proud, arrogant, conceited",
+    "description": "Conveys boastfulness, showing off."
+  },
+  {
+    "id": "whakapiri",
+    "maori": "Whakapiri",
+    "english": "To stick close, join, attach",
+    "description": "Also means to cling, come together, draw near."
+  },
+  {
+    "id": "whaki",
+    "maori": "Whāki",
+    "english": "To confess, disclose, reveal",
+    "description": "Used for admitting guilt, or revealing information."
+  },
+  {
+    "id": "aihikirimi",
+    "maori": "Aihikirīmi",
+    "english": "Ice cream",
+    "description": "Loanword transliteration from English."
+  },
+  {
+    "id": "hara",
+    "maori": "Hara",
+    "english": "Sin, offence, crime, wrongdoing",
+    "description": "Covers both spiritual and legal senses of wrongdoing."
+  },
+  {
+    "id": "kakau",
+    "maori": "Kakau",
+    "english": "Handle, haft",
+    "description": "The handle of a tool, weapon, or implement."
+  },
+  {
+    "id": "korere",
+    "maori": "Kōrere",
+    "english": "Spout, tap, guttering",
+    "description": "Can mean tap or downpipe for water."
+  },
+  {
+    "id": "kuini",
+    "maori": "Kuini",
+    "english": "Queen",
+    "description": "Loanword from English. Often used for monarchs or in card games."
+  },
+  {
+    "id": "pohatu",
+    "maori": "Pōhatu",
+    "english": "Stone, rock, boulder",
+    "description": "General term for stones or rocks."
+  },
+  {
+    "id": "wawe",
+    "maori": "Wawe",
+    "english": "Quick, prompt, swift",
+    "description": "Often used as an adverb 'quickly.'"
+  },
+  {
+    "id": "whakapai",
+    "maori": "Whakapai",
+    "english": "To make good, prepare, tidy, bless",
+    "description": "Includes tidying, improving, and blessing food before eating."
+  },
+  {
+    "id": "aorangi",
+    "maori": "Aorangi",
+    "english": "Sky, heavenly body, planet",
+    "description": "Can refer to the sky in general, planets, or specifically Saturn. Also a mountain name."
+  },
+  {
+    "id": "hawhe",
+    "maori": "Hāwhe",
+    "english": "Half",
+    "description": "Loanword from English 'half.'"
+  },
+  {
+    "id": "huritau",
+    "maori": "Huritau",
+    "english": "Birthday",
+    "description": "Literally 'turning of the year.'"
+  },
+  {
+    "id": "kamo",
+    "maori": "Kamo",
+    "english": "Eyelid; to blink",
+    "description": "Refers to both the eyelid itself and the action of blinking."
+  } 
  ]
  
