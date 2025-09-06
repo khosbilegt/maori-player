@@ -69,19 +69,19 @@
          "pronunciation": "MAH-nah-wah-NOO-ee",
          "description": "Refers to enduring with patience or steadfastness."
      },
-      {
+     {
     "id": "tika",
     "maori": "Tika",
     "english": "Correct, right, just",
     "description": "Means true, accurate, fair, or morally right."
-  },
-  {
+     },
+     {
     "id": "tuatahi",
     "maori": "Tuatahi",
     "english": "First",
     "description": "Ordinal number meaning first in order."
-  },
-  {
+     },
+     {
     "id": "kupu",
     "maori": "Kupu",
     "english": "Word, speech",
